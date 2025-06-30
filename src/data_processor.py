@@ -37,7 +37,7 @@ class DataProcessor:
         # Time slots for binning
         self.time_slots = np.arange(0, 24.5, 0.5)  # 30-minute intervals
         
-    def parse_workout_splits(self, fav_group_lesson: str) -> List[str]:
+    def parse_workout_splits(self, fav_group_lesson) -> List[str]:
         """
         Parse compound workout preferences like 'chest, back, Core'
         
@@ -94,7 +94,7 @@ class DataProcessor:
         
         return pd.DataFrame(user_splits)
     
-    def convert_time_to_hours(self, time_str: str) -> float:
+    def convert_time_to_hours(self, time_str) -> float:
         """
         Convert time string to decimal hours
         
@@ -160,7 +160,7 @@ class DataProcessor:
                     # Generate check-out time
                     avg_duration = user['avg_time_in_gym'] / 60.0  # Convert to hours
                     duration_variation = np.random.normal(0, 0.5)  # ±30 min variation
-                    duration = max(0.5, min(3.0, avg_duration + duration_variation))
+                    duration = max(0.5, min(3.0, float(avg_duration + duration_variation)))
                     check_out_time = check_in_time + duration
                     
                     # Parse user's preferred splits
@@ -269,7 +269,7 @@ class DataProcessor:
         
         return traffic_features
     
-    def validate_data_quality(self, df: pd.DataFrame) -> Dict[str, any]:
+    def validate_data_quality(self, df: pd.DataFrame):
         """
         Validate data quality and return quality metrics
         

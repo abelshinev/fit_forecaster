@@ -127,7 +127,7 @@ class ProphetModel(BaseModel):
         }
         self.models = {}  # One model per split
         
-    def train(self, X: pd.DataFrame, y: pd.Series) -> Dict[str, float]:
+    def train(self, X: pd.DataFrame, y: pd.Series) -> Dict:
         """Train Prophet models for each split"""
         logger.info("Training Prophet models...")
         
@@ -138,7 +138,7 @@ class ProphetModel(BaseModel):
         # Train separate model for each split
         split_metrics = {}
         for split_id in X['split_id'].unique():
-            split_data = X[X['split_id'] == split_id][['ds', 'y']].copy()
+            split_data = pd.DataFrame(X[X['split_id'] == split_id]).sort_values(['date', 'time_slot'])
             
             if len(split_data) > 10:  # Need minimum data for Prophet
                 model = Prophet(**self.params)
@@ -200,8 +200,8 @@ class LSTMModel(BaseModel):
         sequences_y = []
         
         for split_id in X['split_id'].unique():
-            split_data = X[X['split_id'] == split_id].sort_values(['date', 'time_slot'])
-            split_y = y[X['split_id'] == split_id].sort_index()
+            split_data = pd.DataFrame(X[X['split_id'] == split_id]).sort_values(['date', 'time_slot'])
+            split_y = pd.Series(y[X['split_id'] == split_id]).sort_index()
             
             # Create sequences
             for i in range(self.sequence_length, len(split_data)):
@@ -216,7 +216,7 @@ class LSTMModel(BaseModel):
         
         return np.array(sequences_X), np.array(sequences_y)
         
-    def build_model(self, input_shape: Tuple[int, int]) -> tf.keras.Model:
+    def build_model(self, input_shape: Tuple[int, int]):
         """Build LSTM model architecture"""
         model = Sequential([
             Input(shape=input_shape),
@@ -298,7 +298,7 @@ class EnsembleModel:
         if len(self.weights) != len(models):
             raise ValueError("Number of weights must match number of models")
             
-    def train(self, X: pd.DataFrame, y: pd.Series) -> Dict[str, float]:
+    def train(self, X, y) -> Dict[str, float]:
         """Train all models in the ensemble"""
         logger.info("Training ensemble model...")
         
@@ -425,7 +425,7 @@ class SplitSpecificModels:
                     'rolling_3day_avg', 'rolling_7day_avg'
                 ]
                 
-                X = split_data[feature_cols].fillna(0)
+                X = pd.DataFrame(split_data[feature_cols]).fillna(0)
                 y = split_data[target_col]
                 
                 # Create and train model
@@ -451,10 +451,10 @@ class SplitSpecificModels:
         model_info = self.split_models[split_id]
         feature_cols = model_info['feature_cols']
         
-        X_features = X[feature_cols].fillna(0)
+        X_features = pd.DataFrame(X[feature_cols]).fillna(0)
         return model_info['model'].predict(X_features)
         
-    def predict_all_splits(self, data: pd.DataFrame) -> pd.DataFrame:
+    def predict_all_splits(self, data) -> pd.DataFrame:
         """Predict for all splits in the data"""
         predictions = []
         
