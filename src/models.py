@@ -67,6 +67,43 @@ class BaseModel:
         else:
             logger.warning(f"Model file {filepath} not found")
 
+class RandomForestModel(BaseModel):
+    def __init__(self, **params):
+        super().__init__("RandomForest")
+        self.params = {'n_estimators': 100, 'random_state': 42, **params}
+        self.model = RandomForestRegressor(**self.params)
+
+    def train(self, X: pd.DataFrame, y: pd.Series) -> Dict[str, float]:
+        self.model.fit(X, y)
+        self.is_trained = True
+        y_pred = self.model.predict(X)
+        return {
+            'mae': float(mean_absolute_error(y, y_pred)),
+            'rmse': float(np.sqrt(mean_squared_error(y, y_pred))),
+            'r2': float(r2_score(y, y_pred))
+        }
+
+    def predict(self, X: pd.DataFrame) -> np.ndarray:
+        return self.model.predict(X)
+
+class LinearRegressionModel(BaseModel):
+    def __init__(self, **params):
+        super().__init__("LinearRegression")
+        self.model = LinearRegression(**params)
+
+    def train(self, X: pd.DataFrame, y: pd.Series) -> Dict[str, float]:
+        self.model.fit(X, y)
+        self.is_trained = True
+        y_pred = self.model.predict(X)
+        return {
+            'mae': float(mean_absolute_error(y, y_pred)),
+            'rmse': float(np.sqrt(mean_squared_error(y, y_pred))),
+            'r2': float(r2_score(y, y_pred))
+        }
+
+    def predict(self, X: pd.DataFrame) -> np.ndarray:
+        return self.model.predict(X)
+
 class XGBoostModel(BaseModel):
     """XGBoost model for gym attendance prediction"""
     
@@ -88,9 +125,10 @@ class XGBoostModel(BaseModel):
         logger.info("Training XGBoost model...")
         
         # Handle categorical features
-        X_encoded = pd.get_dummies(X, columns=['split_id'])
-        
-        # Train model
+        if 'split_id' in X.columns:
+            X_encoded = pd.get_dummies(X, columns=['split_id'])
+        else:
+            X_encoded = X
         self.model.fit(X_encoded, y)
         self.is_trained = True
         
@@ -98,9 +136,9 @@ class XGBoostModel(BaseModel):
         y_pred = self.model.predict(X_encoded)
         
         metrics = {
-            'mae': mean_absolute_error(y, y_pred),
-            'rmse': np.sqrt(mean_squared_error(y, y_pred)),
-            'r2': r2_score(y, y_pred)
+            'mae': float(mean_absolute_error(y, y_pred)),
+            'rmse': float(np.sqrt(mean_squared_error(y, y_pred))),
+            'r2': float(r2_score(y, y_pred))
         }
         
         logger.info(f"XGBoost training complete. MAE: {metrics['mae']:.3f}")
@@ -108,7 +146,10 @@ class XGBoostModel(BaseModel):
         
     def predict(self, X: pd.DataFrame) -> np.ndarray:
         """Make predictions with XGBoost"""
-        X_encoded = pd.get_dummies(X, columns=['split_id'])
+        if 'split_id' in X.columns:
+            X_encoded = pd.get_dummies(X, columns=['split_id'])
+        else:
+            X_encoded = X
         return self.model.predict(X_encoded)
 
 class ProphetModel(BaseModel):
@@ -149,9 +190,9 @@ class ProphetModel(BaseModel):
                 # Calculate metrics for this split
                 forecast = model.predict(split_data[['ds']])
                 split_metrics[split_id] = {
-                    'mae': mean_absolute_error(split_data['y'], forecast['yhat']),
-                    'rmse': np.sqrt(mean_squared_error(split_data['y'], forecast['yhat'])),
-                    'r2': r2_score(split_data['y'], forecast['yhat'])
+                    'mae': float(mean_absolute_error(split_data['y'], forecast['yhat'])),
+                    'rmse': float(np.sqrt(mean_squared_error(split_data['y'], forecast['yhat']))),
+                    'r2': float(r2_score(split_data['y'], forecast['yhat']))
                 }
         
         self.is_trained = len(self.models) > 0
@@ -159,9 +200,9 @@ class ProphetModel(BaseModel):
         # Aggregate metrics
         if split_metrics:
             avg_metrics = {
-                'mae': np.mean([m['mae'] for m in split_metrics.values()]),
-                'rmse': np.mean([m['rmse'] for m in split_metrics.values()]),
-                'r2': np.mean([m['r2'] for m in split_metrics.values()])
+                'mae': float(np.mean([m['mae'] for m in split_metrics.values()])),
+                'rmse': float(np.mean([m['rmse'] for m in split_metrics.values()])),
+                'r2': float(np.mean([m['r2'] for m in split_metrics.values()]))
             }
             logger.info(f"Prophet training complete. Average MAE: {avg_metrics['mae']:.3f}")
             return avg_metrics
@@ -274,9 +315,9 @@ class LSTMModel(BaseModel):
         # Calculate metrics
         y_pred = self.model.predict(X_scaled)
         metrics = {
-            'mae': mean_absolute_error(y_seq, y_pred),
-            'rmse': np.sqrt(mean_squared_error(y_seq, y_pred)),
-            'r2': r2_score(y_seq, y_pred)
+            'mae': float(mean_absolute_error(y_seq, y_pred)),
+            'rmse': float(np.sqrt(mean_squared_error(y_seq, y_pred))),
+            'r2': float(r2_score(y_seq, y_pred))
         }
         
         logger.info(f"LSTM training complete. MAE: {metrics['mae']:.3f}")
@@ -295,7 +336,6 @@ class EnsembleModel:
         self.models = models
         self.weights = weights if weights else [1.0 / len(models)] * len(models)
         self.is_trained = False
-        
         if len(self.weights) != len(models):
             raise ValueError("Number of weights must match number of models")
             
@@ -309,23 +349,26 @@ class EnsembleModel:
                 metrics = model.train(X, y)
                 model_metrics[model.model_name] = metrics
             except Exception as e:
-                logger.error(f"Error training {model.model_name}: {e}")
-                model_metrics[model.model_name] = {'mae': float('inf'), 'rmse': float('inf'), 'r2': 0.0}
+                logger.error(f"Error training {getattr(model, 'model_name', str(model))}: {e}")
+                model_metrics[getattr(model, 'model_name', str(model))] = {'mae': float('inf'), 'rmse': float('inf'), 'r2': 0.0}
         
-        self.is_trained = all(model.is_trained for model in self.models)
+        # Mark as trained if at least one model is trained
+        self.is_trained = any(getattr(model, 'is_trained', False) for model in self.models)
+        if not all(getattr(model, 'is_trained', False) for model in self.models):
+            logger.warning("Not all models trained successfully, but at least one is available for prediction.")
         
         # Calculate ensemble metrics
         if self.is_trained:
             ensemble_predictions = self.predict(X)
             ensemble_metrics = {
-                'mae': mean_absolute_error(y, ensemble_predictions),
-                'rmse': np.sqrt(mean_squared_error(y, ensemble_predictions)),
-                'r2': r2_score(y, ensemble_predictions)
+                'mae': float(mean_absolute_error(y, ensemble_predictions)),
+                'rmse': float(np.sqrt(mean_squared_error(y, ensemble_predictions))),
+                'r2': float(r2_score(y, ensemble_predictions))
             }
             logger.info(f"Ensemble training complete. MAE: {ensemble_metrics['mae']:.3f}")
             return ensemble_metrics
         else:
-            logger.warning("Not all models trained successfully")
+            logger.warning("No models trained successfully")
             return {'mae': float('inf'), 'rmse': float('inf'), 'r2': 0.0}
             
     def predict(self, X: pd.DataFrame) -> np.ndarray:
@@ -334,12 +377,14 @@ class EnsembleModel:
             raise ValueError("Ensemble model is not trained")
             
         predictions = []
-        for model in self.models:
-            if model.is_trained:
+        used_weights = []
+        for model, weight in zip(self.models, self.weights):
+            if getattr(model, 'is_trained', False):
                 pred = model.predict(X)
                 predictions.append(pred)
+                used_weights.append(weight)
             else:
-                logger.warning(f"{model.model_name} is not trained, skipping")
+                logger.warning(f"{getattr(model, 'model_name', str(model))} is not trained, skipping")
                 
         if not predictions:
             raise ValueError("No trained models available for prediction")
@@ -348,7 +393,7 @@ class EnsembleModel:
         weighted_predictions = np.zeros_like(predictions[0])
         total_weight = 0
         
-        for pred, weight in zip(predictions, self.weights):
+        for pred, weight in zip(predictions, used_weights):
             weighted_predictions += pred * weight
             total_weight += weight
             
@@ -386,7 +431,7 @@ class EnsembleModel:
                         model.load(model_path)
                         break
                         
-            self.is_trained = all(model.is_trained for model in self.models)
+            self.is_trained = any(getattr(model, 'is_trained', False) for model in self.models)
 
 class SplitSpecificModels:
     """Manages separate models for each workout split"""
@@ -399,46 +444,38 @@ class SplitSpecificModels:
         """Create ensemble model for a specific split"""
         models = [
             XGBoostModel(),
-            RandomForestRegressor(n_estimators=100, random_state=42),
-            LinearRegression()
+            RandomForestModel(),
+            LinearRegressionModel()
         ]
-        
         if PROPHET_AVAILABLE:
             models.append(ProphetModel())
-            
         return EnsembleModel(models)
         
     def train_split_models(self, data, target_col: str = 'visitor_count'):
         """Train models for each split"""
         logger.info("Training split-specific models...")
-        
+        if 'split_id' not in data.columns:
+            logger.warning("No 'split_id' column in data. Skipping training.")
+            return
         for split_id in data['split_id'].unique():
             split_data = data[data['split_id'] == split_id].copy()
-            
-            if len(split_data) > 50:  # Minimum data requirement
+            if len(split_data) > 50:
                 logger.info(f"Training model for split: {split_id}")
-                
-                # Prepare features
                 feature_cols = [
                     'time_slot', 'day_of_week', 'month', 'is_weekend',
                     'hour_sin', 'hour_cos', 'day_sin', 'day_cos',
                     'prev_day_attendance', 'prev_week_attendance',
                     'rolling_3day_avg', 'rolling_7day_avg'
                 ]
-                
                 X = pd.DataFrame(split_data[feature_cols]).fillna(0)
                 y = split_data[target_col]
-                
-                # Create and train model
                 model = self.create_split_model(split_id)
                 metrics = model.train(X, y)
-                
                 self.split_models[split_id] = {
                     'model': model,
                     'metrics': metrics,
                     'feature_cols': feature_cols
                 }
-                
                 logger.info(f"Split {split_id} - MAE: {metrics['mae']:.3f}")
             else:
                 logger.warning(f"Insufficient data for split {split_id}: {len(split_data)} records")
