@@ -3,10 +3,10 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 6,Alvera,Female,43,4,,17:19:00,19:03:00,157
 7,Anson,Male,36,5,Cardio,19:46:00,20:59:00,30
 14,Alie,Female,47,5,,19:50:00,22:43:00,105
-16,Katya,Female,45,4,"Spinning, Core",17:28:00,19:02:00,65
+16,Katya,Female,45,4,"leg, Core",17:28:00,19:02:00,65
 17,Chaddie,Male,25,2,,9:25:00,10:59:00,73
-28,Wat,Male,41,1,"chest, leg, Spinning",19:41:00,22:36:00,177
-30,Nissa,Female,20,2,Spinning,20:15:00,22:22:00,124
+28,Wat,Male,41,1,"chest, leg, leg",19:41:00,22:36:00,177
+30,Nissa,Female,20,2,leg,20:15:00,22:22:00,124
 31,Keith,Male,42,3,,10:01:00,12:13:00,70
 33,Hestia,Female,19,3,Cardio,10:23:00,11:43:00,77
 35,Alf,Male,18,3,,18:15:00,19:07:00,165
@@ -15,11 +15,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 41,Samantha,Female,28,5,,16:04:00,18:50:00,88
 43,Nicol,Female,46,1,chest,10:25:00,12:51:00,46
 44,Elizabet,Female,31,2,,11:49:00,12:39:00,150
-46,Aridatha,Female,14,4,"Spinning, Core, leg",18:41:00,20:18:00,66
-48,Dick,Male,44,5,"back, back, Spinning",16:29:00,17:17:00,135
+46,Aridatha,Female,14,4,"leg, Core, leg",18:41:00,20:18:00,66
+48,Dick,Male,44,5,"back, back, leg",16:29:00,17:17:00,135
 49,Anette,Female,47,2,back,11:56:00,14:53:00,91
 51,Maximilianus,Male,44,2,,9:43:00,12:09:00,179
-54,Maud,Female,16,1,"Cardio, Spinning, chest",20:36:00,23:18:00,156
+54,Maud,Female,16,1,"Cardio, leg, chest",20:36:00,23:18:00,156
 58,Benton,Male,38,3,"chest, leg, back",12:19:00,12:56:00,103
 61,Eulalie,Female,46,1,,18:30:00,21:01:00,160
 62,Talia,Female,38,5,,10:28:00,11:38:00,133
@@ -36,7 +36,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 97,Barnebas,Male,31,5,,14:16:00,15:12:00,151
 99,Blondelle,Female,29,1,,9:35:00,10:30:00,172
 100,Cherise,Female,31,5,,8:34:00,9:53:00,90
-103,Falito,Male,49,4,"Cardio, leg, Spinning",10:29:00,11:39:00,60
+103,Falito,Male,49,4,"Cardio, leg, leg",10:29:00,11:39:00,60
 104,Rodi,Female,38,3,,13:19:00,14:55:00,141
 106,Tomkin,Male,27,3,Cardio,19:57:00,20:27:00,155
 107,Shawnee,Female,15,5,,20:13:00,23:00:00,84
@@ -47,7 +47,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 118,Esra,Male,44,2,,8:23:00,11:10:00,166
 126,Iago,Male,23,5,,8:40:00,9:44:00,105
 127,Minnie,Female,20,3,,10:58:00,13:27:00,174
-134,Pooh,Female,21,1,"Spinning, leg, Core",9:31:00,10:47:00,139
+134,Pooh,Female,21,1,"leg, leg, Core",9:31:00,10:47:00,139
 137,Marga,Female,28,4,,10:32:00,11:36:00,60
 139,Nesta,Female,17,5,,19:28:00,22:07:00,33
 143,Ginnifer,Female,41,4,,17:21:00,19:50:00,124
@@ -59,8 +59,8 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 163,Cesaro,Male,43,1,,8:42:00,9:39:00,61
 164,Quincy,Male,49,1,,17:41:00,19:32:00,49
 165,Christian,Male,23,1,"Core, back, chest",14:45:00,16:53:00,111
-169,Odelinda,Female,47,1,"back, Spinning",13:32:00,14:12:00,42
-172,Joni,Female,30,5,"Cardio, Spinning",8:15:00,9:27:00,126
+169,Odelinda,Female,47,1,"back, leg",13:32:00,14:12:00,42
+172,Joni,Female,30,5,"Cardio, leg",8:15:00,9:27:00,126
 173,Feliks,Male,23,1,,16:55:00,19:23:00,59
 175,Spenser,Male,36,3,back,14:01:00,16:08:00,153
 176,Burty,Male,14,2,,9:34:00,11:21:00,149
@@ -75,17 +75,17 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 202,Gualterio,Male,27,4,,8:21:00,10:03:00,43
 203,Rikki,Female,36,2,,18:32:00,19:31:00,175
 206,Aaron,Male,43,2,"Core, Core, back",18:06:00,18:46:00,141
-207,Heall,Male,22,4,"leg, back, Spinning",11:47:00,13:43:00,179
+207,Heall,Male,22,4,"leg, back, leg",11:47:00,13:43:00,179
 209,Earl,Male,31,5,,19:07:00,21:40:00,169
-211,Ethelin,Female,26,4,"Cardio, Spinning, Arm",9:10:00,9:57:00,34
+211,Ethelin,Female,26,4,"Cardio, leg, Arm",9:10:00,9:57:00,34
 216,Isaak,Male,15,3,,12:37:00,14:46:00,57
 221,Elbert,Male,32,1,,12:13:00,12:50:00,59
-222,Jesse,Male,26,1,"Cardio, Spinning, Arm",20:01:00,22:57:00,30
+222,Jesse,Male,26,1,"Cardio, leg, Arm",20:01:00,22:57:00,30
 223,Mata,Male,41,4,,20:23:00,21:18:00,55
 230,Alanson,Male,12,1,"back, Core",16:31:00,18:54:00,169
 231,Onofredo,Male,25,3,,17:53:00,18:59:00,55
 232,Bennett,Male,21,5,"Core, Core",15:16:00,17:16:00,158
-237,Marylou,Female,48,3,"Spinning, Core",10:32:00,12:17:00,175
+237,Marylou,Female,48,3,"leg, Core",10:32:00,12:17:00,175
 239,Claudius,Male,19,3,"Core, chest",17:30:00,18:31:00,51
 240,Stanton,Male,47,3,back,15:49:00,17:30:00,47
 242,Godart,Male,26,3,,17:38:00,18:59:00,116
@@ -93,7 +93,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 247,Elvis,Male,38,1,chest,18:44:00,19:43:00,162
 249,Deloris,Female,21,1,Core,18:00:00,19:58:00,40
 251,Spenser,Male,20,3,"back, chest, back",8:05:00,9:57:00,98
-252,Margarita,Female,41,5,"chest, Arm, Spinning",10:17:00,11:19:00,166
+252,Margarita,Female,41,5,"chest, Arm, leg",10:17:00,11:19:00,166
 258,Bronnie,Male,45,1,,19:49:00,22:01:00,100
 259,Muire,Female,25,3,,10:02:00,11:33:00,97
 260,Jaquelyn,Female,25,2,,8:20:00,11:05:00,114
@@ -112,7 +112,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 289,Gwendolin,Female,17,4,"Core, back",8:53:00,11:36:00,34
 291,Barbi,Female,19,1,,9:49:00,11:52:00,34
 296,Evie,Female,23,4,,10:17:00,12:08:00,32
-305,Alfie,Male,24,3,"Spinning, leg, back",8:48:00,11:29:00,72
+305,Alfie,Male,24,3,"leg, leg, back",8:48:00,11:29:00,72
 307,Elora,Female,16,2,,17:30:00,19:56:00,40
 308,Jodee,Female,31,1,,11:54:00,13:31:00,135
 310,Jeremias,Male,40,4,chest,19:18:00,22:17:00,61
@@ -123,11 +123,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 326,Corette,Female,43,3,,18:24:00,20:33:00,55
 328,Lexine,Female,18,3,,13:52:00,16:23:00,175
 329,Davy,Male,34,3,leg,9:15:00,11:04:00,165
-331,Jeannette,Female,30,1,"back, Spinning",16:36:00,19:12:00,113
+331,Jeannette,Female,30,1,"back, leg",16:36:00,19:12:00,113
 332,Corey,Female,33,4,Core,20:22:00,22:56:00,68
 333,Derwin,Male,49,5,,11:18:00,12:56:00,46
 341,Rita,Female,31,1,,14:02:00,14:37:00,88
-342,Orren,Male,26,3,"Arm, Core, Spinning",17:57:00,19:48:00,136
+342,Orren,Male,26,3,"Arm, Core, leg",17:57:00,19:48:00,136
 344,Janela,Female,45,2,"Arm, Cardio",12:50:00,13:59:00,140
 348,Karim,Male,28,4,,12:59:00,15:16:00,95
 349,Sheryl,Female,16,2,,12:53:00,14:19:00,104
@@ -164,7 +164,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 430,Maryanna,Female,16,5,,15:12:00,16:00:00,35
 433,Becca,Female,44,1,,14:51:00,15:34:00,179
 434,Sabra,Female,36,5,,18:14:00,20:34:00,144
-437,Aldwin,Male,18,2,"Cardio, Spinning, chest",16:29:00,17:28:00,137
+437,Aldwin,Male,18,2,"Cardio, leg, chest",16:29:00,17:28:00,137
 439,Cchaddie,Male,12,4,back,13:58:00,16:13:00,69
 446,Alyce,Female,12,3,Arm,14:06:00,17:02:00,37
 449,Catriona,Female,40,1,"chest, Cardio, back",18:43:00,19:47:00,63
@@ -175,7 +175,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 464,Arda,Female,32,1,"chest, Core",20:54:00,23:53:00,90
 465,Abagael,Female,12,2,,14:33:00,16:30:00,78
 468,Nananne,Female,37,4,,9:56:00,11:16:00,133
-474,Walker,Male,32,3,"chest, Spinning",16:59:00,18:50:00,59
+474,Walker,Male,32,3,"chest, leg",16:59:00,18:50:00,59
 475,Lyon,Male,26,4,,11:56:00,14:27:00,107
 480,Ikey,Male,42,3,"Core, back",11:46:00,14:15:00,44
 482,Edmund,Male,43,4,Cardio,12:50:00,14:27:00,142
@@ -215,15 +215,15 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 578,Lester,Male,13,4,,20:35:00,21:30:00,164
 582,Avie,Female,31,5,"chest, chest",14:41:00,16:39:00,176
 586,Roosevelt,Male,18,5,,8:13:00,9:28:00,172
-587,Cammy,Male,47,5,Spinning,15:57:00,17:27:00,139
+587,Cammy,Male,47,5,leg,15:57:00,17:27:00,139
 588,Rochester,Male,35,2,"chest, Core",8:22:00,9:58:00,50
 591,Waylen,Male,17,5,"Arm, Cardio, back",12:50:00,13:26:00,82
 593,Honor,Female,19,5,,19:51:00,20:25:00,154
-594,Clare,Male,23,3,"chest, back, Spinning",8:01:00,9:51:00,115
+594,Clare,Male,23,3,"chest, back, leg",8:01:00,9:51:00,115
 596,Darius,Male,42,3,,20:46:00,23:33:00,56
 599,Weber,Male,34,2,,8:35:00,10:58:00,154
 603,Ingamar,Male,39,4,,15:24:00,17:57:00,167
-606,Ruben,Male,42,4,"Core, Cardio, Spinning",20:39:00,22:49:00,68
+606,Ruben,Male,42,4,"Core, Cardio, leg",20:39:00,22:49:00,68
 607,Maureene,Female,30,4,,16:20:00,17:41:00,170
 610,Neda,Female,15,5,"back, Arm",14:03:00,16:44:00,99
 613,Emlen,Male,25,1,"Core, Core, back",17:32:00,19:31:00,157
@@ -247,7 +247,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 659,Ailina,Female,25,2,,18:02:00,19:23:00,163
 663,Elisa,Female,45,4,,14:01:00,16:03:00,53
 669,Ashia,Female,14,1,"Arm, leg",19:04:00,20:13:00,147
-670,Carmencita,Female,35,2,"Spinning, Cardio",9:17:00,10:59:00,49
+670,Carmencita,Female,35,2,"leg, Cardio",9:17:00,10:59:00,49
 673,Tomi,Female,40,4,back,10:49:00,11:21:00,149
 677,Tonia,Female,47,3,chest,9:06:00,10:41:00,100
 678,Jessie,Female,13,3,,13:57:00,16:22:00,91
@@ -258,20 +258,20 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 688,Lyn,Male,18,5,,20:25:00,22:44:00,40
 694,Shirline,Female,23,4,,16:40:00,18:11:00,77
 696,Janean,Female,42,4,chest,11:43:00,12:51:00,60
-697,Alejandro,Male,15,1,"chest, Arm, Spinning",10:31:00,12:14:00,100
+697,Alejandro,Male,15,1,"chest, Arm, leg",10:31:00,12:14:00,100
 698,Morgan,Male,19,5,,14:52:00,15:55:00,180
-701,Julia,Female,42,1,"back, chest, Spinning",11:19:00,13:31:00,174
+701,Julia,Female,42,1,"back, chest, leg",11:19:00,13:31:00,174
 702,Rudiger,Male,30,5,,10:22:00,12:17:00,135
-709,Rudolfo,Male,16,4,"Arm, Spinning, chest",17:58:00,20:00:00,116
+709,Rudolfo,Male,16,4,"Arm, leg, chest",17:58:00,20:00:00,116
 710,Kayley,Female,29,4,"chest, Core, Cardio",10:54:00,12:00:00,120
-712,Paul,Male,16,2,"Core, Spinning",13:12:00,14:47:00,118
+712,Paul,Male,16,2,"Core, leg",13:12:00,14:47:00,118
 713,Walt,Male,34,5,chest,10:37:00,11:27:00,124
 715,Brant,Male,14,3,,12:02:00,14:59:00,104
-716,Emiline,Female,16,5,Spinning,18:15:00,18:56:00,170
+716,Emiline,Female,16,5,leg,18:15:00,18:56:00,170
 718,Jethro,Male,27,1,"Core, Arm",20:32:00,21:11:00,164
 719,Pren,Male,46,3,,8:33:00,10:02:00,109
 720,Lloyd,Male,31,3,"back, leg, back",19:42:00,21:46:00,102
-728,Raina,Female,40,4,"Core, Spinning, Cardio",20:57:00,22:46:00,162
+728,Raina,Female,40,4,"Core, leg, Cardio",20:57:00,22:46:00,162
 729,Sasha,Male,47,5,,19:38:00,20:20:00,61
 730,Courtnay,Male,16,3,,15:28:00,18:18:00,46
 732,Melva,Female,20,3,,13:30:00,15:53:00,76
@@ -279,13 +279,13 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 740,Kellsie,Female,49,4,,11:16:00,13:42:00,96
 741,Igor,Male,28,2,Cardio,20:07:00,22:19:00,116
 745,Lonna,Female,16,5,"chest, Cardio",13:37:00,15:12:00,44
-746,Dallon,Male,18,5,"Cardio, Spinning",10:09:00,11:57:00,61
+746,Dallon,Male,18,5,"Cardio, leg",10:09:00,11:57:00,61
 748,Harland,Male,13,3,,19:43:00,21:02:00,162
 750,Agnese,Female,18,5,"chest, back, chest",10:28:00,11:32:00,135
-751,Nana,Female,44,3,"Spinning, Core, chest",13:11:00,15:01:00,65
+751,Nana,Female,44,3,"leg, Core, chest",13:11:00,15:01:00,65
 753,Jacquette,Female,41,1,,10:11:00,12:17:00,132
-759,Ricki,Male,32,1,"back, Spinning, chest",13:19:00,16:18:00,55
-760,Simmonds,Male,49,3,"Core, Spinning",9:29:00,11:20:00,99
+759,Ricki,Male,32,1,"back, leg, chest",13:19:00,16:18:00,55
+760,Simmonds,Male,49,3,"Core, leg",9:29:00,11:20:00,99
 767,Lin,Male,34,3,,13:07:00,14:15:00,158
 770,Marcelo,Male,30,2,,17:22:00,18:38:00,75
 774,Dario,Male,45,4,,12:32:00,13:09:00,150
@@ -297,11 +297,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 792,Celestina,Female,45,2,Arm,11:44:00,12:54:00,125
 794,Vallie,Female,47,4,,17:17:00,18:20:00,149
 796,Marylinda,Female,36,3,"Arm, Cardio",9:21:00,11:58:00,59
-797,Alley,Male,46,4,Spinning,9:41:00,10:37:00,140
+797,Alley,Male,46,4,leg,9:41:00,10:37:00,140
 799,Helen-elizabeth,Female,15,1,"leg, chest",9:11:00,9:43:00,84
 800,Roxy,Female,30,5,,9:21:00,11:58:00,33
 804,Ben,Male,21,4,,8:59:00,11:37:00,153
-805,Salaidh,Female,17,5,"chest, Spinning",8:15:00,9:55:00,35
+805,Salaidh,Female,17,5,"chest, leg",8:15:00,9:55:00,35
 806,Beatriz,Female,21,4,,16:13:00,18:08:00,74
 807,Ardelis,Female,37,3,"back, Arm",19:35:00,20:13:00,91
 809,Rana,Female,16,2,,13:25:00,14:58:00,100
@@ -317,7 +317,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 835,Mair,Female,25,2,,15:37:00,16:21:00,76
 841,Marthena,Female,36,4,,11:00:00,12:53:00,103
 842,Gale,Female,24,5,Cardio,9:47:00,11:34:00,45
-848,Pietro,Male,34,2,"Spinning, Core",12:00:00,12:53:00,76
+848,Pietro,Male,34,2,"leg, Core",12:00:00,12:53:00,76
 859,Mikey,Male,32,4,"Arm, chest",14:45:00,15:46:00,40
 862,Zackariah,Male,44,4,"Cardio, chest",17:19:00,19:17:00,93
 863,Wash,Male,18,2,,11:08:00,11:42:00,178
@@ -327,11 +327,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 876,Ramona,Female,17,5,leg,18:32:00,19:44:00,34
 880,Ketti,Female,30,3,,11:02:00,13:18:00,114
 882,Johnna,Female,20,5,,15:39:00,16:35:00,103
-883,Fan,Female,46,2,"Spinning, Cardio, back",15:31:00,16:43:00,111
+883,Fan,Female,46,2,"leg, Cardio, back",15:31:00,16:43:00,111
 886,Cathryn,Female,17,1,"Arm, chest",15:47:00,16:56:00,131
 888,Tiffi,Female,29,3,,17:02:00,17:36:00,65
 891,Hamilton,Male,25,4,,11:26:00,12:50:00,72
-893,Borden,Male,49,2,"Cardio, chest, Spinning",20:33:00,21:10:00,93
+893,Borden,Male,49,2,"Cardio, chest, leg",20:33:00,21:10:00,93
 896,Franni,Female,44,2,,10:05:00,11:47:00,81
 900,Gretel,Female,15,3,,19:13:00,21:37:00,35
 909,Randy,Male,48,2,chest,13:35:00,16:32:00,62
@@ -365,7 +365,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 968,Emalee,Female,25,2,,13:36:00,14:50:00,39
 971,Emma,Female,19,3,"Arm, back",16:37:00,18:37:00,106
 972,Kit,Male,29,3,"back, Cardio, Core",14:44:00,16:18:00,120
-974,Samaria,Female,29,4,"Spinning, leg, chest",11:10:00,12:14:00,145
+974,Samaria,Female,29,4,"leg, leg, chest",11:10:00,12:14:00,145
 975,Clemmy,Male,14,1,,11:07:00,13:34:00,51
 976,Veda,Female,40,1,,16:39:00,19:26:00,168
 978,Tremaine,Male,20,2,,19:00:00,19:33:00,104
@@ -373,17 +373,17 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 990,Clywd,Male,21,3,,11:50:00,13:07:00,177
 991,Oliy,Female,34,2,,8:22:00,11:11:00,145
 992,Isidor,Male,28,4,back,10:24:00,12:21:00,130
-993,Melantha,Female,20,3,"leg, Cardio, Spinning",9:42:00,10:49:00,73
+993,Melantha,Female,20,3,"leg, Cardio, leg",9:42:00,10:49:00,73
 996,Karlen,Female,13,1,,20:56:00,22:59:00,60
-999,Brigg,Male,32,2,"Arm, Spinning, Core",10:23:00,11:45:00,39
+999,Brigg,Male,32,2,"Arm, leg, Core",10:23:00,11:45:00,39
 1001,Fey,Female,45,3,"back, chest",19:31:00,21:29:00,164
 1006,Alvera,Female,32,2,,17:19:00,19:03:00,171
 1007,Anson,Male,19,3,Cardio,19:46:00,20:59:00,67
 1014,Alie,Female,44,5,,19:50:00,22:43:00,127
-1016,Katya,Female,46,5,"Spinning, Core",17:28:00,19:02:00,111
+1016,Katya,Female,46,5,"leg, Core",17:28:00,19:02:00,111
 1017,Chaddie,Male,48,5,,9:25:00,10:59:00,127
-1028,Wat,Male,20,3,"chest, leg, Spinning",19:41:00,22:36:00,66
-1030,Nissa,Female,46,1,Spinning,20:15:00,22:22:00,92
+1028,Wat,Male,20,3,"chest, leg, leg",19:41:00,22:36:00,66
+1030,Nissa,Female,46,1,leg,20:15:00,22:22:00,92
 1031,Keith,Male,27,3,,10:01:00,12:13:00,130
 1033,Hestia,Female,40,3,Cardio,10:23:00,11:43:00,33
 1035,Alf,Male,46,5,,18:15:00,19:07:00,146
@@ -392,11 +392,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1041,Samantha,Female,39,4,,16:04:00,18:50:00,96
 1043,Nicol,Female,23,2,chest,10:25:00,12:51:00,170
 1044,Elizabet,Female,40,3,,11:49:00,12:39:00,100
-1046,Aridatha,Female,23,3,"Spinning, Core, leg",18:41:00,20:18:00,70
-1048,Dick,Male,44,2,"back, back, Spinning",16:29:00,17:17:00,47
+1046,Aridatha,Female,23,3,"leg, Core, leg",18:41:00,20:18:00,70
+1048,Dick,Male,44,2,"back, back, leg",16:29:00,17:17:00,47
 1049,Anette,Female,49,3,back,11:56:00,14:53:00,107
 1051,Maximilianus,Male,38,3,,9:43:00,12:09:00,94
-1054,Maud,Female,20,3,"Cardio, Spinning, chest",20:36:00,23:18:00,150
+1054,Maud,Female,20,3,"Cardio, leg, chest",20:36:00,23:18:00,150
 1058,Benton,Male,43,4,"chest, leg, back",12:19:00,12:56:00,66
 1061,Eulalie,Female,32,3,,18:30:00,21:01:00,124
 1062,Talia,Female,12,4,,10:28:00,11:38:00,35
@@ -413,7 +413,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1097,Barnebas,Male,44,4,,14:16:00,15:12:00,148
 1099,Blondelle,Female,48,4,,9:35:00,10:30:00,105
 1100,Cherise,Female,39,5,,8:34:00,9:53:00,116
-1103,Falito,Male,36,1,"Cardio, leg, Spinning",10:29:00,11:39:00,88
+1103,Falito,Male,36,1,"Cardio, leg, leg",10:29:00,11:39:00,88
 1104,Rodi,Female,30,5,,13:19:00,14:55:00,130
 1106,Tomkin,Male,42,3,Cardio,19:57:00,20:27:00,134
 1107,Shawnee,Female,12,1,,20:13:00,23:00:00,180
@@ -424,7 +424,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1118,Esra,Male,29,2,,8:23:00,11:10:00,87
 1126,Iago,Male,14,5,,8:40:00,9:44:00,53
 1127,Minnie,Female,16,5,,10:58:00,13:27:00,80
-1134,Pooh,Female,48,5,"Spinning, leg, Core",9:31:00,10:47:00,153
+1134,Pooh,Female,48,5,"leg, leg, Core",9:31:00,10:47:00,153
 1137,Marga,Female,36,2,,10:32:00,11:36:00,133
 1139,Nesta,Female,31,2,,19:28:00,22:07:00,142
 1143,Ginnifer,Female,15,1,,17:21:00,19:50:00,38
@@ -436,8 +436,8 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1163,Cesaro,Male,45,3,,8:42:00,9:39:00,121
 1164,Quincy,Male,25,5,,17:41:00,19:32:00,59
 1165,Christian,Male,39,4,"Core, back, chest",14:45:00,16:53:00,67
-1169,Odelinda,Female,14,5,"back, Spinning",13:32:00,14:12:00,35
-1172,Joni,Female,26,1,"Cardio, Spinning",8:15:00,9:27:00,130
+1169,Odelinda,Female,14,5,"back, leg",13:32:00,14:12:00,35
+1172,Joni,Female,26,1,"Cardio, leg",8:15:00,9:27:00,130
 1173,Feliks,Male,40,5,,16:55:00,19:23:00,151
 1175,Spenser,Male,46,3,back,14:01:00,16:08:00,140
 1176,Burty,Male,22,5,,9:34:00,11:21:00,160
@@ -452,17 +452,17 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1202,Gualterio,Male,33,3,,8:21:00,10:03:00,130
 1203,Rikki,Female,20,2,,18:32:00,19:31:00,161
 1206,Aaron,Male,43,4,"Core, Core, back",18:06:00,18:46:00,160
-1207,Heall,Male,48,5,"leg, back, Spinning",11:47:00,13:43:00,143
+1207,Heall,Male,48,5,"leg, back, leg",11:47:00,13:43:00,143
 1209,Earl,Male,22,3,,19:07:00,21:40:00,116
-1211,Ethelin,Female,31,1,"Cardio, Spinning, Arm",9:10:00,9:57:00,38
+1211,Ethelin,Female,31,1,"Cardio, leg, Arm",9:10:00,9:57:00,38
 1216,Isaak,Male,40,5,,12:37:00,14:46:00,154
 1221,Elbert,Male,16,3,,12:13:00,12:50:00,65
-1222,Jesse,Male,43,2,"Cardio, Spinning, Arm",20:01:00,22:57:00,57
+1222,Jesse,Male,43,2,"Cardio, leg, Arm",20:01:00,22:57:00,57
 1223,Mata,Male,33,2,,20:23:00,21:18:00,31
 1230,Alanson,Male,17,1,"back, Core",16:31:00,18:54:00,57
 1231,Onofredo,Male,26,1,,17:53:00,18:59:00,157
 1232,Bennett,Male,47,1,"Core, Core",15:16:00,17:16:00,119
-1237,Marylou,Female,13,4,"Spinning, Core",10:32:00,12:17:00,138
+1237,Marylou,Female,13,4,"leg, Core",10:32:00,12:17:00,138
 1239,Claudius,Male,23,4,"Core, chest",17:30:00,18:31:00,174
 1240,Stanton,Male,23,2,back,15:49:00,17:30:00,140
 1242,Godart,Male,48,4,,17:38:00,18:59:00,71
@@ -470,7 +470,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1247,Elvis,Male,18,2,chest,18:44:00,19:43:00,155
 1249,Deloris,Female,15,4,Core,18:00:00,19:58:00,112
 1251,Spenser,Male,45,1,"back, chest, back",8:05:00,9:57:00,153
-1252,Margarita,Female,41,2,"chest, Arm, Spinning",10:17:00,11:19:00,173
+1252,Margarita,Female,41,2,"chest, Arm, leg",10:17:00,11:19:00,173
 1258,Bronnie,Male,18,4,,19:49:00,22:01:00,84
 1259,Muire,Female,27,3,,10:02:00,11:33:00,102
 1260,Jaquelyn,Female,33,2,,8:20:00,11:05:00,166
@@ -489,7 +489,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1289,Gwendolin,Female,21,2,"Core, back",8:53:00,11:36:00,59
 1291,Barbi,Female,19,3,,9:49:00,11:52:00,98
 1296,Evie,Female,31,4,,10:17:00,12:08:00,119
-1305,Alfie,Male,36,5,"Spinning, leg, back",8:48:00,11:29:00,85
+1305,Alfie,Male,36,5,"leg, leg, back",8:48:00,11:29:00,85
 1307,Elora,Female,28,2,,17:30:00,19:56:00,130
 1308,Jodee,Female,48,4,,11:54:00,13:31:00,150
 1310,Jeremias,Male,41,5,chest,19:18:00,22:17:00,171
@@ -500,11 +500,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1326,Corette,Female,19,5,,18:24:00,20:33:00,132
 1328,Lexine,Female,49,4,,13:52:00,16:23:00,68
 1329,Davy,Male,13,2,leg,9:15:00,11:04:00,66
-1331,Jeannette,Female,15,2,"back, Spinning",16:36:00,19:12:00,127
+1331,Jeannette,Female,15,2,"back, leg",16:36:00,19:12:00,127
 1332,Corey,Female,13,3,Core,20:22:00,22:56:00,129
 1333,Derwin,Male,14,4,,11:18:00,12:56:00,138
 1341,Rita,Female,30,4,,14:02:00,14:37:00,85
-1342,Orren,Male,40,2,"Arm, Core, Spinning",17:57:00,19:48:00,66
+1342,Orren,Male,40,2,"Arm, Core, leg",17:57:00,19:48:00,66
 1344,Janela,Female,26,5,"Arm, Cardio",12:50:00,13:59:00,118
 1348,Karim,Male,18,1,,12:59:00,15:16:00,72
 1349,Sheryl,Female,12,4,,12:53:00,14:19:00,132
@@ -541,7 +541,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1430,Maryanna,Female,36,5,,15:12:00,16:00:00,73
 1433,Becca,Female,38,1,,14:51:00,15:34:00,86
 1434,Sabra,Female,21,1,,18:14:00,20:34:00,68
-1437,Aldwin,Male,29,1,"Cardio, Spinning, chest",16:29:00,17:28:00,113
+1437,Aldwin,Male,29,1,"Cardio, leg, chest",16:29:00,17:28:00,113
 1439,Cchaddie,Male,14,3,back,13:58:00,16:13:00,45
 1446,Alyce,Female,30,2,Arm,14:06:00,17:02:00,140
 1449,Catriona,Female,41,1,"chest, Cardio, back",18:43:00,19:47:00,122
@@ -552,7 +552,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1464,Arda,Female,14,1,"chest, Core",20:54:00,23:53:00,173
 1465,Abagael,Female,48,2,,14:33:00,16:30:00,140
 1468,Nananne,Female,29,4,,9:56:00,11:16:00,122
-1474,Walker,Male,21,2,"chest, Spinning",16:59:00,18:50:00,119
+1474,Walker,Male,21,2,"chest, leg",16:59:00,18:50:00,119
 1475,Lyon,Male,33,3,,11:56:00,14:27:00,32
 1480,Ikey,Male,14,3,"Core, back",11:46:00,14:15:00,114
 1482,Edmund,Male,12,2,Cardio,12:50:00,14:27:00,124
@@ -592,15 +592,15 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1578,Lester,Male,35,3,,20:35:00,21:30:00,139
 1582,Avie,Female,17,1,"chest, chest",14:41:00,16:39:00,137
 1586,Roosevelt,Male,42,3,,8:13:00,9:28:00,80
-1587,Cammy,Male,22,4,Spinning,15:57:00,17:27:00,53
+1587,Cammy,Male,22,4,leg,15:57:00,17:27:00,53
 1588,Rochester,Male,40,2,"chest, Core",8:22:00,9:58:00,83
 1591,Waylen,Male,44,3,"Arm, Cardio, back",12:50:00,13:26:00,105
 1593,Honor,Female,21,2,,19:51:00,20:25:00,135
-1594,Clare,Male,40,4,"chest, back, Spinning",8:01:00,9:51:00,169
+1594,Clare,Male,40,4,"chest, back, leg",8:01:00,9:51:00,169
 1596,Darius,Male,12,1,,20:46:00,23:33:00,139
 1599,Weber,Male,47,3,,8:35:00,10:58:00,145
 1603,Ingamar,Male,30,4,,15:24:00,17:57:00,97
-1606,Ruben,Male,19,4,"Core, Cardio, Spinning",20:39:00,22:49:00,47
+1606,Ruben,Male,19,4,"Core, Cardio, leg",20:39:00,22:49:00,47
 1607,Maureene,Female,42,2,,16:20:00,17:41:00,74
 1610,Neda,Female,31,5,"back, Arm",14:03:00,16:44:00,90
 1613,Emlen,Male,12,5,"Core, Core, back",17:32:00,19:31:00,176
@@ -624,7 +624,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1659,Ailina,Female,37,3,,18:02:00,19:23:00,161
 1663,Elisa,Female,30,5,,14:01:00,16:03:00,114
 1669,Ashia,Female,21,1,"Arm, leg",19:04:00,20:13:00,77
-1670,Carmencita,Female,16,4,"Spinning, Cardio",9:17:00,10:59:00,44
+1670,Carmencita,Female,16,4,"leg, Cardio",9:17:00,10:59:00,44
 1673,Tomi,Female,31,2,back,10:49:00,11:21:00,116
 1677,Tonia,Female,17,2,chest,9:06:00,10:41:00,102
 1678,Jessie,Female,38,1,,13:57:00,16:22:00,123
@@ -635,20 +635,20 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1688,Lyn,Male,21,3,,20:25:00,22:44:00,146
 1694,Shirline,Female,46,2,,16:40:00,18:11:00,35
 1696,Janean,Female,23,4,chest,11:43:00,12:51:00,164
-1697,Alejandro,Male,25,4,"chest, Arm, Spinning",10:31:00,12:14:00,179
+1697,Alejandro,Male,25,4,"chest, Arm, leg",10:31:00,12:14:00,179
 1698,Morgan,Male,15,1,,14:52:00,15:55:00,58
-1701,Julia,Female,27,3,"back, chest, Spinning",11:19:00,13:31:00,72
+1701,Julia,Female,27,3,"back, chest, leg",11:19:00,13:31:00,72
 1702,Rudiger,Male,16,5,,10:22:00,12:17:00,38
-1709,Rudolfo,Male,37,1,"Arm, Spinning, chest",17:58:00,20:00:00,156
+1709,Rudolfo,Male,37,1,"Arm, leg, chest",17:58:00,20:00:00,156
 1710,Kayley,Female,29,4,"chest, Core, Cardio",10:54:00,12:00:00,68
-1712,Paul,Male,18,1,"Core, Spinning",13:12:00,14:47:00,130
+1712,Paul,Male,18,1,"Core, leg",13:12:00,14:47:00,130
 1713,Walt,Male,44,2,chest,10:37:00,11:27:00,127
 1715,Brant,Male,27,1,,12:02:00,14:59:00,175
-1716,Emiline,Female,32,5,Spinning,18:15:00,18:56:00,146
+1716,Emiline,Female,32,5,leg,18:15:00,18:56:00,146
 1718,Jethro,Male,26,1,"Core, Arm",20:32:00,21:11:00,136
 1719,Pren,Male,38,3,,8:33:00,10:02:00,122
 1720,Lloyd,Male,15,3,"back, leg, back",19:42:00,21:46:00,47
-1728,Raina,Female,13,5,"Core, Spinning, Cardio",20:57:00,22:46:00,108
+1728,Raina,Female,13,5,"Core, leg, Cardio",20:57:00,22:46:00,108
 1729,Sasha,Male,24,2,,19:38:00,20:20:00,60
 1730,Courtnay,Male,13,3,,15:28:00,18:18:00,107
 1732,Melva,Female,36,4,,13:30:00,15:53:00,129
@@ -656,13 +656,13 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1740,Kellsie,Female,39,5,,11:16:00,13:42:00,88
 1741,Igor,Male,19,5,Cardio,20:07:00,22:19:00,151
 1745,Lonna,Female,36,5,"chest, Cardio",13:37:00,15:12:00,49
-1746,Dallon,Male,27,4,"Cardio, Spinning",10:09:00,11:57:00,176
+1746,Dallon,Male,27,4,"Cardio, leg",10:09:00,11:57:00,176
 1748,Harland,Male,20,4,,19:43:00,21:02:00,97
 1750,Agnese,Female,42,1,"chest, back, chest",10:28:00,11:32:00,80
-1751,Nana,Female,33,5,"Spinning, Core, chest",13:11:00,15:01:00,73
+1751,Nana,Female,33,5,"leg, Core, chest",13:11:00,15:01:00,73
 1753,Jacquette,Female,37,5,,10:11:00,12:17:00,110
-1759,Ricki,Male,18,5,"back, Spinning, chest",13:19:00,16:18:00,175
-1760,Simmonds,Male,17,5,"Core, Spinning",9:29:00,11:20:00,146
+1759,Ricki,Male,18,5,"back, leg, chest",13:19:00,16:18:00,175
+1760,Simmonds,Male,17,5,"Core, leg",9:29:00,11:20:00,146
 1767,Lin,Male,46,3,,13:07:00,14:15:00,133
 1770,Marcelo,Male,47,5,,17:22:00,18:38:00,114
 1774,Dario,Male,16,3,,12:32:00,13:09:00,55
@@ -674,11 +674,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1792,Celestina,Female,43,4,Arm,11:44:00,12:54:00,173
 1794,Vallie,Female,33,1,,17:17:00,18:20:00,133
 1796,Marylinda,Female,12,5,"Arm, Cardio",9:21:00,11:58:00,115
-1797,Alley,Male,36,2,Spinning,9:41:00,10:37:00,97
+1797,Alley,Male,36,2,leg,9:41:00,10:37:00,97
 1799,Helen-elizabeth,Female,44,4,"leg, chest",9:11:00,9:43:00,103
 1800,Roxy,Female,42,1,,9:21:00,11:58:00,164
 1804,Ben,Male,39,3,,8:59:00,11:37:00,58
-1805,Salaidh,Female,38,5,"chest, Spinning",8:15:00,9:55:00,118
+1805,Salaidh,Female,38,5,"chest, leg",8:15:00,9:55:00,118
 1806,Beatriz,Female,44,4,,16:13:00,18:08:00,93
 1807,Ardelis,Female,29,3,"back, Arm",19:35:00,20:13:00,98
 1809,Rana,Female,28,2,,13:25:00,14:58:00,83
@@ -694,7 +694,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1835,Mair,Female,34,4,,15:37:00,16:21:00,139
 1841,Marthena,Female,24,2,,11:00:00,12:53:00,102
 1842,Gale,Female,33,2,Cardio,9:47:00,11:34:00,101
-1848,Pietro,Male,16,4,"Spinning, Core",12:00:00,12:53:00,114
+1848,Pietro,Male,16,4,"leg, Core",12:00:00,12:53:00,114
 1859,Mikey,Male,12,1,"Arm, chest",14:45:00,15:46:00,133
 1862,Zackariah,Male,15,5,"Cardio, chest",17:19:00,19:17:00,85
 1863,Wash,Male,31,5,,11:08:00,11:42:00,108
@@ -704,11 +704,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1876,Ramona,Female,35,2,leg,18:32:00,19:44:00,130
 1880,Ketti,Female,18,5,,11:02:00,13:18:00,90
 1882,Johnna,Female,31,2,,15:39:00,16:35:00,176
-1883,Fan,Female,20,1,"Spinning, Cardio, back",15:31:00,16:43:00,69
+1883,Fan,Female,20,1,"leg, Cardio, back",15:31:00,16:43:00,69
 1886,Cathryn,Female,41,5,"Arm, chest",15:47:00,16:56:00,48
 1888,Tiffi,Female,40,2,,17:02:00,17:36:00,129
 1891,Hamilton,Male,16,1,,11:26:00,12:50:00,72
-1893,Borden,Male,23,3,"Cardio, chest, Spinning",20:33:00,21:10:00,87
+1893,Borden,Male,23,3,"Cardio, chest, leg",20:33:00,21:10:00,87
 1896,Franni,Female,17,3,,10:05:00,11:47:00,38
 1900,Gretel,Female,46,1,,19:13:00,21:37:00,99
 1909,Randy,Male,42,4,chest,13:35:00,16:32:00,111
@@ -742,7 +742,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1968,Emalee,Female,42,3,,13:36:00,14:50:00,167
 1971,Emma,Female,24,1,"Arm, back",16:37:00,18:37:00,79
 1972,Kit,Male,27,3,"back, Cardio, Core",14:44:00,16:18:00,174
-1974,Samaria,Female,41,5,"Spinning, leg, chest",11:10:00,12:14:00,99
+1974,Samaria,Female,41,5,"leg, leg, chest",11:10:00,12:14:00,99
 1975,Clemmy,Male,43,4,,11:07:00,13:34:00,111
 1976,Veda,Female,16,3,,16:39:00,19:26:00,173
 1978,Tremaine,Male,19,1,,19:00:00,19:33:00,117
@@ -750,17 +750,17 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 1990,Clywd,Male,40,2,,11:50:00,13:07:00,99
 1991,Oliy,Female,45,3,,8:22:00,11:11:00,156
 1992,Isidor,Male,38,3,back,10:24:00,12:21:00,142
-1993,Melantha,Female,30,5,"leg, Cardio, Spinning",9:42:00,10:49:00,65
+1993,Melantha,Female,30,5,"leg, Cardio, leg",9:42:00,10:49:00,65
 1996,Karlen,Female,20,3,,20:56:00,22:59:00,138
-1999,Brigg,Male,33,1,"Arm, Spinning, Core",10:23:00,11:45:00,100
+1999,Brigg,Male,33,1,"Arm, leg, Core",10:23:00,11:45:00,100
 2001,Fey,Female,31,3,"back, chest",19:31:00,21:29:00,49
 2006,Alvera,Female,19,3,,17:19:00,19:03:00,176
 2007,Anson,Male,38,4,Cardio,19:46:00,20:59:00,68
 2014,Alie,Female,17,2,,19:50:00,22:43:00,72
-2016,Katya,Female,22,2,"Spinning, Core",17:28:00,19:02:00,103
+2016,Katya,Female,22,2,"leg, Core",17:28:00,19:02:00,103
 2017,Chaddie,Male,38,3,,9:25:00,10:59:00,50
-2028,Wat,Male,39,3,"chest, leg, Spinning",19:41:00,22:36:00,70
-2030,Nissa,Female,18,5,Spinning,20:15:00,22:22:00,32
+2028,Wat,Male,39,3,"chest, leg, leg",19:41:00,22:36:00,70
+2030,Nissa,Female,18,5,leg,20:15:00,22:22:00,32
 2031,Keith,Male,33,2,,10:01:00,12:13:00,42
 2033,Hestia,Female,37,4,Cardio,10:23:00,11:43:00,61
 2035,Alf,Male,23,1,,18:15:00,19:07:00,52
@@ -769,11 +769,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2041,Samantha,Female,19,1,,16:04:00,18:50:00,159
 2043,Nicol,Female,30,3,chest,10:25:00,12:51:00,76
 2044,Elizabet,Female,23,1,,11:49:00,12:39:00,30
-2046,Aridatha,Female,47,3,"Spinning, Core, leg",18:41:00,20:18:00,61
-2048,Dick,Male,32,5,"back, back, Spinning",16:29:00,17:17:00,55
+2046,Aridatha,Female,47,3,"leg, Core, leg",18:41:00,20:18:00,61
+2048,Dick,Male,32,5,"back, back, leg",16:29:00,17:17:00,55
 2049,Anette,Female,22,2,back,11:56:00,14:53:00,69
 2051,Maximilianus,Male,32,4,,9:43:00,12:09:00,41
-2054,Maud,Female,18,1,"Cardio, Spinning, chest",20:36:00,23:18:00,90
+2054,Maud,Female,18,1,"Cardio, leg, chest",20:36:00,23:18:00,90
 2058,Benton,Male,33,5,"chest, leg, back",12:19:00,12:56:00,31
 2061,Eulalie,Female,32,5,,18:30:00,21:01:00,83
 2062,Talia,Female,24,5,,10:28:00,11:38:00,117
@@ -790,7 +790,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2097,Barnebas,Male,15,3,,14:16:00,15:12:00,31
 2099,Blondelle,Female,13,5,,9:35:00,10:30:00,83
 2100,Cherise,Female,42,5,,8:34:00,9:53:00,173
-2103,Falito,Male,19,5,"Cardio, leg, Spinning",10:29:00,11:39:00,119
+2103,Falito,Male,19,5,"Cardio, leg, leg",10:29:00,11:39:00,119
 2104,Rodi,Female,49,1,,13:19:00,14:55:00,135
 2106,Tomkin,Male,12,2,Cardio,19:57:00,20:27:00,70
 2107,Shawnee,Female,14,3,,20:13:00,23:00:00,41
@@ -801,7 +801,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2118,Esra,Male,25,4,,8:23:00,11:10:00,74
 2126,Iago,Male,17,1,,8:40:00,9:44:00,129
 2127,Minnie,Female,35,1,,10:58:00,13:27:00,175
-2134,Pooh,Female,46,5,"Spinning, leg, Core",9:31:00,10:47:00,74
+2134,Pooh,Female,46,5,"leg, leg, Core",9:31:00,10:47:00,74
 2137,Marga,Female,43,5,,10:32:00,11:36:00,165
 2139,Nesta,Female,32,3,,19:28:00,22:07:00,87
 2143,Ginnifer,Female,43,2,,17:21:00,19:50:00,32
@@ -813,8 +813,8 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2163,Cesaro,Male,28,4,,8:42:00,9:39:00,145
 2164,Quincy,Male,15,5,,17:41:00,19:32:00,93
 2165,Christian,Male,15,1,"Core, back, chest",14:45:00,16:53:00,146
-2169,Odelinda,Female,35,5,"back, Spinning",13:32:00,14:12:00,166
-2172,Joni,Female,28,5,"Cardio, Spinning",8:15:00,9:27:00,51
+2169,Odelinda,Female,35,5,"back, leg",13:32:00,14:12:00,166
+2172,Joni,Female,28,5,"Cardio, leg",8:15:00,9:27:00,51
 2173,Feliks,Male,14,1,,16:55:00,19:23:00,152
 2175,Spenser,Male,46,1,back,14:01:00,16:08:00,156
 2176,Burty,Male,18,2,,9:34:00,11:21:00,51
@@ -829,17 +829,17 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2202,Gualterio,Male,19,1,,8:21:00,10:03:00,103
 2203,Rikki,Female,24,4,,18:32:00,19:31:00,33
 2206,Aaron,Male,18,1,"Core, Core, back",18:06:00,18:46:00,144
-2207,Heall,Male,34,1,"leg, back, Spinning",11:47:00,13:43:00,77
+2207,Heall,Male,34,1,"leg, back, leg",11:47:00,13:43:00,77
 2209,Earl,Male,21,5,,19:07:00,21:40:00,51
-2211,Ethelin,Female,23,3,"Cardio, Spinning, Arm",9:10:00,9:57:00,42
+2211,Ethelin,Female,23,3,"Cardio, leg, Arm",9:10:00,9:57:00,42
 2216,Isaak,Male,37,5,,12:37:00,14:46:00,156
 2221,Elbert,Male,46,4,,12:13:00,12:50:00,178
-2222,Jesse,Male,20,3,"Cardio, Spinning, Arm",20:01:00,22:57:00,59
+2222,Jesse,Male,20,3,"Cardio, leg, Arm",20:01:00,22:57:00,59
 2223,Mata,Male,43,4,,20:23:00,21:18:00,54
 2230,Alanson,Male,28,1,"back, Core",16:31:00,18:54:00,61
 2231,Onofredo,Male,48,5,,17:53:00,18:59:00,55
 2232,Bennett,Male,13,5,"Core, Core",15:16:00,17:16:00,35
-2237,Marylou,Female,33,1,"Spinning, Core",10:32:00,12:17:00,77
+2237,Marylou,Female,33,1,"leg, Core",10:32:00,12:17:00,77
 2239,Claudius,Male,22,2,"Core, chest",17:30:00,18:31:00,163
 2240,Stanton,Male,33,5,back,15:49:00,17:30:00,78
 2242,Godart,Male,40,5,,17:38:00,18:59:00,43
@@ -847,7 +847,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2247,Elvis,Male,41,2,chest,18:44:00,19:43:00,103
 2249,Deloris,Female,43,4,Core,18:00:00,19:58:00,173
 2251,Spenser,Male,45,2,"back, chest, back",8:05:00,9:57:00,129
-2252,Margarita,Female,18,2,"chest, Arm, Spinning",10:17:00,11:19:00,100
+2252,Margarita,Female,18,2,"chest, Arm, leg",10:17:00,11:19:00,100
 2258,Bronnie,Male,15,3,,19:49:00,22:01:00,179
 2259,Muire,Female,41,4,,10:02:00,11:33:00,154
 2260,Jaquelyn,Female,27,2,,8:20:00,11:05:00,132
@@ -866,7 +866,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2289,Gwendolin,Female,44,4,"Core, back",8:53:00,11:36:00,62
 2291,Barbi,Female,35,1,,9:49:00,11:52:00,103
 2296,Evie,Female,25,1,,10:17:00,12:08:00,110
-2305,Alfie,Male,44,4,"Spinning, leg, back",8:48:00,11:29:00,165
+2305,Alfie,Male,44,4,"leg, leg, back",8:48:00,11:29:00,165
 2307,Elora,Female,38,1,,17:30:00,19:56:00,150
 2308,Jodee,Female,41,1,,11:54:00,13:31:00,76
 2310,Jeremias,Male,49,3,chest,19:18:00,22:17:00,146
@@ -877,11 +877,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2326,Corette,Female,22,1,,18:24:00,20:33:00,176
 2328,Lexine,Female,32,5,,13:52:00,16:23:00,48
 2329,Davy,Male,12,3,leg,9:15:00,11:04:00,126
-2331,Jeannette,Female,17,2,"back, Spinning",16:36:00,19:12:00,71
+2331,Jeannette,Female,17,2,"back, leg",16:36:00,19:12:00,71
 2332,Corey,Female,19,4,Core,20:22:00,22:56:00,125
 2333,Derwin,Male,28,4,,11:18:00,12:56:00,88
 2341,Rita,Female,33,5,,14:02:00,14:37:00,132
-2342,Orren,Male,30,1,"Arm, Core, Spinning",17:57:00,19:48:00,120
+2342,Orren,Male,30,1,"Arm, Core, leg",17:57:00,19:48:00,120
 2344,Janela,Female,36,4,"Arm, Cardio",12:50:00,13:59:00,89
 2348,Karim,Male,15,3,,12:59:00,15:16:00,165
 2349,Sheryl,Female,35,5,,12:53:00,14:19:00,135
@@ -918,7 +918,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2430,Maryanna,Female,17,5,,15:12:00,16:00:00,153
 2433,Becca,Female,34,2,,14:51:00,15:34:00,174
 2434,Sabra,Female,17,4,,18:14:00,20:34:00,133
-2437,Aldwin,Male,39,1,"Cardio, Spinning, chest",16:29:00,17:28:00,154
+2437,Aldwin,Male,39,1,"Cardio, leg, chest",16:29:00,17:28:00,154
 2439,Cchaddie,Male,34,5,back,13:58:00,16:13:00,80
 2446,Alyce,Female,35,1,Arm,14:06:00,17:02:00,59
 2449,Catriona,Female,47,2,"chest, Cardio, back",18:43:00,19:47:00,141
@@ -929,7 +929,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2464,Arda,Female,21,3,"chest, Core",20:54:00,23:53:00,90
 2465,Abagael,Female,16,1,,14:33:00,16:30:00,173
 2468,Nananne,Female,33,2,,9:56:00,11:16:00,129
-2474,Walker,Male,29,5,"chest, Spinning",16:59:00,18:50:00,114
+2474,Walker,Male,29,5,"chest, leg",16:59:00,18:50:00,114
 2475,Lyon,Male,28,3,,11:56:00,14:27:00,90
 2480,Ikey,Male,46,5,"Core, back",11:46:00,14:15:00,111
 2482,Edmund,Male,31,2,Cardio,12:50:00,14:27:00,46
@@ -969,15 +969,15 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2578,Lester,Male,15,4,,20:35:00,21:30:00,164
 2582,Avie,Female,29,3,"chest, chest",14:41:00,16:39:00,71
 2586,Roosevelt,Male,26,3,,8:13:00,9:28:00,122
-2587,Cammy,Male,39,5,Spinning,15:57:00,17:27:00,48
+2587,Cammy,Male,39,5,leg,15:57:00,17:27:00,48
 2588,Rochester,Male,47,2,"chest, Core",8:22:00,9:58:00,122
 2591,Waylen,Male,30,1,"Arm, Cardio, back",12:50:00,13:26:00,62
 2593,Honor,Female,21,3,,19:51:00,20:25:00,88
-2594,Clare,Male,27,1,"chest, back, Spinning",8:01:00,9:51:00,76
+2594,Clare,Male,27,1,"chest, back, leg",8:01:00,9:51:00,76
 2596,Darius,Male,43,1,,20:46:00,23:33:00,59
 2599,Weber,Male,18,1,,8:35:00,10:58:00,129
 2603,Ingamar,Male,31,4,,15:24:00,17:57:00,95
-2606,Ruben,Male,37,5,"Core, Cardio, Spinning",20:39:00,22:49:00,42
+2606,Ruben,Male,37,5,"Core, Cardio, leg",20:39:00,22:49:00,42
 2607,Maureene,Female,14,4,,16:20:00,17:41:00,106
 2610,Neda,Female,13,4,"back, Arm",14:03:00,16:44:00,50
 2613,Emlen,Male,17,5,"Core, Core, back",17:32:00,19:31:00,120
@@ -1001,7 +1001,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2659,Ailina,Female,44,3,,18:02:00,19:23:00,139
 2663,Elisa,Female,34,5,,14:01:00,16:03:00,112
 2669,Ashia,Female,36,3,"Arm, leg",19:04:00,20:13:00,77
-2670,Carmencita,Female,42,5,"Spinning, Cardio",9:17:00,10:59:00,108
+2670,Carmencita,Female,42,5,"leg, Cardio",9:17:00,10:59:00,108
 2673,Tomi,Female,21,2,back,10:49:00,11:21:00,162
 2677,Tonia,Female,24,2,chest,9:06:00,10:41:00,113
 2678,Jessie,Female,24,3,,13:57:00,16:22:00,141
@@ -1012,20 +1012,20 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2688,Lyn,Male,37,3,,20:25:00,22:44:00,79
 2694,Shirline,Female,34,4,,16:40:00,18:11:00,120
 2696,Janean,Female,25,1,chest,11:43:00,12:51:00,143
-2697,Alejandro,Male,21,1,"chest, Arm, Spinning",10:31:00,12:14:00,117
+2697,Alejandro,Male,21,1,"chest, Arm, leg",10:31:00,12:14:00,117
 2698,Morgan,Male,48,5,,14:52:00,15:55:00,101
-2701,Julia,Female,28,4,"back, chest, Spinning",11:19:00,13:31:00,104
+2701,Julia,Female,28,4,"back, chest, leg",11:19:00,13:31:00,104
 2702,Rudiger,Male,28,2,,10:22:00,12:17:00,62
-2709,Rudolfo,Male,40,2,"Arm, Spinning, chest",17:58:00,20:00:00,154
+2709,Rudolfo,Male,40,2,"Arm, leg, chest",17:58:00,20:00:00,154
 2710,Kayley,Female,39,3,"chest, Core, Cardio",10:54:00,12:00:00,75
-2712,Paul,Male,27,4,"Core, Spinning",13:12:00,14:47:00,33
+2712,Paul,Male,27,4,"Core, leg",13:12:00,14:47:00,33
 2713,Walt,Male,46,1,chest,10:37:00,11:27:00,77
 2715,Brant,Male,25,3,,12:02:00,14:59:00,171
-2716,Emiline,Female,30,2,Spinning,18:15:00,18:56:00,44
+2716,Emiline,Female,30,2,leg,18:15:00,18:56:00,44
 2718,Jethro,Male,18,1,"Core, Arm",20:32:00,21:11:00,163
 2719,Pren,Male,19,5,,8:33:00,10:02:00,106
 2720,Lloyd,Male,14,5,"back, leg, back",19:42:00,21:46:00,69
-2728,Raina,Female,48,4,"Core, Spinning, Cardio",20:57:00,22:46:00,66
+2728,Raina,Female,48,4,"Core, leg, Cardio",20:57:00,22:46:00,66
 2729,Sasha,Male,31,3,,19:38:00,20:20:00,46
 2730,Courtnay,Male,38,2,,15:28:00,18:18:00,60
 2732,Melva,Female,21,3,,13:30:00,15:53:00,164
@@ -1033,13 +1033,13 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2740,Kellsie,Female,24,5,,11:16:00,13:42:00,60
 2741,Igor,Male,40,3,Cardio,20:07:00,22:19:00,132
 2745,Lonna,Female,42,1,"chest, Cardio",13:37:00,15:12:00,122
-2746,Dallon,Male,13,3,"Cardio, Spinning",10:09:00,11:57:00,38
+2746,Dallon,Male,13,3,"Cardio, leg",10:09:00,11:57:00,38
 2748,Harland,Male,32,2,,19:43:00,21:02:00,120
 2750,Agnese,Female,13,2,"chest, back, chest",10:28:00,11:32:00,177
-2751,Nana,Female,27,1,"Spinning, Core, chest",13:11:00,15:01:00,173
+2751,Nana,Female,27,1,"leg, Core, chest",13:11:00,15:01:00,173
 2753,Jacquette,Female,37,5,,10:11:00,12:17:00,177
-2759,Ricki,Male,28,2,"back, Spinning, chest",13:19:00,16:18:00,167
-2760,Simmonds,Male,15,1,"Core, Spinning",9:29:00,11:20:00,62
+2759,Ricki,Male,28,2,"back, leg, chest",13:19:00,16:18:00,167
+2760,Simmonds,Male,15,1,"Core, leg",9:29:00,11:20:00,62
 2767,Lin,Male,21,2,,13:07:00,14:15:00,145
 2770,Marcelo,Male,47,3,,17:22:00,18:38:00,114
 2774,Dario,Male,12,1,,12:32:00,13:09:00,131
@@ -1051,11 +1051,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2792,Celestina,Female,24,4,Arm,11:44:00,12:54:00,107
 2794,Vallie,Female,41,3,,17:17:00,18:20:00,57
 2796,Marylinda,Female,30,1,"Arm, Cardio",9:21:00,11:58:00,94
-2797,Alley,Male,29,4,Spinning,9:41:00,10:37:00,113
+2797,Alley,Male,29,4,leg,9:41:00,10:37:00,113
 2799,Helen-elizabeth,Female,48,2,"leg, chest",9:11:00,9:43:00,85
 2800,Roxy,Female,25,5,,9:21:00,11:58:00,149
 2804,Ben,Male,47,1,,8:59:00,11:37:00,160
-2805,Salaidh,Female,14,1,"chest, Spinning",8:15:00,9:55:00,75
+2805,Salaidh,Female,14,1,"chest, leg",8:15:00,9:55:00,75
 2806,Beatriz,Female,37,3,,16:13:00,18:08:00,80
 2807,Ardelis,Female,31,5,"back, Arm",19:35:00,20:13:00,116
 2809,Rana,Female,33,1,,13:25:00,14:58:00,78
@@ -1071,7 +1071,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2835,Mair,Female,12,2,,15:37:00,16:21:00,178
 2841,Marthena,Female,20,5,,11:00:00,12:53:00,65
 2842,Gale,Female,44,4,Cardio,9:47:00,11:34:00,81
-2848,Pietro,Male,48,3,"Spinning, Core",12:00:00,12:53:00,180
+2848,Pietro,Male,48,3,"leg, Core",12:00:00,12:53:00,180
 2859,Mikey,Male,39,4,"Arm, chest",14:45:00,15:46:00,72
 2862,Zackariah,Male,27,2,"Cardio, chest",17:19:00,19:17:00,89
 2863,Wash,Male,22,1,,11:08:00,11:42:00,162
@@ -1081,11 +1081,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2876,Ramona,Female,45,3,leg,18:32:00,19:44:00,111
 2880,Ketti,Female,31,4,,11:02:00,13:18:00,59
 2882,Johnna,Female,30,5,,15:39:00,16:35:00,45
-2883,Fan,Female,44,5,"Spinning, Cardio, back",15:31:00,16:43:00,55
+2883,Fan,Female,44,5,"leg, Cardio, back",15:31:00,16:43:00,55
 2886,Cathryn,Female,48,4,"Arm, chest",15:47:00,16:56:00,62
 2888,Tiffi,Female,14,4,,17:02:00,17:36:00,84
 2891,Hamilton,Male,44,3,,11:26:00,12:50:00,163
-2893,Borden,Male,49,1,"Cardio, chest, Spinning",20:33:00,21:10:00,40
+2893,Borden,Male,49,1,"Cardio, chest, leg",20:33:00,21:10:00,40
 2896,Franni,Female,34,5,,10:05:00,11:47:00,60
 2900,Gretel,Female,23,2,,19:13:00,21:37:00,166
 2909,Randy,Male,13,3,chest,13:35:00,16:32:00,43
@@ -1119,7 +1119,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2968,Emalee,Female,46,3,,13:36:00,14:50:00,148
 2971,Emma,Female,41,2,"Arm, back",16:37:00,18:37:00,54
 2972,Kit,Male,15,2,"back, Cardio, Core",14:44:00,16:18:00,73
-2974,Samaria,Female,22,1,"Spinning, leg, chest",11:10:00,12:14:00,51
+2974,Samaria,Female,22,1,"leg, leg, chest",11:10:00,12:14:00,51
 2975,Clemmy,Male,26,3,,11:07:00,13:34:00,71
 2976,Veda,Female,23,4,,16:39:00,19:26:00,139
 2978,Tremaine,Male,48,5,,19:00:00,19:33:00,98
@@ -1127,17 +1127,17 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 2990,Clywd,Male,31,2,,11:50:00,13:07:00,75
 2991,Oliy,Female,32,2,,8:22:00,11:11:00,114
 2992,Isidor,Male,46,3,back,10:24:00,12:21:00,114
-2993,Melantha,Female,16,2,"leg, Cardio, Spinning",9:42:00,10:49:00,174
+2993,Melantha,Female,16,2,"leg, Cardio, leg",9:42:00,10:49:00,174
 2996,Karlen,Female,20,3,,20:56:00,22:59:00,40
-2999,Brigg,Male,12,2,"Arm, Spinning, Core",10:23:00,11:45:00,119
+2999,Brigg,Male,12,2,"Arm, leg, Core",10:23:00,11:45:00,119
 3001,Fey,Female,49,4,"back, chest",19:31:00,21:29:00,63
 3006,Alvera,Female,46,4,,17:19:00,19:03:00,118
 3007,Anson,Male,15,5,Cardio,19:46:00,20:59:00,151
 3014,Alie,Female,24,1,,19:50:00,22:43:00,102
-3016,Katya,Female,38,5,"Spinning, Core",17:28:00,19:02:00,153
+3016,Katya,Female,38,5,"leg, Core",17:28:00,19:02:00,153
 3017,Chaddie,Male,44,2,,9:25:00,10:59:00,43
-3028,Wat,Male,39,2,"chest, leg, Spinning",19:41:00,22:36:00,44
-3030,Nissa,Female,25,1,Spinning,20:15:00,22:22:00,95
+3028,Wat,Male,39,2,"chest, leg, leg",19:41:00,22:36:00,44
+3030,Nissa,Female,25,1,leg,20:15:00,22:22:00,95
 3031,Keith,Male,26,3,,10:01:00,12:13:00,70
 3033,Hestia,Female,14,5,Cardio,10:23:00,11:43:00,32
 3035,Alf,Male,26,4,,18:15:00,19:07:00,46
@@ -1146,11 +1146,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3041,Samantha,Female,22,2,,16:04:00,18:50:00,92
 3043,Nicol,Female,41,5,chest,10:25:00,12:51:00,153
 3044,Elizabet,Female,46,2,,11:49:00,12:39:00,43
-3046,Aridatha,Female,38,2,"Spinning, Core, leg",18:41:00,20:18:00,65
-3048,Dick,Male,48,4,"back, back, Spinning",16:29:00,17:17:00,89
+3046,Aridatha,Female,38,2,"leg, Core, leg",18:41:00,20:18:00,65
+3048,Dick,Male,48,4,"back, back, leg",16:29:00,17:17:00,89
 3049,Anette,Female,27,4,back,11:56:00,14:53:00,151
 3051,Maximilianus,Male,45,5,,9:43:00,12:09:00,71
-3054,Maud,Female,32,5,"Cardio, Spinning, chest",20:36:00,23:18:00,66
+3054,Maud,Female,32,5,"Cardio, leg, chest",20:36:00,23:18:00,66
 3058,Benton,Male,22,4,"chest, leg, back",12:19:00,12:56:00,51
 3061,Eulalie,Female,23,1,,18:30:00,21:01:00,116
 3062,Talia,Female,35,1,,10:28:00,11:38:00,49
@@ -1167,7 +1167,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3097,Barnebas,Male,40,1,,14:16:00,15:12:00,178
 3099,Blondelle,Female,30,2,,9:35:00,10:30:00,133
 3100,Cherise,Female,15,5,,8:34:00,9:53:00,90
-3103,Falito,Male,36,4,"Cardio, leg, Spinning",10:29:00,11:39:00,71
+3103,Falito,Male,36,4,"Cardio, leg, leg",10:29:00,11:39:00,71
 3104,Rodi,Female,27,3,,13:19:00,14:55:00,91
 3106,Tomkin,Male,24,3,Cardio,19:57:00,20:27:00,147
 3107,Shawnee,Female,29,1,,20:13:00,23:00:00,131
@@ -1178,7 +1178,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3118,Esra,Male,14,3,,8:23:00,11:10:00,114
 3126,Iago,Male,43,1,,8:40:00,9:44:00,62
 3127,Minnie,Female,42,4,,10:58:00,13:27:00,52
-3134,Pooh,Female,14,5,"Spinning, leg, Core",9:31:00,10:47:00,155
+3134,Pooh,Female,14,5,"leg, leg, Core",9:31:00,10:47:00,155
 3137,Marga,Female,45,1,,10:32:00,11:36:00,81
 3139,Nesta,Female,42,4,,19:28:00,22:07:00,99
 3143,Ginnifer,Female,37,2,,17:21:00,19:50:00,30
@@ -1190,8 +1190,8 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3163,Cesaro,Male,25,3,,8:42:00,9:39:00,99
 3164,Quincy,Male,36,4,,17:41:00,19:32:00,64
 3165,Christian,Male,34,2,"Core, back, chest",14:45:00,16:53:00,34
-3169,Odelinda,Female,39,1,"back, Spinning",13:32:00,14:12:00,141
-3172,Joni,Female,46,3,"Cardio, Spinning",8:15:00,9:27:00,93
+3169,Odelinda,Female,39,1,"back, leg",13:32:00,14:12:00,141
+3172,Joni,Female,46,3,"Cardio, leg",8:15:00,9:27:00,93
 3173,Feliks,Male,20,4,,16:55:00,19:23:00,168
 3175,Spenser,Male,19,3,back,14:01:00,16:08:00,101
 3176,Burty,Male,41,2,,9:34:00,11:21:00,47
@@ -1206,17 +1206,17 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3202,Gualterio,Male,14,3,,8:21:00,10:03:00,75
 3203,Rikki,Female,37,2,,18:32:00,19:31:00,76
 3206,Aaron,Male,18,5,"Core, Core, back",18:06:00,18:46:00,164
-3207,Heall,Male,12,3,"leg, back, Spinning",11:47:00,13:43:00,124
+3207,Heall,Male,12,3,"leg, back, leg",11:47:00,13:43:00,124
 3209,Earl,Male,25,4,,19:07:00,21:40:00,98
-3211,Ethelin,Female,21,4,"Cardio, Spinning, Arm",9:10:00,9:57:00,171
+3211,Ethelin,Female,21,4,"Cardio, leg, Arm",9:10:00,9:57:00,171
 3216,Isaak,Male,37,1,,12:37:00,14:46:00,77
 3221,Elbert,Male,30,1,,12:13:00,12:50:00,148
-3222,Jesse,Male,20,2,"Cardio, Spinning, Arm",20:01:00,22:57:00,85
+3222,Jesse,Male,20,2,"Cardio, leg, Arm",20:01:00,22:57:00,85
 3223,Mata,Male,23,3,,20:23:00,21:18:00,87
 3230,Alanson,Male,26,5,"back, Core",16:31:00,18:54:00,62
 3231,Onofredo,Male,12,5,,17:53:00,18:59:00,88
 3232,Bennett,Male,13,1,"Core, Core",15:16:00,17:16:00,157
-3237,Marylou,Female,36,2,"Spinning, Core",10:32:00,12:17:00,46
+3237,Marylou,Female,36,2,"leg, Core",10:32:00,12:17:00,46
 3239,Claudius,Male,17,3,"Core, chest",17:30:00,18:31:00,134
 3240,Stanton,Male,43,5,back,15:49:00,17:30:00,167
 3242,Godart,Male,46,2,,17:38:00,18:59:00,83
@@ -1224,7 +1224,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3247,Elvis,Male,48,4,chest,18:44:00,19:43:00,170
 3249,Deloris,Female,39,3,Core,18:00:00,19:58:00,93
 3251,Spenser,Male,13,1,"back, chest, back",8:05:00,9:57:00,68
-3252,Margarita,Female,33,3,"chest, Arm, Spinning",10:17:00,11:19:00,74
+3252,Margarita,Female,33,3,"chest, Arm, leg",10:17:00,11:19:00,74
 3258,Bronnie,Male,15,4,,19:49:00,22:01:00,137
 3259,Muire,Female,23,5,,10:02:00,11:33:00,171
 3260,Jaquelyn,Female,21,3,,8:20:00,11:05:00,164
@@ -1243,7 +1243,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3289,Gwendolin,Female,25,4,"Core, back",8:53:00,11:36:00,162
 3291,Barbi,Female,39,5,,9:49:00,11:52:00,135
 3296,Evie,Female,30,4,,10:17:00,12:08:00,74
-3305,Alfie,Male,41,5,"Spinning, leg, back",8:48:00,11:29:00,169
+3305,Alfie,Male,41,5,"leg, leg, back",8:48:00,11:29:00,169
 3307,Elora,Female,30,3,,17:30:00,19:56:00,169
 3308,Jodee,Female,48,3,,11:54:00,13:31:00,168
 3310,Jeremias,Male,17,2,chest,19:18:00,22:17:00,102
@@ -1254,11 +1254,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3326,Corette,Female,19,3,,18:24:00,20:33:00,89
 3328,Lexine,Female,43,1,,13:52:00,16:23:00,96
 3329,Davy,Male,25,3,leg,9:15:00,11:04:00,69
-3331,Jeannette,Female,16,2,"back, Spinning",16:36:00,19:12:00,107
+3331,Jeannette,Female,16,2,"back, leg",16:36:00,19:12:00,107
 3332,Corey,Female,30,5,Core,20:22:00,22:56:00,56
 3333,Derwin,Male,44,4,,11:18:00,12:56:00,159
 3341,Rita,Female,13,3,,14:02:00,14:37:00,47
-3342,Orren,Male,46,2,"Arm, Core, Spinning",17:57:00,19:48:00,113
+3342,Orren,Male,46,2,"Arm, Core, leg",17:57:00,19:48:00,113
 3344,Janela,Female,23,4,"Arm, Cardio",12:50:00,13:59:00,90
 3348,Karim,Male,14,3,,12:59:00,15:16:00,59
 3349,Sheryl,Female,21,4,,12:53:00,14:19:00,47
@@ -1295,7 +1295,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3430,Maryanna,Female,46,3,,15:12:00,16:00:00,78
 3433,Becca,Female,29,5,,14:51:00,15:34:00,169
 3434,Sabra,Female,44,2,,18:14:00,20:34:00,84
-3437,Aldwin,Male,49,2,"Cardio, Spinning, chest",16:29:00,17:28:00,68
+3437,Aldwin,Male,49,2,"Cardio, leg, chest",16:29:00,17:28:00,68
 3439,Cchaddie,Male,41,5,back,13:58:00,16:13:00,135
 3446,Alyce,Female,40,4,Arm,14:06:00,17:02:00,40
 3449,Catriona,Female,39,3,"chest, Cardio, back",18:43:00,19:47:00,70
@@ -1306,7 +1306,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3464,Arda,Female,28,3,"chest, Core",20:54:00,23:53:00,125
 3465,Abagael,Female,37,4,,14:33:00,16:30:00,160
 3468,Nananne,Female,15,4,,9:56:00,11:16:00,102
-3474,Walker,Male,29,4,"chest, Spinning",16:59:00,18:50:00,104
+3474,Walker,Male,29,4,"chest, leg",16:59:00,18:50:00,104
 3475,Lyon,Male,38,5,,11:56:00,14:27:00,176
 3480,Ikey,Male,42,5,"Core, back",11:46:00,14:15:00,133
 3482,Edmund,Male,26,4,Cardio,12:50:00,14:27:00,153
@@ -1346,15 +1346,15 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3578,Lester,Male,14,1,,20:35:00,21:30:00,154
 3582,Avie,Female,28,1,"chest, chest",14:41:00,16:39:00,53
 3586,Roosevelt,Male,32,2,,8:13:00,9:28:00,100
-3587,Cammy,Male,34,4,Spinning,15:57:00,17:27:00,79
+3587,Cammy,Male,34,4,leg,15:57:00,17:27:00,79
 3588,Rochester,Male,15,4,"chest, Core",8:22:00,9:58:00,175
 3591,Waylen,Male,44,5,"Arm, Cardio, back",12:50:00,13:26:00,79
 3593,Honor,Female,13,3,,19:51:00,20:25:00,118
-3594,Clare,Male,21,4,"chest, back, Spinning",8:01:00,9:51:00,154
+3594,Clare,Male,21,4,"chest, back, leg",8:01:00,9:51:00,154
 3596,Darius,Male,33,5,,20:46:00,23:33:00,42
 3599,Weber,Male,43,2,,8:35:00,10:58:00,148
 3603,Ingamar,Male,48,3,,15:24:00,17:57:00,138
-3606,Ruben,Male,35,5,"Core, Cardio, Spinning",20:39:00,22:49:00,92
+3606,Ruben,Male,35,5,"Core, Cardio, leg",20:39:00,22:49:00,92
 3607,Maureene,Female,46,1,,16:20:00,17:41:00,77
 3610,Neda,Female,35,5,"back, Arm",14:03:00,16:44:00,49
 3613,Emlen,Male,30,2,"Core, Core, back",17:32:00,19:31:00,151
@@ -1378,7 +1378,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3659,Ailina,Female,48,1,,18:02:00,19:23:00,91
 3663,Elisa,Female,16,2,,14:01:00,16:03:00,139
 3669,Ashia,Female,34,1,"Arm, leg",19:04:00,20:13:00,173
-3670,Carmencita,Female,12,4,"Spinning, Cardio",9:17:00,10:59:00,101
+3670,Carmencita,Female,12,4,"leg, Cardio",9:17:00,10:59:00,101
 3673,Tomi,Female,18,1,back,10:49:00,11:21:00,162
 3677,Tonia,Female,20,5,chest,9:06:00,10:41:00,102
 3678,Jessie,Female,24,1,,13:57:00,16:22:00,153
@@ -1389,20 +1389,20 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3688,Lyn,Male,25,2,,20:25:00,22:44:00,137
 3694,Shirline,Female,18,4,,16:40:00,18:11:00,135
 3696,Janean,Female,33,2,chest,11:43:00,12:51:00,99
-3697,Alejandro,Male,44,5,"chest, Arm, Spinning",10:31:00,12:14:00,54
+3697,Alejandro,Male,44,5,"chest, Arm, leg",10:31:00,12:14:00,54
 3698,Morgan,Male,48,5,,14:52:00,15:55:00,137
-3701,Julia,Female,16,2,"back, chest, Spinning",11:19:00,13:31:00,69
+3701,Julia,Female,16,2,"back, chest, leg",11:19:00,13:31:00,69
 3702,Rudiger,Male,32,3,,10:22:00,12:17:00,38
-3709,Rudolfo,Male,15,3,"Arm, Spinning, chest",17:58:00,20:00:00,31
+3709,Rudolfo,Male,15,3,"Arm, leg, chest",17:58:00,20:00:00,31
 3710,Kayley,Female,39,1,"chest, Core, Cardio",10:54:00,12:00:00,111
-3712,Paul,Male,41,4,"Core, Spinning",13:12:00,14:47:00,93
+3712,Paul,Male,41,4,"Core, leg",13:12:00,14:47:00,93
 3713,Walt,Male,17,3,chest,10:37:00,11:27:00,34
 3715,Brant,Male,26,5,,12:02:00,14:59:00,43
-3716,Emiline,Female,19,1,Spinning,18:15:00,18:56:00,37
+3716,Emiline,Female,19,1,leg,18:15:00,18:56:00,37
 3718,Jethro,Male,35,4,"Core, Arm",20:32:00,21:11:00,49
 3719,Pren,Male,19,5,,8:33:00,10:02:00,33
 3720,Lloyd,Male,25,1,"back, leg, back",19:42:00,21:46:00,72
-3728,Raina,Female,29,5,"Core, Spinning, Cardio",20:57:00,22:46:00,75
+3728,Raina,Female,29,5,"Core, leg, Cardio",20:57:00,22:46:00,75
 3729,Sasha,Male,46,1,,19:38:00,20:20:00,97
 3730,Courtnay,Male,14,2,,15:28:00,18:18:00,38
 3732,Melva,Female,30,3,,13:30:00,15:53:00,160
@@ -1410,13 +1410,13 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3740,Kellsie,Female,47,4,,11:16:00,13:42:00,159
 3741,Igor,Male,25,4,Cardio,20:07:00,22:19:00,68
 3745,Lonna,Female,28,5,"chest, Cardio",13:37:00,15:12:00,91
-3746,Dallon,Male,19,1,"Cardio, Spinning",10:09:00,11:57:00,140
+3746,Dallon,Male,19,1,"Cardio, leg",10:09:00,11:57:00,140
 3748,Harland,Male,34,5,,19:43:00,21:02:00,76
 3750,Agnese,Female,13,2,"chest, back, chest",10:28:00,11:32:00,97
-3751,Nana,Female,44,5,"Spinning, Core, chest",13:11:00,15:01:00,168
+3751,Nana,Female,44,5,"leg, Core, chest",13:11:00,15:01:00,168
 3753,Jacquette,Female,20,3,,10:11:00,12:17:00,179
-3759,Ricki,Male,41,5,"back, Spinning, chest",13:19:00,16:18:00,91
-3760,Simmonds,Male,38,2,"Core, Spinning",9:29:00,11:20:00,30
+3759,Ricki,Male,41,5,"back, leg, chest",13:19:00,16:18:00,91
+3760,Simmonds,Male,38,2,"Core, leg",9:29:00,11:20:00,30
 3767,Lin,Male,15,1,,13:07:00,14:15:00,64
 3770,Marcelo,Male,42,3,,17:22:00,18:38:00,168
 3774,Dario,Male,32,5,,12:32:00,13:09:00,90
@@ -1428,11 +1428,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3792,Celestina,Female,17,4,Arm,11:44:00,12:54:00,99
 3794,Vallie,Female,24,1,,17:17:00,18:20:00,180
 3796,Marylinda,Female,31,5,"Arm, Cardio",9:21:00,11:58:00,85
-3797,Alley,Male,34,5,Spinning,9:41:00,10:37:00,86
+3797,Alley,Male,34,5,leg,9:41:00,10:37:00,86
 3799,Helen-elizabeth,Female,43,3,"leg, chest",9:11:00,9:43:00,166
 3800,Roxy,Female,14,2,,9:21:00,11:58:00,138
 3804,Ben,Male,41,2,,8:59:00,11:37:00,80
-3805,Salaidh,Female,45,3,"chest, Spinning",8:15:00,9:55:00,94
+3805,Salaidh,Female,45,3,"chest, leg",8:15:00,9:55:00,94
 3806,Beatriz,Female,34,3,,16:13:00,18:08:00,83
 3807,Ardelis,Female,24,3,"back, Arm",19:35:00,20:13:00,137
 3809,Rana,Female,49,4,,13:25:00,14:58:00,144
@@ -1448,7 +1448,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3835,Mair,Female,33,3,,15:37:00,16:21:00,120
 3841,Marthena,Female,17,5,,11:00:00,12:53:00,98
 3842,Gale,Female,32,3,Cardio,9:47:00,11:34:00,48
-3848,Pietro,Male,13,5,"Spinning, Core",12:00:00,12:53:00,77
+3848,Pietro,Male,13,5,"leg, Core",12:00:00,12:53:00,77
 3859,Mikey,Male,15,2,"Arm, chest",14:45:00,15:46:00,149
 3862,Zackariah,Male,20,5,"Cardio, chest",17:19:00,19:17:00,125
 3863,Wash,Male,27,3,,11:08:00,11:42:00,91
@@ -1458,11 +1458,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3876,Ramona,Female,48,1,leg,18:32:00,19:44:00,67
 3880,Ketti,Female,38,3,,11:02:00,13:18:00,109
 3882,Johnna,Female,32,2,,15:39:00,16:35:00,107
-3883,Fan,Female,32,4,"Spinning, Cardio, back",15:31:00,16:43:00,154
+3883,Fan,Female,32,4,"leg, Cardio, back",15:31:00,16:43:00,154
 3886,Cathryn,Female,41,1,"Arm, chest",15:47:00,16:56:00,146
 3888,Tiffi,Female,45,5,,17:02:00,17:36:00,130
 3891,Hamilton,Male,23,2,,11:26:00,12:50:00,77
-3893,Borden,Male,34,2,"Cardio, chest, Spinning",20:33:00,21:10:00,161
+3893,Borden,Male,34,2,"Cardio, chest, leg",20:33:00,21:10:00,161
 3896,Franni,Female,12,2,,10:05:00,11:47:00,44
 3900,Gretel,Female,47,1,,19:13:00,21:37:00,69
 3909,Randy,Male,38,1,chest,13:35:00,16:32:00,41
@@ -1496,7 +1496,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3968,Emalee,Female,19,1,,13:36:00,14:50:00,112
 3971,Emma,Female,41,3,"Arm, back",16:37:00,18:37:00,80
 3972,Kit,Male,25,4,"back, Cardio, Core",14:44:00,16:18:00,176
-3974,Samaria,Female,45,5,"Spinning, leg, chest",11:10:00,12:14:00,162
+3974,Samaria,Female,45,5,"leg, leg, chest",11:10:00,12:14:00,162
 3975,Clemmy,Male,27,1,,11:07:00,13:34:00,64
 3976,Veda,Female,45,2,,16:39:00,19:26:00,52
 3978,Tremaine,Male,28,2,,19:00:00,19:33:00,101
@@ -1504,17 +1504,17 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 3990,Clywd,Male,43,5,,11:50:00,13:07:00,127
 3991,Oliy,Female,30,2,,8:22:00,11:11:00,158
 3992,Isidor,Male,40,3,back,10:24:00,12:21:00,143
-3993,Melantha,Female,21,1,"leg, Cardio, Spinning",9:42:00,10:49:00,46
+3993,Melantha,Female,21,1,"leg, Cardio, leg",9:42:00,10:49:00,46
 3996,Karlen,Female,37,5,,20:56:00,22:59:00,83
-3999,Brigg,Male,46,3,"Arm, Spinning, Core",10:23:00,11:45:00,104
+3999,Brigg,Male,46,3,"Arm, leg, Core",10:23:00,11:45:00,104
 4001,Fey,Female,49,2,"back, chest",19:31:00,21:29:00,38
 4006,Alvera,Female,31,1,,17:19:00,19:03:00,40
 4007,Anson,Male,33,5,Cardio,19:46:00,20:59:00,116
 4014,Alie,Female,25,3,,19:50:00,22:43:00,71
-4016,Katya,Female,47,1,"Spinning, Core",17:28:00,19:02:00,66
+4016,Katya,Female,47,1,"leg, Core",17:28:00,19:02:00,66
 4017,Chaddie,Male,46,5,,9:25:00,10:59:00,36
-4028,Wat,Male,41,4,"chest, leg, Spinning",19:41:00,22:36:00,177
-4030,Nissa,Female,31,5,Spinning,20:15:00,22:22:00,168
+4028,Wat,Male,41,4,"chest, leg, leg",19:41:00,22:36:00,177
+4030,Nissa,Female,31,5,leg,20:15:00,22:22:00,168
 4031,Keith,Male,22,5,,10:01:00,12:13:00,165
 4033,Hestia,Female,26,3,Cardio,10:23:00,11:43:00,149
 4035,Alf,Male,31,4,,18:15:00,19:07:00,146
@@ -1523,11 +1523,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4041,Samantha,Female,34,4,,16:04:00,18:50:00,123
 4043,Nicol,Female,22,5,chest,10:25:00,12:51:00,98
 4044,Elizabet,Female,38,5,,11:49:00,12:39:00,178
-4046,Aridatha,Female,23,5,"Spinning, Core, leg",18:41:00,20:18:00,32
-4048,Dick,Male,23,4,"back, back, Spinning",16:29:00,17:17:00,34
+4046,Aridatha,Female,23,5,"leg, Core, leg",18:41:00,20:18:00,32
+4048,Dick,Male,23,4,"back, back, leg",16:29:00,17:17:00,34
 4049,Anette,Female,33,3,back,11:56:00,14:53:00,131
 4051,Maximilianus,Male,41,1,,9:43:00,12:09:00,113
-4054,Maud,Female,42,2,"Cardio, Spinning, chest",20:36:00,23:18:00,147
+4054,Maud,Female,42,2,"Cardio, leg, chest",20:36:00,23:18:00,147
 4058,Benton,Male,44,5,"chest, leg, back",12:19:00,12:56:00,42
 4061,Eulalie,Female,47,4,,18:30:00,21:01:00,74
 4062,Talia,Female,35,4,,10:28:00,11:38:00,75
@@ -1544,7 +1544,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4097,Barnebas,Male,44,5,,14:16:00,15:12:00,30
 4099,Blondelle,Female,33,5,,9:35:00,10:30:00,74
 4100,Cherise,Female,37,5,,8:34:00,9:53:00,118
-4103,Falito,Male,14,5,"Cardio, leg, Spinning",10:29:00,11:39:00,162
+4103,Falito,Male,14,5,"Cardio, leg, leg",10:29:00,11:39:00,162
 4104,Rodi,Female,48,4,,13:19:00,14:55:00,156
 4106,Tomkin,Male,21,4,Cardio,19:57:00,20:27:00,31
 4107,Shawnee,Female,17,2,,20:13:00,23:00:00,180
@@ -1555,7 +1555,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4118,Esra,Male,13,3,,8:23:00,11:10:00,44
 4126,Iago,Male,46,5,,8:40:00,9:44:00,171
 4127,Minnie,Female,34,3,,10:58:00,13:27:00,99
-4134,Pooh,Female,21,4,"Spinning, leg, Core",9:31:00,10:47:00,112
+4134,Pooh,Female,21,4,"leg, leg, Core",9:31:00,10:47:00,112
 4137,Marga,Female,26,1,,10:32:00,11:36:00,58
 4139,Nesta,Female,43,4,,19:28:00,22:07:00,58
 4143,Ginnifer,Female,21,5,,17:21:00,19:50:00,78
@@ -1567,8 +1567,8 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4163,Cesaro,Male,40,4,,8:42:00,9:39:00,166
 4164,Quincy,Male,35,3,,17:41:00,19:32:00,64
 4165,Christian,Male,23,1,"Core, back, chest",14:45:00,16:53:00,166
-4169,Odelinda,Female,41,3,"back, Spinning",13:32:00,14:12:00,69
-4172,Joni,Female,43,2,"Cardio, Spinning",8:15:00,9:27:00,52
+4169,Odelinda,Female,41,3,"back, leg",13:32:00,14:12:00,69
+4172,Joni,Female,43,2,"Cardio, leg",8:15:00,9:27:00,52
 4173,Feliks,Male,36,4,,16:55:00,19:23:00,60
 4175,Spenser,Male,48,2,back,14:01:00,16:08:00,132
 4176,Burty,Male,45,1,,9:34:00,11:21:00,122
@@ -1583,17 +1583,17 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4202,Gualterio,Male,31,4,,8:21:00,10:03:00,148
 4203,Rikki,Female,43,3,,18:32:00,19:31:00,166
 4206,Aaron,Male,22,2,"Core, Core, back",18:06:00,18:46:00,71
-4207,Heall,Male,22,5,"leg, back, Spinning",11:47:00,13:43:00,30
+4207,Heall,Male,22,5,"leg, back, leg",11:47:00,13:43:00,30
 4209,Earl,Male,24,1,,19:07:00,21:40:00,52
-4211,Ethelin,Female,13,4,"Cardio, Spinning, Arm",9:10:00,9:57:00,168
+4211,Ethelin,Female,13,4,"Cardio, leg, Arm",9:10:00,9:57:00,168
 4216,Isaak,Male,33,4,,12:37:00,14:46:00,60
 4221,Elbert,Male,23,5,,12:13:00,12:50:00,55
-4222,Jesse,Male,24,3,"Cardio, Spinning, Arm",20:01:00,22:57:00,37
+4222,Jesse,Male,24,3,"Cardio, leg, Arm",20:01:00,22:57:00,37
 4223,Mata,Male,21,5,,20:23:00,21:18:00,67
 4230,Alanson,Male,24,1,"back, Core",16:31:00,18:54:00,164
 4231,Onofredo,Male,37,3,,17:53:00,18:59:00,53
 4232,Bennett,Male,25,4,"Core, Core",15:16:00,17:16:00,37
-4237,Marylou,Female,26,1,"Spinning, Core",10:32:00,12:17:00,172
+4237,Marylou,Female,26,1,"leg, Core",10:32:00,12:17:00,172
 4239,Claudius,Male,18,4,"Core, chest",17:30:00,18:31:00,75
 4240,Stanton,Male,23,3,back,15:49:00,17:30:00,163
 4242,Godart,Male,14,1,,17:38:00,18:59:00,141
@@ -1601,7 +1601,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4247,Elvis,Male,16,3,chest,18:44:00,19:43:00,121
 4249,Deloris,Female,22,4,Core,18:00:00,19:58:00,59
 4251,Spenser,Male,46,1,"back, chest, back",8:05:00,9:57:00,61
-4252,Margarita,Female,18,5,"chest, Arm, Spinning",10:17:00,11:19:00,78
+4252,Margarita,Female,18,5,"chest, Arm, leg",10:17:00,11:19:00,78
 4258,Bronnie,Male,45,4,,19:49:00,22:01:00,61
 4259,Muire,Female,41,5,,10:02:00,11:33:00,160
 4260,Jaquelyn,Female,28,1,,8:20:00,11:05:00,177
@@ -1620,7 +1620,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4289,Gwendolin,Female,12,3,"Core, back",8:53:00,11:36:00,91
 4291,Barbi,Female,27,5,,9:49:00,11:52:00,139
 4296,Evie,Female,46,4,,10:17:00,12:08:00,84
-4305,Alfie,Male,18,1,"Spinning, leg, back",8:48:00,11:29:00,80
+4305,Alfie,Male,18,1,"leg, leg, back",8:48:00,11:29:00,80
 4307,Elora,Female,47,1,,17:30:00,19:56:00,96
 4308,Jodee,Female,19,4,,11:54:00,13:31:00,95
 4310,Jeremias,Male,45,2,chest,19:18:00,22:17:00,125
@@ -1631,11 +1631,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4326,Corette,Female,43,5,,18:24:00,20:33:00,123
 4328,Lexine,Female,17,5,,13:52:00,16:23:00,174
 4329,Davy,Male,24,5,leg,9:15:00,11:04:00,75
-4331,Jeannette,Female,31,3,"back, Spinning",16:36:00,19:12:00,122
+4331,Jeannette,Female,31,3,"back, leg",16:36:00,19:12:00,122
 4332,Corey,Female,36,2,Core,20:22:00,22:56:00,46
 4333,Derwin,Male,39,3,,11:18:00,12:56:00,73
 4341,Rita,Female,46,1,,14:02:00,14:37:00,106
-4342,Orren,Male,46,2,"Arm, Core, Spinning",17:57:00,19:48:00,167
+4342,Orren,Male,46,2,"Arm, Core, leg",17:57:00,19:48:00,167
 4344,Janela,Female,37,1,"Arm, Cardio",12:50:00,13:59:00,150
 4348,Karim,Male,14,1,,12:59:00,15:16:00,165
 4349,Sheryl,Female,17,4,,12:53:00,14:19:00,57
@@ -1672,7 +1672,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4430,Maryanna,Female,18,2,,15:12:00,16:00:00,130
 4433,Becca,Female,41,4,,14:51:00,15:34:00,170
 4434,Sabra,Female,42,2,,18:14:00,20:34:00,53
-4437,Aldwin,Male,34,5,"Cardio, Spinning, chest",16:29:00,17:28:00,70
+4437,Aldwin,Male,34,5,"Cardio, leg, chest",16:29:00,17:28:00,70
 4439,Cchaddie,Male,17,5,back,13:58:00,16:13:00,33
 4446,Alyce,Female,15,5,Arm,14:06:00,17:02:00,63
 4449,Catriona,Female,44,3,"chest, Cardio, back",18:43:00,19:47:00,73
@@ -1683,7 +1683,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4464,Arda,Female,25,5,"chest, Core",20:54:00,23:53:00,45
 4465,Abagael,Female,48,3,,14:33:00,16:30:00,89
 4468,Nananne,Female,47,4,,9:56:00,11:16:00,142
-4474,Walker,Male,16,5,"chest, Spinning",16:59:00,18:50:00,117
+4474,Walker,Male,16,5,"chest, leg",16:59:00,18:50:00,117
 4475,Lyon,Male,13,4,,11:56:00,14:27:00,102
 4480,Ikey,Male,22,4,"Core, back",11:46:00,14:15:00,86
 4482,Edmund,Male,39,3,Cardio,12:50:00,14:27:00,66
@@ -1723,15 +1723,15 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4578,Lester,Male,45,2,,20:35:00,21:30:00,66
 4582,Avie,Female,15,4,"chest, chest",14:41:00,16:39:00,140
 4586,Roosevelt,Male,15,5,,8:13:00,9:28:00,36
-4587,Cammy,Male,45,3,Spinning,15:57:00,17:27:00,50
+4587,Cammy,Male,45,3,leg,15:57:00,17:27:00,50
 4588,Rochester,Male,30,2,"chest, Core",8:22:00,9:58:00,30
 4591,Waylen,Male,43,2,"Arm, Cardio, back",12:50:00,13:26:00,86
 4593,Honor,Female,23,1,,19:51:00,20:25:00,63
-4594,Clare,Male,19,3,"chest, back, Spinning",8:01:00,9:51:00,74
+4594,Clare,Male,19,3,"chest, back, leg",8:01:00,9:51:00,74
 4596,Darius,Male,23,2,,20:46:00,23:33:00,127
 4599,Weber,Male,35,1,,8:35:00,10:58:00,152
 4603,Ingamar,Male,36,4,,15:24:00,17:57:00,75
-4606,Ruben,Male,44,1,"Core, Cardio, Spinning",20:39:00,22:49:00,120
+4606,Ruben,Male,44,1,"Core, Cardio, leg",20:39:00,22:49:00,120
 4607,Maureene,Female,44,2,,16:20:00,17:41:00,98
 4610,Neda,Female,15,2,"back, Arm",14:03:00,16:44:00,162
 4613,Emlen,Male,30,2,"Core, Core, back",17:32:00,19:31:00,47
@@ -1755,7 +1755,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4659,Ailina,Female,26,1,,18:02:00,19:23:00,149
 4663,Elisa,Female,26,3,,14:01:00,16:03:00,111
 4669,Ashia,Female,16,2,"Arm, leg",19:04:00,20:13:00,44
-4670,Carmencita,Female,29,5,"Spinning, Cardio",9:17:00,10:59:00,120
+4670,Carmencita,Female,29,5,"leg, Cardio",9:17:00,10:59:00,120
 4673,Tomi,Female,46,1,back,10:49:00,11:21:00,34
 4677,Tonia,Female,14,1,chest,9:06:00,10:41:00,74
 4678,Jessie,Female,14,3,,13:57:00,16:22:00,104
@@ -1766,20 +1766,20 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4688,Lyn,Male,37,5,,20:25:00,22:44:00,81
 4694,Shirline,Female,35,1,,16:40:00,18:11:00,85
 4696,Janean,Female,49,5,chest,11:43:00,12:51:00,130
-4697,Alejandro,Male,48,1,"chest, Arm, Spinning",10:31:00,12:14:00,86
+4697,Alejandro,Male,48,1,"chest, Arm, leg",10:31:00,12:14:00,86
 4698,Morgan,Male,41,1,,14:52:00,15:55:00,162
-4701,Julia,Female,32,1,"back, chest, Spinning",11:19:00,13:31:00,69
+4701,Julia,Female,32,1,"back, chest, leg",11:19:00,13:31:00,69
 4702,Rudiger,Male,13,3,,10:22:00,12:17:00,35
-4709,Rudolfo,Male,30,4,"Arm, Spinning, chest",17:58:00,20:00:00,49
+4709,Rudolfo,Male,30,4,"Arm, leg, chest",17:58:00,20:00:00,49
 4710,Kayley,Female,12,3,"chest, Core, Cardio",10:54:00,12:00:00,133
-4712,Paul,Male,34,5,"Core, Spinning",13:12:00,14:47:00,43
+4712,Paul,Male,34,5,"Core, leg",13:12:00,14:47:00,43
 4713,Walt,Male,23,5,chest,10:37:00,11:27:00,107
 4715,Brant,Male,19,1,,12:02:00,14:59:00,151
-4716,Emiline,Female,15,1,Spinning,18:15:00,18:56:00,152
+4716,Emiline,Female,15,1,leg,18:15:00,18:56:00,152
 4718,Jethro,Male,45,3,"Core, Arm",20:32:00,21:11:00,38
 4719,Pren,Male,32,5,,8:33:00,10:02:00,136
 4720,Lloyd,Male,43,5,"back, leg, back",19:42:00,21:46:00,98
-4728,Raina,Female,32,3,"Core, Spinning, Cardio",20:57:00,22:46:00,171
+4728,Raina,Female,32,3,"Core, leg, Cardio",20:57:00,22:46:00,171
 4729,Sasha,Male,25,3,,19:38:00,20:20:00,153
 4730,Courtnay,Male,30,4,,15:28:00,18:18:00,157
 4732,Melva,Female,21,3,,13:30:00,15:53:00,133
@@ -1787,13 +1787,13 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4740,Kellsie,Female,36,3,,11:16:00,13:42:00,85
 4741,Igor,Male,49,3,Cardio,20:07:00,22:19:00,105
 4745,Lonna,Female,39,3,"chest, Cardio",13:37:00,15:12:00,53
-4746,Dallon,Male,13,4,"Cardio, Spinning",10:09:00,11:57:00,142
+4746,Dallon,Male,13,4,"Cardio, leg",10:09:00,11:57:00,142
 4748,Harland,Male,22,2,,19:43:00,21:02:00,55
 4750,Agnese,Female,44,3,"chest, back, chest",10:28:00,11:32:00,63
-4751,Nana,Female,32,1,"Spinning, Core, chest",13:11:00,15:01:00,63
+4751,Nana,Female,32,1,"leg, Core, chest",13:11:00,15:01:00,63
 4753,Jacquette,Female,22,4,,10:11:00,12:17:00,180
-4759,Ricki,Male,23,2,"back, Spinning, chest",13:19:00,16:18:00,166
-4760,Simmonds,Male,47,3,"Core, Spinning",9:29:00,11:20:00,37
+4759,Ricki,Male,23,2,"back, leg, chest",13:19:00,16:18:00,166
+4760,Simmonds,Male,47,3,"Core, leg",9:29:00,11:20:00,37
 4767,Lin,Male,26,2,,13:07:00,14:15:00,176
 4770,Marcelo,Male,40,4,,17:22:00,18:38:00,46
 4774,Dario,Male,44,5,,12:32:00,13:09:00,126
@@ -1805,11 +1805,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4792,Celestina,Female,36,4,Arm,11:44:00,12:54:00,140
 4794,Vallie,Female,41,3,,17:17:00,18:20:00,119
 4796,Marylinda,Female,41,3,"Arm, Cardio",9:21:00,11:58:00,171
-4797,Alley,Male,29,1,Spinning,9:41:00,10:37:00,159
+4797,Alley,Male,29,1,leg,9:41:00,10:37:00,159
 4799,Helen-elizabeth,Female,26,4,"leg, chest",9:11:00,9:43:00,101
 4800,Roxy,Female,47,5,,9:21:00,11:58:00,118
 4804,Ben,Male,28,1,,8:59:00,11:37:00,137
-4805,Salaidh,Female,18,4,"chest, Spinning",8:15:00,9:55:00,161
+4805,Salaidh,Female,18,4,"chest, leg",8:15:00,9:55:00,161
 4806,Beatriz,Female,23,1,,16:13:00,18:08:00,151
 4807,Ardelis,Female,35,4,"back, Arm",19:35:00,20:13:00,32
 4809,Rana,Female,13,2,,13:25:00,14:58:00,180
@@ -1825,7 +1825,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4835,Mair,Female,47,3,,15:37:00,16:21:00,142
 4841,Marthena,Female,37,2,,11:00:00,12:53:00,168
 4842,Gale,Female,49,3,Cardio,9:47:00,11:34:00,47
-4848,Pietro,Male,38,2,"Spinning, Core",12:00:00,12:53:00,157
+4848,Pietro,Male,38,2,"leg, Core",12:00:00,12:53:00,157
 4859,Mikey,Male,34,2,"Arm, chest",14:45:00,15:46:00,75
 4862,Zackariah,Male,12,1,"Cardio, chest",17:19:00,19:17:00,37
 4863,Wash,Male,18,5,,11:08:00,11:42:00,81
@@ -1835,11 +1835,11 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4876,Ramona,Female,42,1,leg,18:32:00,19:44:00,58
 4880,Ketti,Female,30,1,,11:02:00,13:18:00,109
 4882,Johnna,Female,26,3,,15:39:00,16:35:00,104
-4883,Fan,Female,14,2,"Spinning, Cardio, back",15:31:00,16:43:00,102
+4883,Fan,Female,14,2,"leg, Cardio, back",15:31:00,16:43:00,102
 4886,Cathryn,Female,20,5,"Arm, chest",15:47:00,16:56:00,99
 4888,Tiffi,Female,33,3,,17:02:00,17:36:00,161
 4891,Hamilton,Male,15,4,,11:26:00,12:50:00,151
-4893,Borden,Male,43,1,"Cardio, chest, Spinning",20:33:00,21:10:00,47
+4893,Borden,Male,43,1,"Cardio, chest, leg",20:33:00,21:10:00,47
 4896,Franni,Female,17,2,,10:05:00,11:47:00,88
 4900,Gretel,Female,28,5,,19:13:00,21:37:00,95
 4909,Randy,Male,48,4,chest,13:35:00,16:32:00,101
@@ -1873,7 +1873,7 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4968,Emalee,Female,21,3,,13:36:00,14:50:00,177
 4971,Emma,Female,33,2,"Arm, back",16:37:00,18:37:00,144
 4972,Kit,Male,22,4,"back, Cardio, Core",14:44:00,16:18:00,31
-4974,Samaria,Female,36,4,"Spinning, leg, chest",11:10:00,12:14:00,142
+4974,Samaria,Female,36,4,"leg, leg, chest",11:10:00,12:14:00,142
 4975,Clemmy,Male,16,1,,11:07:00,13:34:00,180
 4976,Veda,Female,29,1,,16:39:00,19:26:00,74
 4978,Tremaine,Male,25,4,,19:00:00,19:33:00,87
@@ -1881,6 +1881,6 @@ id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_t
 4990,Clywd,Male,18,3,,11:50:00,13:07:00,38
 4991,Oliy,Female,37,2,,8:22:00,11:11:00,61
 4992,Isidor,Male,16,3,back,10:24:00,12:21:00,83
-4993,Melantha,Female,25,2,"leg, Cardio, Spinning",9:42:00,10:49:00,172
+4993,Melantha,Female,25,2,"leg, Cardio, leg",9:42:00,10:49:00,172
 4996,Karlen,Female,40,5,,20:56:00,22:59:00,146
-4999,Brigg,Male,18,4,"Arm, Spinning, Core",10:23:00,11:45:00,160
+4999,Brigg,Male,18,4,"Arm, leg, Core",10:23:00,11:45:00,160

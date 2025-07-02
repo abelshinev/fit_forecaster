@@ -77,19 +77,16 @@ class DataProcessor:
         user_splits = []
         
         for _, row in df.iterrows():
-            splits = self.parse_workout_splits(row['fav_group_lesson'])
+            splits = self.parse_workout_splits(row.get('fav_group_lesson', ''))
             for split in splits:
                 user_splits.append({
-                    'user_id': row['id'],
-                    'first_name': row['first_name'],
-                    'gender': row['gender'],
-                    'age': row['Age'],
-                    'visit_frequency_per_week': row['visit_per_week'],
+                    'age': row.get('Age', np.nan),
+                    'visit_per_week': row.get('visit_per_week', 1),
                     'split_name': split,
-                    'avg_time_check_in': row['avg_time_check_in'],
-                    'avg_time_check_out': row['avg_time_check_out'],
-                    'avg_time_in_gym': row['avg_time_in_gym'],
-                    'tue_visitor': row['Tue']
+                    'avg_time_check_in': row.get('avg_time_check_in', '12:00'),
+                    'avg_time_check_out': row.get('avg_time_check_out', '13:00'),
+                    'avg_time_in_gym': row.get('avg_time_in_gym', 60),
+                    'tue_visitor': row.get('Tue', False)
                 })
         
         return pd.DataFrame(user_splits)
@@ -135,9 +132,11 @@ class DataProcessor:
         start_date = datetime.now() - timedelta(days=days_to_generate)
         
         for _, user in user_data.iterrows():
-            # Calculate visit probability based on frequency
-            visits_per_week = user['visit_frequency_per_week']
-            daily_visit_prob = visits_per_week / 7.0
+            # Ensure visits_per_week is a number
+            visits_per_week = user.get('visit_per_week', 1)
+            if visits_per_week is None or pd.isna(visits_per_week):
+                visits_per_week = 1
+            daily_visit_prob = float(visits_per_week) / 7.0
             
             # Generate visits for each day
             for day_offset in range(days_to_generate):
@@ -153,23 +152,26 @@ class DataProcessor:
                 # Determine if user visits today
                 if np.random.random() < adjusted_prob:
                     # Generate check-in time with some variation
-                    base_check_in = self.convert_time_to_hours(user['avg_time_check_in'])
+                    base_check_in = self.convert_time_to_hours(user.get('avg_time_check_in', '12:00'))
                     check_in_variation = np.random.normal(0, 1.0)  # ±1 hour variation
                     check_in_time = max(6, min(22, base_check_in + check_in_variation))
                     
                     # Generate check-out time
-                    avg_duration = user['avg_time_in_gym'] / 60.0  # Convert to hours
+                    avg_time_in_gym = user.get('avg_time_in_gym', 60)
+                    if avg_time_in_gym is None or pd.isna(avg_time_in_gym):
+                        avg_time_in_gym = 60
+                    avg_duration = float(avg_time_in_gym) / 60.0  # Convert to hours
                     duration_variation = np.random.normal(0, 0.5)  # ±30 min variation
                     duration = max(0.5, min(3.0, float(avg_duration + duration_variation)))
                     check_out_time = check_in_time + duration
                     
                     # Parse user's preferred splits
-                    splits = self.parse_workout_splits(user['fav_group_lesson'])
+                    splits = self.parse_workout_splits(user.get('fav_group_lesson', ''))
                     chosen_split = np.random.choice(splits)
                     
                     visit_records.append({
                         'visit_id': len(visit_records) + 1,
-                        'user_id': user['id'],
+                        'user_id': user.get('id', 0),
                         'split_id': chosen_split,
                         'check_in_time': check_in_time,
                         'check_out_time': check_out_time,
@@ -219,8 +221,8 @@ class DataProcessor:
         traffic_data['prev_week_attendance'] = traffic_data.groupby(['split_id', 'time_slot'])['visitor_count'].shift(7)
         
         # Add rolling statistics
-        traffic_data['rolling_3day_avg'] = traffic_data.groupby(['split_id', 'time_slot'])['visitor_count'].rolling(3).mean().reset_index(0, drop=True)
-        traffic_data['rolling_7day_avg'] = traffic_data.groupby(['split_id', 'time_slot'])['visitor_count'].rolling(7).mean().reset_index(0, drop=True)
+        traffic_data['rolling_3day_avg'] = traffic_data.groupby(['split_id', 'time_slot'])['visitor_count'].transform(lambda x: x.rolling(3, min_periods=1).mean())
+        traffic_data['rolling_7day_avg'] = traffic_data.groupby(['split_id', 'time_slot'])['visitor_count'].transform(lambda x: x.rolling(7, min_periods=1).mean())
         
         # Fill NaN values
         traffic_data = traffic_data.fillna(0)
@@ -243,6 +245,17 @@ class DataProcessor:
             try:
                 df = pd.read_csv(file_path)
                 df['source_day'] = day_name
+                # Drop columns that are all True (for bool dtype) or named 'gender'
+                drop_cols = []
+                for col in df.columns:
+                    if col.lower() == 'gender':
+                        drop_cols.append(col)
+                    elif df[col].dtype == bool:
+                        # Only drop if the column is all True and not a Series
+                        if bool((df[col] == True).all()):
+                            drop_cols.append(col)
+                if drop_cols:
+                    df = df.drop(columns=drop_cols)
                 all_data.append(df)
                 logger.info(f"Loaded {len(df)} records from {day_name}")
             except Exception as e:
