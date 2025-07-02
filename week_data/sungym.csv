@@ -1,0 +1,1931 @@
+id,first_name,gender,Age,visit_per_week,fav_group_lesson,avg_time_check_in,avg_time_check_out,avg_time_in_gym
+8,Uriah,Male,36,3,back,17:45:00,18:57:00,173
+9,Borden,Male,40,2,"chest, Leg, chest",9:45:00,11:15:00,115
+13,Celine,Female,34,4,"Core, back, chest",17:04:00,18:48:00,70
+16,Katya,Female,45,4,"Leg, Core",17:28:00,19:02:00,65
+18,Trixy,Female,47,1,,16:54:00,19:39:00,119
+19,Janene,Female,42,2,Arms,10:01:00,11:05:00,61
+21,Biddie,Female,37,1,,8:19:00,11:12:00,78
+22,Jamey,Male,34,2,back,15:06:00,15:36:00,53
+24,Mar,Male,29,5,,14:34:00,15:13:00,116
+27,Kenon,Male,33,3,"Core, Leg, Core",15:01:00,16:51:00,49
+28,Wat,Male,41,1,"chest, Leg, Leg",19:41:00,22:36:00,177
+32,Nataniel,Male,24,4,,20:53:00,21:34:00,73
+35,Alf,Male,18,3,,18:15:00,19:07:00,165
+37,Shelby,Female,24,4,,9:02:00,11:39:00,91
+39,Hercules,Male,47,3,,20:43:00,22:20:00,154
+40,Kara,Female,21,4,"Cardio, back",10:26:00,12:49:00,141
+46,Aridatha,Female,14,4,"Leg, Core, Leg",18:41:00,20:18:00,66
+48,Dick,Male,44,5,"back, back, Leg",16:29:00,17:17:00,135
+54,Maud,Female,16,1,"Arms, Leg, chest",20:36:00,23:18:00,156
+56,Paten,Male,35,2,,17:13:00,18:53:00,175
+59,Gus,Male,22,4,"back, Core, Leg",10:40:00,13:24:00,130
+63,Chaddy,Male,43,1,,17:22:00,18:51:00,166
+64,Bridget,Female,42,2,,10:41:00,12:56:00,166
+66,Constancia,Female,19,2,,13:06:00,15:49:00,97
+68,Shelden,Male,16,1,"Leg, Arms",13:04:00,15:03:00,30
+71,Vincenz,Male,33,3,"chest, chest, Arms",13:04:00,14:35:00,151
+75,Florry,Female,24,1,,9:57:00,12:07:00,65
+81,Orv,Male,14,3,,12:35:00,14:44:00,138
+83,Estevan,Male,31,2,,8:33:00,10:21:00,44
+87,Thorsten,Male,28,2,back,12:51:00,14:27:00,46
+89,Shirlee,Female,24,3,back,10:34:00,11:38:00,101
+92,Elvis,Male,39,5,Leg,14:37:00,15:36:00,148
+93,Nicolle,Female,17,4,"chest, back",9:55:00,12:27:00,152
+99,Blondelle,Female,29,1,,9:35:00,10:30:00,172
+101,Giselbert,Male,27,3,Cardio,10:11:00,12:14:00,98
+102,Shayna,Female,31,5,"chest, Leg, Core",17:42:00,18:58:00,117
+103,Falito,Male,49,4,"Arms, Leg, Leg",10:29:00,11:39:00,60
+108,Vivia,Female,16,2,"Leg, Core, Cardio",19:52:00,20:53:00,159
+110,Aile,Female,29,4,Arms,17:52:00,20:33:00,173
+111,Irena,Female,24,5,"Cardio, Leg, chest",17:43:00,20:14:00,138
+113,Yvonne,Female,33,5,,16:23:00,18:07:00,39
+115,Mae,Female,13,1,,14:36:00,15:26:00,169
+116,Esra,Male,23,5,,19:08:00,21:25:00,88
+120,Selle,Female,49,2,,14:55:00,15:47:00,57
+123,Carmencita,Female,48,1,,9:46:00,10:59:00,82
+124,Fifi,Female,12,3,,14:40:00,15:28:00,48
+126,Iago,Male,23,5,,8:40:00,9:44:00,105
+127,Minnie,Female,20,3,,10:58:00,13:27:00,174
+128,Lian,Female,34,4,,14:23:00,16:17:00,69
+131,Garrott,Male,30,3,,15:41:00,17:17:00,100
+133,Gearalt,Male,28,2,Core,11:35:00,14:04:00,118
+134,Pooh,Female,21,1,"Leg, Leg, Core",9:31:00,10:47:00,139
+138,Gunar,Male,18,3,,20:55:00,21:38:00,47
+139,Nesta,Female,17,5,,19:28:00,22:07:00,33
+140,Brittany,Female,27,3,"Leg, Core, chest",10:33:00,12:36:00,95
+142,Rosalinde,Female,13,3,Leg,8:13:00,10:45:00,103
+144,Rickard,Male,30,4,Core,20:30:00,22:23:00,75
+145,Winne,Female,46,5,,10:11:00,12:23:00,161
+146,Julina,Female,29,1,"Core, chest, back",20:23:00,23:12:00,101
+147,Timothee,Male,24,2,"Leg, Core",18:19:00,20:47:00,33
+149,Andrew,Male,17,1,,17:57:00,18:41:00,63
+155,Moe,Male,37,5,,14:41:00,17:39:00,45
+156,Jocelyne,Female,47,3,,18:54:00,20:00:00,175
+159,Ruthann,Female,14,3,back,17:57:00,19:56:00,102
+160,Millie,Female,47,1,"chest, Leg",15:17:00,16:01:00,122
+161,Adriane,Female,47,3,Core,15:41:00,16:43:00,99
+164,Quincy,Male,49,1,,17:41:00,19:32:00,49
+166,Bordie,Male,17,3,,20:34:00,21:42:00,50
+169,Odelinda,Female,47,1,"back, Leg",13:32:00,14:12:00,42
+172,Joni,Female,30,5,"Arms, Leg",8:15:00,9:27:00,126
+177,Nadean,Female,25,2,,9:56:00,12:45:00,145
+178,Chick,Male,40,1,,11:02:00,12:47:00,121
+181,Jeremiah,Male,30,5,"back, Core",10:50:00,13:48:00,52
+182,Martguerita,Female,34,5,"Core, chest",9:01:00,11:21:00,116
+186,Chloe,Female,24,5,,17:42:00,19:32:00,59
+187,Salvidor,Male,30,5,Arms,19:49:00,22:43:00,46
+192,Kaye,Female,12,5,,17:07:00,19:15:00,83
+196,Kendrick,Male,32,1,,20:01:00,21:55:00,94
+205,Trey,Male,18,4,,9:57:00,12:28:00,61
+207,Heall,Male,22,4,"Leg, back, Leg",11:47:00,13:43:00,179
+212,Giffer,Male,16,3,,17:21:00,18:33:00,46
+218,Rubina,Female,23,2,"chest, back",18:01:00,18:31:00,177
+219,Harland,Male,24,4,"Leg, back",14:59:00,16:48:00,155
+224,Oriana,Female,21,2,,20:41:00,22:43:00,162
+225,Cletis,Male,40,2,,20:08:00,21:33:00,47
+231,Onofredo,Male,25,3,,17:53:00,18:59:00,55
+233,Jennilee,Female,31,5,,8:34:00,11:04:00,170
+234,Talia,Female,18,5,,20:26:00,22:06:00,98
+235,Teirtza,Female,31,4,,11:49:00,12:36:00,77
+236,Idell,Female,18,2,chest,15:45:00,17:41:00,141
+238,Irene,Female,19,3,"Arms, Cardio",20:15:00,22:22:00,60
+239,Claudius,Male,19,3,"Core, chest",17:30:00,18:31:00,51
+240,Stanton,Male,47,3,back,15:49:00,17:30:00,47
+244,Sella,Female,17,5,back,13:50:00,16:37:00,53
+249,Deloris,Female,21,1,Core,18:00:00,19:58:00,40
+252,Margarita,Female,41,5,"chest, Cardio, Leg",10:17:00,11:19:00,166
+255,Michale,Male,37,4,"back, back, Arms",14:34:00,15:19:00,85
+259,Muire,Female,25,3,,10:02:00,11:33:00,97
+260,Jaquelyn,Female,25,2,,8:20:00,11:05:00,114
+264,Padraig,Male,39,1,,15:42:00,16:34:00,121
+265,Reina,Female,42,4,,19:52:00,20:36:00,133
+267,Bertie,Female,17,2,,11:33:00,12:31:00,66
+268,Chadwick,Male,28,1,,18:08:00,20:23:00,127
+270,Abby,Male,15,5,"chest, chest",15:19:00,16:24:00,95
+279,Mathilda,Female,31,2,,10:43:00,13:06:00,41
+281,Dorey,Male,40,2,"Arms, chest, back",15:40:00,17:36:00,65
+282,Daniel,Male,48,5,Core,12:25:00,14:41:00,130
+285,Earl,Male,17,3,,13:33:00,14:55:00,142
+286,Dimitry,Male,42,5,,20:16:00,22:00:00,169
+291,Barbi,Female,19,1,,9:49:00,11:52:00,34
+296,Evie,Female,23,4,,10:17:00,12:08:00,32
+297,Georas,Male,34,5,,17:29:00,18:11:00,63
+299,Avis,Female,47,1,,12:31:00,13:28:00,119
+303,Therese,Female,14,1,,13:32:00,16:17:00,172
+307,Elora,Female,16,2,,17:30:00,19:56:00,40
+308,Jodee,Female,31,1,,11:54:00,13:31:00,135
+309,Virge,Male,18,1,,15:05:00,17:09:00,32
+312,Taite,Male,20,5,"Cardio, Leg",17:41:00,19:28:00,141
+313,Freemon,Male,12,4,chest,19:29:00,21:19:00,63
+319,Dexter,Male,37,2,,10:38:00,13:32:00,162
+321,Ernesto,Male,33,5,,14:11:00,16:31:00,81
+322,Marcus,Male,28,2,,20:18:00,21:34:00,172
+323,Benjamin,Male,39,4,Leg,17:11:00,18:30:00,100
+324,Belicia,Female,47,2,"Arms, Cardio, Leg",19:16:00,19:48:00,80
+325,Quinton,Male,23,4,,10:34:00,11:40:00,162
+326,Corette,Female,43,3,,18:24:00,20:33:00,55
+329,Davy,Male,34,3,Leg,9:15:00,11:04:00,165
+331,Jeannette,Female,30,1,"back, Leg",16:36:00,19:12:00,113
+333,Derwin,Male,49,5,,11:18:00,12:56:00,46
+334,Keelby,Male,17,5,,17:29:00,18:04:00,101
+335,Ladonna,Female,46,1,,13:42:00,15:36:00,56
+337,Norris,Male,44,1,,18:22:00,20:30:00,159
+338,Jarib,Male,30,5,Core,10:06:00,13:03:00,45
+339,Brenda,Female,23,1,"Core, chest, Arms",15:40:00,17:39:00,118
+340,Sanderson,Male,45,4,"Cardio, Cardio, Core",18:51:00,21:27:00,108
+343,Andreana,Female,13,4,Leg,9:53:00,11:35:00,98
+344,Janela,Female,45,2,"Cardio, Cardio",12:50:00,13:59:00,140
+346,Domeniga,Female,14,5,back,12:17:00,12:55:00,167
+348,Karim,Male,28,4,,12:59:00,15:16:00,95
+349,Sheryl,Female,16,2,,12:53:00,14:19:00,104
+355,Reed,Male,27,3,"chest, back, Core",16:45:00,19:40:00,156
+357,Dominga,Female,39,3,"Cardio, Arms",20:55:00,22:31:00,58
+359,Alikee,Female,18,1,,15:21:00,18:12:00,46
+360,Wini,Female,27,1,"Cardio, chest",17:04:00,20:00:00,146
+364,Thea,Female,48,4,"Leg, back, Core",10:47:00,11:41:00,145
+365,Shannon,Female,41,3,"back, Core",18:40:00,21:00:00,136
+372,Ilyse,Female,38,4,"Leg, back, Leg",11:18:00,12:58:00,130
+381,Ronald,Male,42,4,,18:01:00,20:07:00,158
+385,Maiga,Female,49,2,Cardio,12:45:00,14:45:00,177
+391,Cordelie,Female,22,4,,13:34:00,15:09:00,71
+393,Lenna,Female,32,2,"Core, back, chest",10:09:00,11:45:00,56
+394,Taffy,Female,23,4,,9:30:00,11:33:00,172
+397,Hetti,Female,44,2,,8:47:00,11:05:00,88
+400,Logan,Male,26,2,"back, chest",13:02:00,13:54:00,85
+402,Ashly,Female,28,3,"Cardio, back",16:58:00,18:24:00,160
+405,Eldredge,Male,21,2,Cardio,16:35:00,19:24:00,160
+407,Oralie,Female,37,5,"Cardio, Leg",17:29:00,19:55:00,121
+409,Cthrine,Female,17,5,,18:07:00,19:54:00,37
+410,Zedekiah,Male,17,4,,11:20:00,14:17:00,136
+411,Aeriell,Female,49,1,,11:53:00,14:08:00,165
+415,Maiga,Female,17,1,,16:54:00,18:01:00,131
+417,Mab,Female,48,5,back,14:53:00,15:29:00,148
+418,Stafani,Female,13,3,,19:37:00,22:32:00,142
+419,Janela,Female,37,5,"back, chest",10:33:00,12:11:00,135
+421,Caitlin,Female,47,5,,14:54:00,16:01:00,131
+422,Jessalin,Female,31,2,,12:46:00,14:42:00,145
+425,Rockwell,Male,16,2,,16:21:00,17:41:00,121
+426,Cal,Female,46,4,,20:04:00,21:59:00,54
+427,Robers,Male,48,2,,16:05:00,17:48:00,98
+434,Sabra,Female,36,5,,18:14:00,20:34:00,144
+442,Joyce,Female,24,4,,14:08:00,15:50:00,51
+444,Orville,Male,31,3,,18:40:00,20:17:00,152
+445,Amabel,Female,31,2,,12:12:00,14:30:00,111
+447,Wittie,Male,19,1,,9:14:00,10:45:00,78
+450,Hunter,Male,43,3,"Leg, chest, Core",19:08:00,21:45:00,92
+451,Cherish,Female,23,1,chest,14:27:00,15:02:00,70
+452,Augusta,Female,49,2,Leg,16:21:00,19:15:00,142
+453,Malynda,Female,37,5,"back, Core, Leg",18:36:00,21:04:00,142
+454,Philippine,Female,13,1,Leg,18:14:00,18:57:00,42
+457,Maggi,Female,31,1,,16:21:00,17:06:00,140
+458,Edi,Female,45,4,Arms,11:37:00,14:27:00,106
+461,Gianni,Male,18,2,"Core, Leg",19:07:00,21:51:00,162
+462,Care,Male,34,1,,10:55:00,13:35:00,162
+463,Sidoney,Female,13,4,,18:15:00,19:15:00,74
+464,Arda,Female,32,1,"chest, Core",20:54:00,23:53:00,90
+465,Abagael,Female,12,2,,14:33:00,16:30:00,78
+466,Krystle,Female,37,1,,17:47:00,19:00:00,109
+467,Gregorio,Male,32,4,chest,8:25:00,11:08:00,67
+473,Boniface,Male,22,1,Leg,9:46:00,11:11:00,171
+478,Claretta,Female,37,1,,11:56:00,14:22:00,95
+483,Agatha,Female,26,3,chest,18:41:00,20:01:00,100
+484,Shurlock,Male,38,5,,14:12:00,15:08:00,33
+487,Mariam,Female,31,1,"chest, Leg",15:44:00,16:57:00,144
+490,Sheilakathryn,Female,36,3,,9:55:00,11:52:00,59
+495,Efren,Male,14,1,,8:41:00,9:25:00,168
+496,Butch,Male,25,3,,15:34:00,16:49:00,114
+498,Dall,Male,13,1,"chest, Leg, back",10:38:00,12:41:00,140
+500,Esdras,Male,29,2,,14:34:00,15:55:00,75
+506,Dasie,Female,32,2,,18:28:00,20:13:00,114
+514,Darcee,Female,12,2,"Core, back, Cardio",12:43:00,15:19:00,51
+518,Torey,Male,29,3,chest,8:24:00,10:32:00,36
+520,Jo-anne,Female,16,4,,19:30:00,20:44:00,175
+521,Mikaela,Female,32,3,,20:33:00,23:06:00,55
+526,Tailor,Male,28,4,Core,13:43:00,14:38:00,120
+527,Flora,Female,46,1,,11:15:00,13:25:00,166
+528,Yetty,Female,27,5,"chest, Cardio",8:27:00,9:33:00,53
+532,Skell,Male,18,2,"chest, back, Core",16:04:00,17:35:00,49
+533,Cyndie,Female,17,5,,18:58:00,21:06:00,155
+534,Rabbi,Male,25,5,,14:53:00,17:50:00,139
+546,Agnesse,Female,19,4,,8:55:00,11:01:00,97
+553,Consalve,Male,43,3,"back, Core",18:23:00,19:31:00,33
+554,Kit,Female,36,2,"chest, Cardio",18:15:00,20:02:00,110
+558,Theodoric,Male,26,3,,15:32:00,17:42:00,171
+559,Bride,Female,46,5,,17:54:00,20:01:00,126
+564,Helaina,Female,46,4,,16:59:00,18:16:00,63
+568,Amye,Female,46,2,,10:41:00,11:48:00,156
+570,Dewitt,Male,28,5,,18:30:00,20:14:00,33
+572,Sheila,Female,12,1,"Leg, Arms",17:04:00,18:45:00,173
+574,Stafani,Female,14,3,,19:30:00,21:50:00,54
+578,Lester,Male,13,4,,20:35:00,21:30:00,164
+581,Albert,Male,13,2,,15:25:00,18:06:00,81
+584,Dallis,Male,19,4,,10:48:00,11:32:00,146
+587,Cammy,Male,47,5,Leg,15:57:00,17:27:00,139
+589,Adham,Male,45,1,,14:06:00,15:33:00,172
+591,Waylen,Male,17,5,"Cardio, Cardio, back",12:50:00,13:26:00,82
+592,Aurie,Female,27,4,"chest, Core, Leg",10:17:00,12:47:00,44
+593,Honor,Female,19,5,,19:51:00,20:25:00,154
+598,Ami,Female,18,1,chest,9:21:00,10:54:00,171
+600,Meyer,Male,29,3,,19:40:00,20:39:00,106
+601,Germaine,Female,13,5,,12:10:00,12:40:00,170
+604,Mirella,Female,31,3,,18:42:00,21:12:00,154
+605,Joey,Male,27,4,"Cardio, Leg",17:42:00,18:39:00,121
+607,Maureene,Female,30,4,,16:20:00,17:41:00,170
+609,Marrissa,Female,14,2,"chest, Leg, Core",17:33:00,20:22:00,53
+613,Emlen,Male,25,1,"Core, Core, back",17:32:00,19:31:00,157
+615,Norbie,Male,43,4,,18:07:00,19:13:00,116
+619,Phillip,Male,35,2,,14:29:00,15:58:00,88
+621,Haley,Male,14,3,,10:52:00,12:26:00,82
+624,Willie,Male,24,4,,8:39:00,9:36:00,123
+625,Olympie,Female,27,5,,19:28:00,20:35:00,94
+627,Tiffani,Female,44,5,Leg,20:00:00,22:25:00,150
+629,Jean,Male,23,5,,11:02:00,11:46:00,173
+630,Pablo,Male,39,1,,14:29:00,16:53:00,113
+638,Timothea,Female,27,3,,19:45:00,20:17:00,82
+639,Shea,Female,15,2,back,9:25:00,10:32:00,150
+640,Romola,Female,45,1,"chest, Cardio",10:00:00,11:01:00,54
+644,Catlee,Female,33,4,"Leg, chest, chest",12:54:00,13:26:00,97
+646,Toiboid,Male,42,4,,17:16:00,19:12:00,125
+649,Noelani,Female,36,1,,13:50:00,14:35:00,159
+652,Jermayne,Male,25,3,,11:06:00,13:25:00,89
+653,Bradford,Male,39,4,,13:11:00,14:08:00,42
+654,Fabian,Male,19,1,,14:38:00,15:27:00,161
+656,Barbabas,Male,33,3,"back, Cardio, chest",17:13:00,19:26:00,144
+660,Bronson,Male,17,1,,9:58:00,12:29:00,161
+663,Elisa,Female,45,4,,14:01:00,16:03:00,53
+668,Nessy,Female,35,5,"Arms, Core, Cardio",15:00:00,17:49:00,83
+669,Ashia,Female,14,1,"Cardio, Leg",19:04:00,20:13:00,147
+674,Yehudit,Male,15,3,"Cardio, back, Arms",20:16:00,21:57:00,125
+677,Tonia,Female,47,3,chest,9:06:00,10:41:00,100
+678,Jessie,Female,13,3,,13:57:00,16:22:00,91
+686,Nessa,Female,44,1,,10:16:00,13:15:00,79
+688,Lyn,Male,18,5,,20:25:00,22:44:00,40
+689,Elke,Female,41,4,,9:47:00,12:08:00,174
+691,Guss,Male,41,5,,10:17:00,12:44:00,83
+692,Matelda,Female,29,5,"chest, Cardio, Cardio",16:21:00,17:05:00,127
+693,Mignonne,Female,48,5,,17:34:00,19:15:00,135
+696,Janean,Female,42,4,chest,11:43:00,12:51:00,60
+701,Julia,Female,42,1,"back, chest, Leg",11:19:00,13:31:00,174
+702,Rudiger,Male,30,5,,10:22:00,12:17:00,135
+704,Hal,Male,15,2,"Core, Leg",20:14:00,22:35:00,79
+705,Edvard,Male,37,4,"Cardio, Core",17:29:00,19:09:00,64
+706,Hayley,Female,16,2,,11:05:00,13:40:00,151
+707,Grove,Male,39,3,Core,13:31:00,14:16:00,106
+708,Chic,Male,38,1,"Arms, Core, Leg",18:01:00,19:37:00,39
+709,Rudolfo,Male,16,4,"Cardio, Leg, chest",17:58:00,20:00:00,116
+710,Kayley,Female,29,4,"chest, Core, Cardio",10:54:00,12:00:00,120
+716,Emiline,Female,16,5,Leg,18:15:00,18:56:00,170
+717,Ive,Male,12,2,,11:10:00,12:53:00,105
+719,Pren,Male,46,3,,8:33:00,10:02:00,109
+720,Lloyd,Male,31,3,"back, Leg, back",19:42:00,21:46:00,102
+722,Paten,Male,34,5,,11:29:00,12:30:00,39
+723,Otho,Male,38,4,chest,18:22:00,19:37:00,40
+724,Riccardo,Male,16,5,"Cardio, Arms",19:06:00,21:10:00,35
+726,Sebastien,Male,43,4,,10:54:00,12:03:00,70
+727,Zeb,Male,38,2,"Leg, Cardio, Core",11:51:00,13:01:00,112
+728,Raina,Female,40,4,"Core, Leg, Arms",20:57:00,22:46:00,162
+729,Sasha,Male,47,5,,19:38:00,20:20:00,61
+730,Courtnay,Male,16,3,,15:28:00,18:18:00,46
+732,Melva,Female,20,3,,13:30:00,15:53:00,76
+734,Konrad,Male,43,4,,9:13:00,12:11:00,157
+736,WCardioaker,Male,25,5,Core,20:54:00,21:45:00,39
+738,Dorian,Female,33,1,back,11:21:00,13:01:00,73
+740,Kellsie,Female,49,4,,11:16:00,13:42:00,96
+744,Prince,Male,34,4,back,10:42:00,11:16:00,85
+747,Loydie,Male,14,3,,13:10:00,14:50:00,31
+750,Agnese,Female,18,5,"chest, back, chest",10:28:00,11:32:00,135
+751,Nana,Female,44,3,"Leg, Core, chest",13:11:00,15:01:00,65
+755,Mommy,Female,12,3,,18:39:00,19:37:00,30
+757,Nikolaus,Male,39,4,,11:23:00,12:51:00,77
+758,Gabbi,Female,46,4,,15:16:00,16:04:00,105
+759,Ricki,Male,32,1,"back, Leg, chest",13:19:00,16:18:00,55
+760,Simmonds,Male,49,3,"Core, Leg",9:29:00,11:20:00,99
+764,Lars,Male,30,4,"Core, back",8:10:00,11:10:00,103
+767,Lin,Male,34,3,,13:07:00,14:15:00,158
+768,Benjy,Male,42,3,,14:16:00,15:07:00,65
+769,Glynda,Female,30,3,"Cardio, Core",13:25:00,14:52:00,111
+773,Willis,Male,36,4,"Leg, Arms, Cardio",18:25:00,21:08:00,30
+778,Zacharias,Male,41,1,Arms,20:17:00,22:50:00,166
+781,Martyn,Male,12,1,"Arms, chest, back",16:32:00,17:50:00,78
+783,Dion,Male,22,4,"Core, chest, Core",12:16:00,14:43:00,88
+786,Margareta,Female,21,3,,19:32:00,22:10:00,176
+788,Kane,Male,36,2,,19:44:00,21:05:00,122
+796,Marylinda,Female,36,3,"Cardio, Cardio",9:21:00,11:58:00,59
+799,Helen-elizabeth,Female,15,1,"Leg, chest",9:11:00,9:43:00,84
+803,Cecily,Female,32,4,,9:26:00,10:07:00,56
+805,Salaidh,Female,17,5,"chest, Leg",8:15:00,9:55:00,35
+806,Beatriz,Female,21,4,,16:13:00,18:08:00,74
+808,Sosanna,Female,27,4,,16:32:00,18:06:00,91
+813,Johnathan,Male,36,4,,14:07:00,14:43:00,38
+816,Benoit,Male,41,3,,12:18:00,13:31:00,43
+817,Ailee,Female,17,1,,17:06:00,19:24:00,157
+821,Romona,Female,43,5,Core,13:20:00,14:57:00,139
+822,Mischa,Male,35,3,,19:44:00,21:50:00,120
+823,Viola,Female,47,5,,16:33:00,18:53:00,141
+824,Junie,Female,13,4,,17:59:00,19:01:00,170
+825,Baily,Male,47,3,Core,10:53:00,11:53:00,160
+828,Margarita,Female,49,5,back,15:53:00,17:27:00,107
+831,Wheeler,Male,24,4,,9:35:00,10:15:00,31
+836,Marieann,Female,31,3,"Cardio, back, Leg",9:46:00,11:18:00,33
+841,Marthena,Female,36,4,,11:00:00,12:53:00,103
+842,Gale,Female,24,5,Arms,9:47:00,11:34:00,45
+844,Ogdan,Male,37,2,"back, Cardio, Leg",13:40:00,14:30:00,71
+846,Colby,Male,31,1,"Cardio, Leg, back",15:59:00,18:56:00,53
+849,Carol,Female,48,3,"Arms, Core",16:37:00,17:58:00,123
+851,Serene,Female,36,3,,8:06:00,9:17:00,180
+852,Laraine,Female,49,3,,15:43:00,17:40:00,138
+853,Westbrooke,Male,38,2,"Cardio, Core",12:16:00,14:58:00,48
+857,Danyette,Female,49,1,,15:55:00,18:16:00,63
+858,Florinda,Female,15,3,"Cardio, Cardio, chest",10:20:00,10:53:00,93
+865,Erhard,Male,19,2,,11:19:00,12:13:00,159
+866,Evangelia,Female,46,4,"Core, back",11:46:00,14:21:00,94
+868,Merlina,Female,23,1,chest,18:26:00,20:00:00,134
+876,Ramona,Female,17,5,Leg,18:32:00,19:44:00,34
+878,Elisa,Female,38,4,,14:04:00,16:59:00,110
+881,Alexei,Male,41,3,,10:46:00,11:40:00,138
+885,Biddy,Female,48,4,,14:33:00,16:21:00,141
+890,Gonzales,Male,48,3,,20:18:00,21:16:00,50
+891,Hamilton,Male,25,4,,11:26:00,12:50:00,72
+892,Renard,Male,17,5,,12:22:00,13:29:00,72
+907,Stanislaus,Male,40,5,"Core, Arms",15:12:00,16:15:00,33
+908,Grazia,Female,33,3,,10:25:00,12:51:00,175
+909,Randy,Male,48,2,chest,13:35:00,16:32:00,62
+911,Fifine,Female,15,5,"Core, chest",20:53:00,22:03:00,166
+918,Fayth,Female,12,4,,11:23:00,14:09:00,121
+928,Pamela,Female,46,1,,17:33:00,18:42:00,67
+930,Vita,Female,16,2,,13:57:00,14:41:00,148
+931,Dori,Female,37,5,,16:33:00,18:18:00,39
+934,Dionis,Female,19,3,,13:53:00,15:44:00,55
+935,Mariam,Female,18,2,,12:35:00,15:30:00,98
+937,Parsifal,Male,37,1,"Core, chest, Leg",10:55:00,11:28:00,121
+938,Merle,Male,12,5,"back, back, Leg",9:57:00,12:11:00,120
+939,Carlen,Female,44,1,,12:50:00,13:21:00,44
+944,Marty,Female,22,1,,9:41:00,12:34:00,76
+947,Elladine,Female,38,5,,9:42:00,11:23:00,99
+949,Nathanael,Male,36,1,,17:01:00,18:27:00,168
+950,Karyn,Female,43,3,"Leg, Leg",15:44:00,18:43:00,107
+951,Grayce,Female,27,5,"Cardio, Core",11:36:00,12:31:00,179
+954,Ivor,Male,16,4,"Cardio, back, back",15:27:00,18:03:00,131
+955,Menard,Male,12,1,chest,12:46:00,14:20:00,56
+958,Doroteya,Female,33,3,back,13:59:00,15:31:00,151
+959,Gunilla,Female,42,5,,9:22:00,9:52:00,103
+971,Emma,Female,19,3,"Cardio, back",16:37:00,18:37:00,106
+974,Samaria,Female,29,4,"Leg, Leg, chest",11:10:00,12:14:00,145
+976,Veda,Female,40,1,,16:39:00,19:26:00,168
+977,Zacherie,Male,18,4,chest,10:36:00,13:26:00,173
+979,Adair,Male,30,2,"Cardio, Leg, chest",13:30:00,16:14:00,172
+980,Quillan,Male,40,3,"back, Leg",17:47:00,19:20:00,122
+983,Benyamin,Male,34,3,"Arms, Cardio, Leg",19:22:00,22:15:00,86
+987,Hadria,Female,20,3,,19:04:00,20:26:00,33
+988,Rad,Male,14,5,,10:48:00,12:45:00,108
+990,Clywd,Male,21,3,,11:50:00,13:07:00,177
+993,Melantha,Female,20,3,"Leg, Cardio, Leg",9:42:00,10:49:00,73
+994,Averill,Male,27,3,"Cardio, Cardio",19:50:00,20:24:00,116
+995,Cora,Female,23,5,,10:16:00,11:11:00,127
+996,Karlen,Female,13,1,,20:56:00,22:59:00,60
+999,Brigg,Male,32,2,"Cardio, Leg, Core",10:23:00,11:45:00,39
+1008,Uriah,Male,27,5,back,17:45:00,18:57:00,72
+1009,Borden,Male,38,2,"chest, Leg, chest",9:45:00,11:15:00,49
+1013,Celine,Female,25,2,"Core, back, chest",17:04:00,18:48:00,163
+1016,Katya,Female,46,5,"Leg, Core",17:28:00,19:02:00,111
+1018,Trixy,Female,41,2,,16:54:00,19:39:00,70
+1019,Janene,Female,23,3,Arms,10:01:00,11:05:00,72
+1021,Biddie,Female,35,4,,8:19:00,11:12:00,53
+1022,Jamey,Male,32,4,back,15:06:00,15:36:00,121
+1024,Mar,Male,17,5,,14:34:00,15:13:00,176
+1027,Kenon,Male,23,3,"Core, Leg, Core",15:01:00,16:51:00,75
+1028,Wat,Male,20,3,"chest, Leg, Leg",19:41:00,22:36:00,66
+1032,Nataniel,Male,41,1,,20:53:00,21:34:00,125
+1035,Alf,Male,46,5,,18:15:00,19:07:00,146
+1037,Shelby,Female,41,4,,9:02:00,11:39:00,135
+1039,Hercules,Male,28,3,,20:43:00,22:20:00,64
+1040,Kara,Female,46,2,"Cardio, back",10:26:00,12:49:00,93
+1046,Aridatha,Female,23,3,"Leg, Core, Leg",18:41:00,20:18:00,70
+1048,Dick,Male,44,2,"back, back, Leg",16:29:00,17:17:00,47
+1054,Maud,Female,20,3,"Arms, Leg, chest",20:36:00,23:18:00,150
+1056,Paten,Male,20,2,,17:13:00,18:53:00,33
+1059,Gus,Male,42,5,"back, Core, Leg",10:40:00,13:24:00,153
+1063,Chaddy,Male,48,5,,17:22:00,18:51:00,150
+1064,Bridget,Female,19,3,,10:41:00,12:56:00,109
+1066,Constancia,Female,27,1,,13:06:00,15:49:00,66
+1068,Shelden,Male,21,3,"Leg, Arms",13:04:00,15:03:00,65
+1071,Vincenz,Male,41,5,"chest, chest, Arms",13:04:00,14:35:00,136
+1075,Florry,Female,15,2,,9:57:00,12:07:00,36
+1081,Orv,Male,31,2,,12:35:00,14:44:00,120
+1083,Estevan,Male,40,5,,8:33:00,10:21:00,178
+1087,Thorsten,Male,43,1,back,12:51:00,14:27:00,96
+1089,Shirlee,Female,14,5,back,10:34:00,11:38:00,78
+1092,Elvis,Male,24,1,Leg,14:37:00,15:36:00,96
+1093,Nicolle,Female,47,4,"chest, back",9:55:00,12:27:00,42
+1099,Blondelle,Female,48,4,,9:35:00,10:30:00,105
+1101,Giselbert,Male,43,3,Cardio,10:11:00,12:14:00,67
+1102,Shayna,Female,49,5,"chest, Leg, Core",17:42:00,18:58:00,53
+1103,Falito,Male,36,1,"Arms, Leg, Leg",10:29:00,11:39:00,88
+1108,Vivia,Female,25,3,"Leg, Core, Cardio",19:52:00,20:53:00,63
+1110,Aile,Female,14,2,Arms,17:52:00,20:33:00,100
+1111,Irena,Female,49,3,"Cardio, Leg, chest",17:43:00,20:14:00,144
+1113,Yvonne,Female,25,2,,16:23:00,18:07:00,128
+1115,Mae,Female,43,3,,14:36:00,15:26:00,116
+1116,Esra,Male,34,5,,19:08:00,21:25:00,115
+1120,Selle,Female,30,5,,14:55:00,15:47:00,108
+1123,Carmencita,Female,37,2,,9:46:00,10:59:00,89
+1124,Fifi,Female,20,2,,14:40:00,15:28:00,86
+1126,Iago,Male,14,5,,8:40:00,9:44:00,53
+1127,Minnie,Female,16,5,,10:58:00,13:27:00,80
+1128,Lian,Female,42,5,,14:23:00,16:17:00,132
+1131,Garrott,Male,27,2,,15:41:00,17:17:00,114
+1133,Gearalt,Male,16,4,Core,11:35:00,14:04:00,42
+1134,Pooh,Female,48,5,"Leg, Leg, Core",9:31:00,10:47:00,153
+1138,Gunar,Male,12,1,,20:55:00,21:38:00,178
+1139,Nesta,Female,31,2,,19:28:00,22:07:00,142
+1140,Brittany,Female,39,5,"Leg, Core, chest",10:33:00,12:36:00,84
+1142,Rosalinde,Female,34,2,Leg,8:13:00,10:45:00,129
+1144,Rickard,Male,17,2,Core,20:30:00,22:23:00,177
+1145,Winne,Female,12,3,,10:11:00,12:23:00,39
+1146,Julina,Female,21,5,"Core, chest, back",20:23:00,23:12:00,172
+1147,Timothee,Male,32,5,"Leg, Core",18:19:00,20:47:00,108
+1149,Andrew,Male,14,5,,17:57:00,18:41:00,84
+1155,Moe,Male,24,1,,14:41:00,17:39:00,75
+1156,Jocelyne,Female,14,5,,18:54:00,20:00:00,60
+1159,Ruthann,Female,18,3,back,17:57:00,19:56:00,57
+1160,Millie,Female,31,4,"chest, Leg",15:17:00,16:01:00,148
+1161,Adriane,Female,41,2,Core,15:41:00,16:43:00,177
+1164,Quincy,Male,25,5,,17:41:00,19:32:00,59
+1166,Bordie,Male,37,2,,20:34:00,21:42:00,77
+1169,Odelinda,Female,14,5,"back, Leg",13:32:00,14:12:00,35
+1172,Joni,Female,26,1,"Arms, Leg",8:15:00,9:27:00,130
+1177,Nadean,Female,42,3,,9:56:00,12:45:00,58
+1178,Chick,Male,14,5,,11:02:00,12:47:00,180
+1181,Jeremiah,Male,26,3,"back, Core",10:50:00,13:48:00,152
+1182,Martguerita,Female,30,2,"Core, chest",9:01:00,11:21:00,142
+1186,Chloe,Female,18,5,,17:42:00,19:32:00,130
+1187,Salvidor,Male,37,1,Arms,19:49:00,22:43:00,120
+1192,Kaye,Female,35,5,,17:07:00,19:15:00,118
+1196,Kendrick,Male,43,2,,20:01:00,21:55:00,171
+1205,Trey,Male,46,1,,9:57:00,12:28:00,178
+1207,Heall,Male,48,5,"Leg, back, Leg",11:47:00,13:43:00,143
+1212,Giffer,Male,19,4,,17:21:00,18:33:00,102
+1218,Rubina,Female,39,5,"chest, back",18:01:00,18:31:00,42
+1219,Harland,Male,41,3,"Leg, back",14:59:00,16:48:00,171
+1224,Oriana,Female,44,5,,20:41:00,22:43:00,116
+1225,Cletis,Male,48,3,,20:08:00,21:33:00,175
+1231,Onofredo,Male,26,1,,17:53:00,18:59:00,157
+1233,Jennilee,Female,31,3,,8:34:00,11:04:00,134
+1234,Talia,Female,39,3,,20:26:00,22:06:00,94
+1235,Teirtza,Female,45,4,,11:49:00,12:36:00,128
+1236,Idell,Female,13,2,chest,15:45:00,17:41:00,96
+1238,Irene,Female,19,1,"Arms, Cardio",20:15:00,22:22:00,48
+1239,Claudius,Male,23,4,"Core, chest",17:30:00,18:31:00,174
+1240,Stanton,Male,23,2,back,15:49:00,17:30:00,140
+1244,Sella,Female,26,1,back,13:50:00,16:37:00,121
+1249,Deloris,Female,15,4,Core,18:00:00,19:58:00,112
+1252,Margarita,Female,41,2,"chest, Cardio, Leg",10:17:00,11:19:00,173
+1255,Michale,Male,44,1,"back, back, Arms",14:34:00,15:19:00,100
+1259,Muire,Female,27,3,,10:02:00,11:33:00,102
+1260,Jaquelyn,Female,33,2,,8:20:00,11:05:00,166
+1264,Padraig,Male,44,2,,15:42:00,16:34:00,114
+1265,Reina,Female,37,2,,19:52:00,20:36:00,112
+1267,Bertie,Female,49,5,,11:33:00,12:31:00,36
+1268,Chadwick,Male,30,2,,18:08:00,20:23:00,112
+1270,Abby,Male,36,5,"chest, chest",15:19:00,16:24:00,47
+1279,Mathilda,Female,35,2,,10:43:00,13:06:00,171
+1281,Dorey,Male,16,2,"Arms, chest, back",15:40:00,17:36:00,78
+1282,Daniel,Male,41,2,Core,12:25:00,14:41:00,65
+1285,Earl,Male,15,2,,13:33:00,14:55:00,42
+1286,Dimitry,Male,43,4,,20:16:00,22:00:00,107
+1291,Barbi,Female,19,3,,9:49:00,11:52:00,98
+1296,Evie,Female,31,4,,10:17:00,12:08:00,119
+1297,Georas,Male,25,5,,17:29:00,18:11:00,142
+1299,Avis,Female,18,3,,12:31:00,13:28:00,53
+1303,Therese,Female,49,2,,13:32:00,16:17:00,61
+1307,Elora,Female,28,2,,17:30:00,19:56:00,130
+1308,Jodee,Female,48,4,,11:54:00,13:31:00,150
+1309,Virge,Male,24,5,,15:05:00,17:09:00,53
+1312,Taite,Male,39,4,"Cardio, Leg",17:41:00,19:28:00,126
+1313,Freemon,Male,37,4,chest,19:29:00,21:19:00,139
+1319,Dexter,Male,39,1,,10:38:00,13:32:00,167
+1321,Ernesto,Male,33,2,,14:11:00,16:31:00,96
+1322,Marcus,Male,25,3,,20:18:00,21:34:00,161
+1323,Benjamin,Male,46,4,Leg,17:11:00,18:30:00,53
+1324,Belicia,Female,15,5,"Arms, Cardio, Leg",19:16:00,19:48:00,143
+1325,Quinton,Male,16,4,,10:34:00,11:40:00,49
+1326,Corette,Female,19,5,,18:24:00,20:33:00,132
+1329,Davy,Male,13,2,Leg,9:15:00,11:04:00,66
+1331,Jeannette,Female,15,2,"back, Leg",16:36:00,19:12:00,127
+1333,Derwin,Male,14,4,,11:18:00,12:56:00,138
+1334,Keelby,Male,23,4,,17:29:00,18:04:00,81
+1335,Ladonna,Female,48,3,,13:42:00,15:36:00,151
+1337,Norris,Male,39,5,,18:22:00,20:30:00,121
+1338,Jarib,Male,29,2,Core,10:06:00,13:03:00,108
+1339,Brenda,Female,13,2,"Core, chest, Arms",15:40:00,17:39:00,65
+1340,Sanderson,Male,17,2,"Cardio, Cardio, Core",18:51:00,21:27:00,166
+1343,Andreana,Female,32,5,Leg,9:53:00,11:35:00,155
+1344,Janela,Female,26,5,"Cardio, Cardio",12:50:00,13:59:00,118
+1346,Domeniga,Female,17,4,back,12:17:00,12:55:00,131
+1348,Karim,Male,18,1,,12:59:00,15:16:00,72
+1349,Sheryl,Female,12,4,,12:53:00,14:19:00,132
+1355,Reed,Male,43,1,"chest, back, Core",16:45:00,19:40:00,129
+1357,Dominga,Female,23,1,"Cardio, Arms",20:55:00,22:31:00,137
+1359,Alikee,Female,22,5,,15:21:00,18:12:00,109
+1360,Wini,Female,19,5,"Cardio, chest",17:04:00,20:00:00,156
+1364,Thea,Female,13,5,"Leg, back, Core",10:47:00,11:41:00,164
+1365,Shannon,Female,48,3,"back, Core",18:40:00,21:00:00,34
+1372,Ilyse,Female,22,4,"Leg, back, Leg",11:18:00,12:58:00,65
+1381,Ronald,Male,23,4,,18:01:00,20:07:00,119
+1385,Maiga,Female,45,2,Cardio,12:45:00,14:45:00,111
+1391,Cordelie,Female,23,1,,13:34:00,15:09:00,93
+1393,Lenna,Female,44,2,"Core, back, chest",10:09:00,11:45:00,63
+1394,Taffy,Female,29,5,,9:30:00,11:33:00,118
+1397,Hetti,Female,34,5,,8:47:00,11:05:00,152
+1400,Logan,Male,27,5,"back, chest",13:02:00,13:54:00,72
+1402,Ashly,Female,16,2,"Cardio, back",16:58:00,18:24:00,158
+1405,Eldredge,Male,48,3,Cardio,16:35:00,19:24:00,175
+1407,Oralie,Female,12,4,"Cardio, Leg",17:29:00,19:55:00,36
+1409,Cthrine,Female,37,2,,18:07:00,19:54:00,34
+1410,Zedekiah,Male,20,3,,11:20:00,14:17:00,135
+1411,Aeriell,Female,48,4,,11:53:00,14:08:00,174
+1415,Maiga,Female,33,4,,16:54:00,18:01:00,36
+1417,Mab,Female,36,4,back,14:53:00,15:29:00,55
+1418,Stafani,Female,43,2,,19:37:00,22:32:00,72
+1419,Janela,Female,16,2,"back, chest",10:33:00,12:11:00,127
+1421,Caitlin,Female,39,1,,14:54:00,16:01:00,54
+1422,Jessalin,Female,48,1,,12:46:00,14:42:00,102
+1425,Rockwell,Male,31,2,,16:21:00,17:41:00,37
+1426,Cal,Female,13,2,,20:04:00,21:59:00,47
+1427,Robers,Male,33,4,,16:05:00,17:48:00,69
+1434,Sabra,Female,21,1,,18:14:00,20:34:00,68
+1442,Joyce,Female,42,5,,14:08:00,15:50:00,88
+1444,Orville,Male,49,2,,18:40:00,20:17:00,140
+1445,Amabel,Female,21,3,,12:12:00,14:30:00,113
+1447,Wittie,Male,32,3,,9:14:00,10:45:00,156
+1450,Hunter,Male,27,4,"Leg, chest, Core",19:08:00,21:45:00,45
+1451,Cherish,Female,25,1,chest,14:27:00,15:02:00,38
+1452,Augusta,Female,33,4,Leg,16:21:00,19:15:00,49
+1453,Malynda,Female,39,1,"back, Core, Leg",18:36:00,21:04:00,111
+1454,Philippine,Female,31,1,Leg,18:14:00,18:57:00,135
+1457,Maggi,Female,37,2,,16:21:00,17:06:00,163
+1458,Edi,Female,19,2,Arms,11:37:00,14:27:00,39
+1461,Gianni,Male,29,2,"Core, Leg",19:07:00,21:51:00,98
+1462,Care,Male,46,2,,10:55:00,13:35:00,80
+1463,Sidoney,Female,18,3,,18:15:00,19:15:00,53
+1464,Arda,Female,14,1,"chest, Core",20:54:00,23:53:00,173
+1465,Abagael,Female,48,2,,14:33:00,16:30:00,140
+1466,Krystle,Female,46,5,,17:47:00,19:00:00,144
+1467,Gregorio,Male,33,2,chest,8:25:00,11:08:00,64
+1473,Boniface,Male,41,5,Leg,9:46:00,11:11:00,35
+1478,Claretta,Female,38,2,,11:56:00,14:22:00,173
+1483,Agatha,Female,24,3,chest,18:41:00,20:01:00,39
+1484,Shurlock,Male,25,4,,14:12:00,15:08:00,35
+1487,Mariam,Female,40,1,"chest, Leg",15:44:00,16:57:00,116
+1490,Sheilakathryn,Female,13,3,,9:55:00,11:52:00,71
+1495,Efren,Male,45,3,,8:41:00,9:25:00,102
+1496,Butch,Male,19,2,,15:34:00,16:49:00,104
+1498,Dall,Male,25,5,"chest, Leg, back",10:38:00,12:41:00,110
+1500,Esdras,Male,36,1,,14:34:00,15:55:00,71
+1506,Dasie,Female,34,2,,18:28:00,20:13:00,150
+1514,Darcee,Female,28,2,"Core, back, Cardio",12:43:00,15:19:00,171
+1518,Torey,Male,23,4,chest,8:24:00,10:32:00,157
+1520,Jo-anne,Female,47,5,,19:30:00,20:44:00,49
+1521,Mikaela,Female,17,1,,20:33:00,23:06:00,143
+1526,Tailor,Male,13,1,Core,13:43:00,14:38:00,90
+1527,Flora,Female,16,2,,11:15:00,13:25:00,123
+1528,Yetty,Female,34,4,"chest, Cardio",8:27:00,9:33:00,47
+1532,Skell,Male,33,4,"chest, back, Core",16:04:00,17:35:00,110
+1533,Cyndie,Female,39,5,,18:58:00,21:06:00,64
+1534,Rabbi,Male,36,2,,14:53:00,17:50:00,81
+1546,Agnesse,Female,21,2,,8:55:00,11:01:00,171
+1553,Consalve,Male,34,1,"back, Core",18:23:00,19:31:00,50
+1554,Kit,Female,16,1,"chest, Cardio",18:15:00,20:02:00,111
+1558,Theodoric,Male,19,2,,15:32:00,17:42:00,104
+1559,Bride,Female,37,5,,17:54:00,20:01:00,146
+1564,Helaina,Female,32,5,,16:59:00,18:16:00,109
+1568,Amye,Female,23,3,,10:41:00,11:48:00,102
+1570,Dewitt,Male,30,4,,18:30:00,20:14:00,102
+1572,Sheila,Female,32,1,"Leg, Arms",17:04:00,18:45:00,160
+1574,Stafani,Female,49,5,,19:30:00,21:50:00,76
+1578,Lester,Male,35,3,,20:35:00,21:30:00,139
+1581,Albert,Male,33,3,,15:25:00,18:06:00,53
+1584,Dallis,Male,37,5,,10:48:00,11:32:00,71
+1587,Cammy,Male,22,4,Leg,15:57:00,17:27:00,53
+1589,Adham,Male,21,4,,14:06:00,15:33:00,173
+1591,Waylen,Male,44,3,"Cardio, Cardio, back",12:50:00,13:26:00,105
+1592,Aurie,Female,28,4,"chest, Core, Leg",10:17:00,12:47:00,113
+1593,Honor,Female,21,2,,19:51:00,20:25:00,135
+1598,Ami,Female,12,1,chest,9:21:00,10:54:00,68
+1600,Meyer,Male,33,2,,19:40:00,20:39:00,145
+1601,Germaine,Female,39,4,,12:10:00,12:40:00,70
+1604,Mirella,Female,37,5,,18:42:00,21:12:00,74
+1605,Joey,Male,41,5,"Cardio, Leg",17:42:00,18:39:00,157
+1607,Maureene,Female,42,2,,16:20:00,17:41:00,74
+1609,Marrissa,Female,17,3,"chest, Leg, Core",17:33:00,20:22:00,76
+1613,Emlen,Male,12,5,"Core, Core, back",17:32:00,19:31:00,176
+1615,Norbie,Male,43,3,,18:07:00,19:13:00,176
+1619,Phillip,Male,49,3,,14:29:00,15:58:00,50
+1621,Haley,Male,25,1,,10:52:00,12:26:00,100
+1624,Willie,Male,21,3,,8:39:00,9:36:00,123
+1625,Olympie,Female,47,5,,19:28:00,20:35:00,45
+1627,Tiffani,Female,14,1,Leg,20:00:00,22:25:00,79
+1629,Jean,Male,28,2,,11:02:00,11:46:00,172
+1630,Pablo,Male,47,5,,14:29:00,16:53:00,122
+1638,Timothea,Female,22,3,,19:45:00,20:17:00,49
+1639,Shea,Female,36,3,back,9:25:00,10:32:00,122
+1640,Romola,Female,35,5,"chest, Cardio",10:00:00,11:01:00,113
+1644,Catlee,Female,35,3,"Leg, chest, chest",12:54:00,13:26:00,153
+1646,Toiboid,Male,35,3,,17:16:00,19:12:00,128
+1649,Noelani,Female,27,5,,13:50:00,14:35:00,67
+1652,Jermayne,Male,46,1,,11:06:00,13:25:00,174
+1653,Bradford,Male,37,2,,13:11:00,14:08:00,75
+1654,Fabian,Male,27,1,,14:38:00,15:27:00,123
+1656,Barbabas,Male,28,2,"back, Cardio, chest",17:13:00,19:26:00,130
+1660,Bronson,Male,49,1,,9:58:00,12:29:00,48
+1663,Elisa,Female,30,5,,14:01:00,16:03:00,114
+1668,Nessy,Female,49,3,"Arms, Core, Cardio",15:00:00,17:49:00,50
+1669,Ashia,Female,21,1,"Cardio, Leg",19:04:00,20:13:00,77
+1674,Yehudit,Male,30,4,"Cardio, back, Arms",20:16:00,21:57:00,30
+1677,Tonia,Female,17,2,chest,9:06:00,10:41:00,102
+1678,Jessie,Female,38,1,,13:57:00,16:22:00,123
+1686,Nessa,Female,43,4,,10:16:00,13:15:00,56
+1688,Lyn,Male,21,3,,20:25:00,22:44:00,146
+1689,Elke,Female,43,2,,9:47:00,12:08:00,175
+1691,Guss,Male,46,3,,10:17:00,12:44:00,109
+1692,Matelda,Female,42,3,"chest, Cardio, Cardio",16:21:00,17:05:00,70
+1693,Mignonne,Female,27,2,,17:34:00,19:15:00,159
+1696,Janean,Female,23,4,chest,11:43:00,12:51:00,164
+1701,Julia,Female,27,3,"back, chest, Leg",11:19:00,13:31:00,72
+1702,Rudiger,Male,16,5,,10:22:00,12:17:00,38
+1704,Hal,Male,45,5,"Core, Leg",20:14:00,22:35:00,88
+1705,Edvard,Male,19,3,"Cardio, Core",17:29:00,19:09:00,41
+1706,Hayley,Female,14,2,,11:05:00,13:40:00,176
+1707,Grove,Male,16,3,Core,13:31:00,14:16:00,121
+1708,Chic,Male,46,5,"Arms, Core, Leg",18:01:00,19:37:00,132
+1709,Rudolfo,Male,37,1,"Cardio, Leg, chest",17:58:00,20:00:00,156
+1710,Kayley,Female,29,4,"chest, Core, Cardio",10:54:00,12:00:00,68
+1716,Emiline,Female,32,5,Leg,18:15:00,18:56:00,146
+1717,Ive,Male,22,3,,11:10:00,12:53:00,112
+1719,Pren,Male,38,3,,8:33:00,10:02:00,122
+1720,Lloyd,Male,15,3,"back, Leg, back",19:42:00,21:46:00,47
+1722,Paten,Male,28,4,,11:29:00,12:30:00,173
+1723,Otho,Male,47,1,chest,18:22:00,19:37:00,133
+1724,Riccardo,Male,30,4,"Cardio, Arms",19:06:00,21:10:00,60
+1726,Sebastien,Male,17,5,,10:54:00,12:03:00,156
+1727,Zeb,Male,18,1,"Leg, Cardio, Core",11:51:00,13:01:00,95
+1728,Raina,Female,13,5,"Core, Leg, Arms",20:57:00,22:46:00,108
+1729,Sasha,Male,24,2,,19:38:00,20:20:00,60
+1730,Courtnay,Male,13,3,,15:28:00,18:18:00,107
+1732,Melva,Female,36,4,,13:30:00,15:53:00,129
+1734,Konrad,Male,39,4,,9:13:00,12:11:00,74
+1736,WCardioaker,Male,44,3,Core,20:54:00,21:45:00,33
+1738,Dorian,Female,32,2,back,11:21:00,13:01:00,140
+1740,Kellsie,Female,39,5,,11:16:00,13:42:00,88
+1744,Prince,Male,32,2,back,10:42:00,11:16:00,104
+1747,Loydie,Male,40,4,,13:10:00,14:50:00,120
+1750,Agnese,Female,42,1,"chest, back, chest",10:28:00,11:32:00,80
+1751,Nana,Female,33,5,"Leg, Core, chest",13:11:00,15:01:00,73
+1755,Mommy,Female,33,4,,18:39:00,19:37:00,180
+1757,Nikolaus,Male,32,2,,11:23:00,12:51:00,171
+1758,Gabbi,Female,48,2,,15:16:00,16:04:00,99
+1759,Ricki,Male,18,5,"back, Leg, chest",13:19:00,16:18:00,175
+1760,Simmonds,Male,17,5,"Core, Leg",9:29:00,11:20:00,146
+1764,Lars,Male,16,4,"Core, back",8:10:00,11:10:00,152
+1767,Lin,Male,46,3,,13:07:00,14:15:00,133
+1768,Benjy,Male,38,4,,14:16:00,15:07:00,139
+1769,Glynda,Female,35,4,"Cardio, Core",13:25:00,14:52:00,113
+1773,Willis,Male,42,3,"Leg, Arms, Cardio",18:25:00,21:08:00,51
+1778,Zacharias,Male,28,1,Arms,20:17:00,22:50:00,82
+1781,Martyn,Male,18,5,"Arms, chest, back",16:32:00,17:50:00,46
+1783,Dion,Male,15,3,"Core, chest, Core",12:16:00,14:43:00,164
+1786,Margareta,Female,33,3,,19:32:00,22:10:00,103
+1788,Kane,Male,33,5,,19:44:00,21:05:00,179
+1796,Marylinda,Female,12,5,"Cardio, Cardio",9:21:00,11:58:00,115
+1799,Helen-elizabeth,Female,44,4,"Leg, chest",9:11:00,9:43:00,103
+1803,Cecily,Female,32,5,,9:26:00,10:07:00,50
+1805,Salaidh,Female,38,5,"chest, Leg",8:15:00,9:55:00,118
+1806,Beatriz,Female,44,4,,16:13:00,18:08:00,93
+1808,Sosanna,Female,48,1,,16:32:00,18:06:00,99
+1813,Johnathan,Male,12,1,,14:07:00,14:43:00,34
+1816,Benoit,Male,47,1,,12:18:00,13:31:00,56
+1817,Ailee,Female,13,4,,17:06:00,19:24:00,171
+1821,Romona,Female,45,1,Core,13:20:00,14:57:00,69
+1822,Mischa,Male,36,5,,19:44:00,21:50:00,78
+1823,Viola,Female,20,1,,16:33:00,18:53:00,65
+1824,Junie,Female,22,5,,17:59:00,19:01:00,93
+1825,Baily,Male,35,3,Core,10:53:00,11:53:00,103
+1828,Margarita,Female,20,3,back,15:53:00,17:27:00,149
+1831,Wheeler,Male,44,3,,9:35:00,10:15:00,46
+1836,Marieann,Female,42,3,"Cardio, back, Leg",9:46:00,11:18:00,40
+1841,Marthena,Female,24,2,,11:00:00,12:53:00,102
+1842,Gale,Female,33,2,Arms,9:47:00,11:34:00,101
+1844,Ogdan,Male,40,5,"back, Cardio, Leg",13:40:00,14:30:00,145
+1846,Colby,Male,40,2,"Cardio, Leg, back",15:59:00,18:56:00,104
+1849,Carol,Female,29,2,"Arms, Core",16:37:00,17:58:00,111
+1851,Serene,Female,44,2,,8:06:00,9:17:00,74
+1852,Laraine,Female,40,4,,15:43:00,17:40:00,140
+1853,Westbrooke,Male,32,4,"Cardio, Core",12:16:00,14:58:00,131
+1857,Danyette,Female,19,5,,15:55:00,18:16:00,61
+1858,Florinda,Female,32,1,"Cardio, Cardio, chest",10:20:00,10:53:00,152
+1865,Erhard,Male,17,2,,11:19:00,12:13:00,177
+1866,Evangelia,Female,42,2,"Core, back",11:46:00,14:21:00,107
+1868,Merlina,Female,34,2,chest,18:26:00,20:00:00,32
+1876,Ramona,Female,35,2,Leg,18:32:00,19:44:00,130
+1878,Elisa,Female,38,5,,14:04:00,16:59:00,151
+1881,Alexei,Male,47,4,,10:46:00,11:40:00,91
+1885,Biddy,Female,19,4,,14:33:00,16:21:00,176
+1890,Gonzales,Male,44,4,,20:18:00,21:16:00,128
+1891,Hamilton,Male,16,1,,11:26:00,12:50:00,72
+1892,Renard,Male,25,3,,12:22:00,13:29:00,141
+1907,Stanislaus,Male,29,1,"Core, Arms",15:12:00,16:15:00,112
+1908,Grazia,Female,23,5,,10:25:00,12:51:00,95
+1909,Randy,Male,42,4,chest,13:35:00,16:32:00,111
+1911,Fifine,Female,25,3,"Core, chest",20:53:00,22:03:00,124
+1918,Fayth,Female,43,4,,11:23:00,14:09:00,142
+1928,Pamela,Female,12,3,,17:33:00,18:42:00,31
+1930,Vita,Female,13,3,,13:57:00,14:41:00,90
+1931,Dori,Female,48,5,,16:33:00,18:18:00,123
+1934,Dionis,Female,45,3,,13:53:00,15:44:00,118
+1935,Mariam,Female,26,3,,12:35:00,15:30:00,79
+1937,Parsifal,Male,14,4,"Core, chest, Leg",10:55:00,11:28:00,67
+1938,Merle,Male,26,2,"back, back, Leg",9:57:00,12:11:00,76
+1939,Carlen,Female,37,1,,12:50:00,13:21:00,179
+1944,Marty,Female,45,5,,9:41:00,12:34:00,54
+1947,Elladine,Female,15,3,,9:42:00,11:23:00,59
+1949,Nathanael,Male,27,3,,17:01:00,18:27:00,65
+1950,Karyn,Female,45,4,"Leg, Leg",15:44:00,18:43:00,174
+1951,Grayce,Female,42,4,"Cardio, Core",11:36:00,12:31:00,46
+1954,Ivor,Male,34,4,"Cardio, back, back",15:27:00,18:03:00,126
+1955,Menard,Male,19,2,chest,12:46:00,14:20:00,174
+1958,Doroteya,Female,17,2,back,13:59:00,15:31:00,148
+1959,Gunilla,Female,26,3,,9:22:00,9:52:00,44
+1971,Emma,Female,24,1,"Cardio, back",16:37:00,18:37:00,79
+1974,Samaria,Female,41,5,"Leg, Leg, chest",11:10:00,12:14:00,99
+1976,Veda,Female,16,3,,16:39:00,19:26:00,173
+1977,Zacherie,Male,44,3,chest,10:36:00,13:26:00,67
+1979,Adair,Male,30,2,"Cardio, Leg, chest",13:30:00,16:14:00,154
+1980,Quillan,Male,31,4,"back, Leg",17:47:00,19:20:00,107
+1983,Benyamin,Male,34,2,"Arms, Cardio, Leg",19:22:00,22:15:00,58
+1987,Hadria,Female,19,5,,19:04:00,20:26:00,56
+1988,Rad,Male,31,4,,10:48:00,12:45:00,114
+1990,Clywd,Male,40,2,,11:50:00,13:07:00,99
+1993,Melantha,Female,30,5,"Leg, Cardio, Leg",9:42:00,10:49:00,65
+1994,Averill,Male,41,5,"Cardio, Cardio",19:50:00,20:24:00,46
+1995,Cora,Female,26,3,,10:16:00,11:11:00,154
+1996,Karlen,Female,20,3,,20:56:00,22:59:00,138
+1999,Brigg,Male,33,1,"Cardio, Leg, Core",10:23:00,11:45:00,100
+2008,Uriah,Male,21,5,back,17:45:00,18:57:00,104
+2009,Borden,Male,19,1,"chest, Leg, chest",9:45:00,11:15:00,45
+2013,Celine,Female,18,3,"Core, back, chest",17:04:00,18:48:00,166
+2016,Katya,Female,22,2,"Leg, Core",17:28:00,19:02:00,103
+2018,Trixy,Female,27,1,,16:54:00,19:39:00,121
+2019,Janene,Female,26,3,Arms,10:01:00,11:05:00,169
+2021,Biddie,Female,31,3,,8:19:00,11:12:00,145
+2022,Jamey,Male,30,5,back,15:06:00,15:36:00,51
+2024,Mar,Male,13,2,,14:34:00,15:13:00,158
+2027,Kenon,Male,42,1,"Core, Leg, Core",15:01:00,16:51:00,93
+2028,Wat,Male,39,3,"chest, Leg, Leg",19:41:00,22:36:00,70
+2032,Nataniel,Male,44,3,,20:53:00,21:34:00,50
+2035,Alf,Male,23,1,,18:15:00,19:07:00,52
+2037,Shelby,Female,13,4,,9:02:00,11:39:00,131
+2039,Hercules,Male,38,5,,20:43:00,22:20:00,33
+2040,Kara,Female,21,1,"Cardio, back",10:26:00,12:49:00,53
+2046,Aridatha,Female,47,3,"Leg, Core, Leg",18:41:00,20:18:00,61
+2048,Dick,Male,32,5,"back, back, Leg",16:29:00,17:17:00,55
+2054,Maud,Female,18,1,"Arms, Leg, chest",20:36:00,23:18:00,90
+2056,Paten,Male,36,3,,17:13:00,18:53:00,56
+2059,Gus,Male,24,3,"back, Core, Leg",10:40:00,13:24:00,145
+2063,Chaddy,Male,31,4,,17:22:00,18:51:00,130
+2064,Bridget,Female,42,3,,10:41:00,12:56:00,71
+2066,Constancia,Female,28,5,,13:06:00,15:49:00,110
+2068,Shelden,Male,26,4,"Leg, Arms",13:04:00,15:03:00,76
+2071,Vincenz,Male,44,1,"chest, chest, Arms",13:04:00,14:35:00,151
+2075,Florry,Female,48,3,,9:57:00,12:07:00,38
+2081,Orv,Male,29,3,,12:35:00,14:44:00,118
+2083,Estevan,Male,34,3,,8:33:00,10:21:00,53
+2087,Thorsten,Male,34,4,back,12:51:00,14:27:00,92
+2089,Shirlee,Female,47,3,back,10:34:00,11:38:00,162
+2092,Elvis,Male,25,3,Leg,14:37:00,15:36:00,162
+2093,Nicolle,Female,33,3,"chest, back",9:55:00,12:27:00,76
+2099,Blondelle,Female,13,5,,9:35:00,10:30:00,83
+2101,Giselbert,Male,16,4,Cardio,10:11:00,12:14:00,87
+2102,Shayna,Female,42,3,"chest, Leg, Core",17:42:00,18:58:00,167
+2103,Falito,Male,19,5,"Arms, Leg, Leg",10:29:00,11:39:00,119
+2108,Vivia,Female,31,4,"Leg, Core, Cardio",19:52:00,20:53:00,164
+2110,Aile,Female,42,3,Arms,17:52:00,20:33:00,36
+2111,Irena,Female,16,1,"Cardio, Leg, chest",17:43:00,20:14:00,122
+2113,Yvonne,Female,39,3,,16:23:00,18:07:00,127
+2115,Mae,Female,31,1,,14:36:00,15:26:00,174
+2116,Esra,Male,48,3,,19:08:00,21:25:00,169
+2120,Selle,Female,13,1,,14:55:00,15:47:00,92
+2123,Carmencita,Female,27,2,,9:46:00,10:59:00,137
+2124,Fifi,Female,47,2,,14:40:00,15:28:00,141
+2126,Iago,Male,17,1,,8:40:00,9:44:00,129
+2127,Minnie,Female,35,1,,10:58:00,13:27:00,175
+2128,Lian,Female,42,4,,14:23:00,16:17:00,41
+2131,Garrott,Male,39,4,,15:41:00,17:17:00,159
+2133,Gearalt,Male,34,2,Core,11:35:00,14:04:00,153
+2134,Pooh,Female,46,5,"Leg, Leg, Core",9:31:00,10:47:00,74
+2138,Gunar,Male,40,4,,20:55:00,21:38:00,142
+2139,Nesta,Female,32,3,,19:28:00,22:07:00,87
+2140,Brittany,Female,15,5,"Leg, Core, chest",10:33:00,12:36:00,62
+2142,Rosalinde,Female,27,1,Leg,8:13:00,10:45:00,52
+2144,Rickard,Male,49,1,Core,20:30:00,22:23:00,60
+2145,Winne,Female,46,3,,10:11:00,12:23:00,175
+2146,Julina,Female,13,5,"Core, chest, back",20:23:00,23:12:00,71
+2147,Timothee,Male,46,1,"Leg, Core",18:19:00,20:47:00,169
+2149,Andrew,Male,27,3,,17:57:00,18:41:00,134
+2155,Moe,Male,21,3,,14:41:00,17:39:00,78
+2156,Jocelyne,Female,42,3,,18:54:00,20:00:00,177
+2159,Ruthann,Female,36,5,back,17:57:00,19:56:00,112
+2160,Millie,Female,33,1,"chest, Leg",15:17:00,16:01:00,151
+2161,Adriane,Female,32,3,Core,15:41:00,16:43:00,40
+2164,Quincy,Male,15,5,,17:41:00,19:32:00,93
+2166,Bordie,Male,45,3,,20:34:00,21:42:00,66
+2169,Odelinda,Female,35,5,"back, Leg",13:32:00,14:12:00,166
+2172,Joni,Female,28,5,"Arms, Leg",8:15:00,9:27:00,51
+2177,Nadean,Female,24,2,,9:56:00,12:45:00,139
+2178,Chick,Male,47,2,,11:02:00,12:47:00,108
+2181,Jeremiah,Male,12,1,"back, Core",10:50:00,13:48:00,74
+2182,Martguerita,Female,44,3,"Core, chest",9:01:00,11:21:00,81
+2186,Chloe,Female,42,2,,17:42:00,19:32:00,52
+2187,Salvidor,Male,12,3,Arms,19:49:00,22:43:00,155
+2192,Kaye,Female,23,5,,17:07:00,19:15:00,102
+2196,Kendrick,Male,23,3,,20:01:00,21:55:00,72
+2205,Trey,Male,38,4,,9:57:00,12:28:00,107
+2207,Heall,Male,34,1,"Leg, back, Leg",11:47:00,13:43:00,77
+2212,Giffer,Male,42,5,,17:21:00,18:33:00,172
+2218,Rubina,Female,42,5,"chest, back",18:01:00,18:31:00,67
+2219,Harland,Male,13,2,"Leg, back",14:59:00,16:48:00,161
+2224,Oriana,Female,23,3,,20:41:00,22:43:00,125
+2225,Cletis,Male,36,4,,20:08:00,21:33:00,84
+2231,Onofredo,Male,48,5,,17:53:00,18:59:00,55
+2233,Jennilee,Female,19,1,,8:34:00,11:04:00,63
+2234,Talia,Female,47,2,,20:26:00,22:06:00,39
+2235,Teirtza,Female,48,4,,11:49:00,12:36:00,70
+2236,Idell,Female,42,4,chest,15:45:00,17:41:00,101
+2238,Irene,Female,29,1,"Arms, Cardio",20:15:00,22:22:00,45
+2239,Claudius,Male,22,2,"Core, chest",17:30:00,18:31:00,163
+2240,Stanton,Male,33,5,back,15:49:00,17:30:00,78
+2244,Sella,Female,34,1,back,13:50:00,16:37:00,135
+2249,Deloris,Female,43,4,Core,18:00:00,19:58:00,173
+2252,Margarita,Female,18,2,"chest, Cardio, Leg",10:17:00,11:19:00,100
+2255,Michale,Male,26,2,"back, back, Arms",14:34:00,15:19:00,163
+2259,Muire,Female,41,4,,10:02:00,11:33:00,154
+2260,Jaquelyn,Female,27,2,,8:20:00,11:05:00,132
+2264,Padraig,Male,39,5,,15:42:00,16:34:00,61
+2265,Reina,Female,18,2,,19:52:00,20:36:00,114
+2267,Bertie,Female,42,3,,11:33:00,12:31:00,165
+2268,Chadwick,Male,29,2,,18:08:00,20:23:00,178
+2270,Abby,Male,47,5,"chest, chest",15:19:00,16:24:00,141
+2279,Mathilda,Female,38,2,,10:43:00,13:06:00,170
+2281,Dorey,Male,21,3,"Arms, chest, back",15:40:00,17:36:00,102
+2282,Daniel,Male,36,3,Core,12:25:00,14:41:00,172
+2285,Earl,Male,30,4,,13:33:00,14:55:00,37
+2286,Dimitry,Male,32,4,,20:16:00,22:00:00,156
+2291,Barbi,Female,35,1,,9:49:00,11:52:00,103
+2296,Evie,Female,25,1,,10:17:00,12:08:00,110
+2297,Georas,Male,42,5,,17:29:00,18:11:00,142
+2299,Avis,Female,35,3,,12:31:00,13:28:00,70
+2303,Therese,Female,14,4,,13:32:00,16:17:00,134
+2307,Elora,Female,38,1,,17:30:00,19:56:00,150
+2308,Jodee,Female,41,1,,11:54:00,13:31:00,76
+2309,Virge,Male,40,5,,15:05:00,17:09:00,129
+2312,Taite,Male,44,4,"Cardio, Leg",17:41:00,19:28:00,136
+2313,Freemon,Male,40,2,chest,19:29:00,21:19:00,132
+2319,Dexter,Male,32,3,,10:38:00,13:32:00,32
+2321,Ernesto,Male,34,5,,14:11:00,16:31:00,45
+2322,Marcus,Male,40,4,,20:18:00,21:34:00,119
+2323,Benjamin,Male,37,1,Leg,17:11:00,18:30:00,41
+2324,Belicia,Female,45,3,"Arms, Cardio, Leg",19:16:00,19:48:00,107
+2325,Quinton,Male,25,2,,10:34:00,11:40:00,46
+2326,Corette,Female,22,1,,18:24:00,20:33:00,176
+2329,Davy,Male,12,3,Leg,9:15:00,11:04:00,126
+2331,Jeannette,Female,17,2,"back, Leg",16:36:00,19:12:00,71
+2333,Derwin,Male,28,4,,11:18:00,12:56:00,88
+2334,Keelby,Male,36,1,,17:29:00,18:04:00,73
+2335,Ladonna,Female,17,2,,13:42:00,15:36:00,55
+2337,Norris,Male,30,3,,18:22:00,20:30:00,103
+2338,Jarib,Male,44,4,Core,10:06:00,13:03:00,148
+2339,Brenda,Female,21,2,"Core, chest, Arms",15:40:00,17:39:00,39
+2340,Sanderson,Male,29,5,"Cardio, Cardio, Core",18:51:00,21:27:00,76
+2343,Andreana,Female,38,2,Leg,9:53:00,11:35:00,158
+2344,Janela,Female,36,4,"Cardio, Cardio",12:50:00,13:59:00,89
+2346,Domeniga,Female,16,5,back,12:17:00,12:55:00,30
+2348,Karim,Male,15,3,,12:59:00,15:16:00,165
+2349,Sheryl,Female,35,5,,12:53:00,14:19:00,135
+2355,Reed,Male,32,5,"chest, back, Core",16:45:00,19:40:00,109
+2357,Dominga,Female,16,4,"Cardio, Arms",20:55:00,22:31:00,97
+2359,Alikee,Female,48,3,,15:21:00,18:12:00,57
+2360,Wini,Female,49,5,"Cardio, chest",17:04:00,20:00:00,89
+2364,Thea,Female,15,2,"Leg, back, Core",10:47:00,11:41:00,81
+2365,Shannon,Female,12,3,"back, Core",18:40:00,21:00:00,95
+2372,Ilyse,Female,12,2,"Leg, back, Leg",11:18:00,12:58:00,72
+2381,Ronald,Male,40,2,,18:01:00,20:07:00,146
+2385,Maiga,Female,20,5,Cardio,12:45:00,14:45:00,109
+2391,Cordelie,Female,26,2,,13:34:00,15:09:00,107
+2393,Lenna,Female,18,2,"Core, back, chest",10:09:00,11:45:00,142
+2394,Taffy,Female,13,2,,9:30:00,11:33:00,173
+2397,Hetti,Female,12,1,,8:47:00,11:05:00,116
+2400,Logan,Male,42,1,"back, chest",13:02:00,13:54:00,53
+2402,Ashly,Female,17,3,"Cardio, back",16:58:00,18:24:00,54
+2405,Eldredge,Male,30,1,Cardio,16:35:00,19:24:00,110
+2407,Oralie,Female,19,3,"Cardio, Leg",17:29:00,19:55:00,164
+2409,Cthrine,Female,36,3,,18:07:00,19:54:00,57
+2410,Zedekiah,Male,21,1,,11:20:00,14:17:00,93
+2411,Aeriell,Female,40,4,,11:53:00,14:08:00,83
+2415,Maiga,Female,16,2,,16:54:00,18:01:00,59
+2417,Mab,Female,49,5,back,14:53:00,15:29:00,61
+2418,Stafani,Female,42,2,,19:37:00,22:32:00,92
+2419,Janela,Female,19,1,"back, chest",10:33:00,12:11:00,37
+2421,Caitlin,Female,41,5,,14:54:00,16:01:00,59
+2422,Jessalin,Female,43,3,,12:46:00,14:42:00,73
+2425,Rockwell,Male,40,5,,16:21:00,17:41:00,130
+2426,Cal,Female,32,2,,20:04:00,21:59:00,85
+2427,Robers,Male,18,2,,16:05:00,17:48:00,84
+2434,Sabra,Female,17,4,,18:14:00,20:34:00,133
+2442,Joyce,Female,30,4,,14:08:00,15:50:00,67
+2444,Orville,Male,39,4,,18:40:00,20:17:00,39
+2445,Amabel,Female,27,4,,12:12:00,14:30:00,166
+2447,Wittie,Male,42,3,,9:14:00,10:45:00,132
+2450,Hunter,Male,34,2,"Leg, chest, Core",19:08:00,21:45:00,162
+2451,Cherish,Female,47,2,chest,14:27:00,15:02:00,51
+2452,Augusta,Female,35,5,Leg,16:21:00,19:15:00,75
+2453,Malynda,Female,39,3,"back, Core, Leg",18:36:00,21:04:00,120
+2454,Philippine,Female,26,3,Leg,18:14:00,18:57:00,67
+2457,Maggi,Female,40,2,,16:21:00,17:06:00,98
+2458,Edi,Female,25,2,Arms,11:37:00,14:27:00,174
+2461,Gianni,Male,23,1,"Core, Leg",19:07:00,21:51:00,143
+2462,Care,Male,20,3,,10:55:00,13:35:00,134
+2463,Sidoney,Female,42,5,,18:15:00,19:15:00,104
+2464,Arda,Female,21,3,"chest, Core",20:54:00,23:53:00,90
+2465,Abagael,Female,16,1,,14:33:00,16:30:00,173
+2466,Krystle,Female,44,4,,17:47:00,19:00:00,48
+2467,Gregorio,Male,34,3,chest,8:25:00,11:08:00,65
+2473,Boniface,Male,38,2,Leg,9:46:00,11:11:00,62
+2478,Claretta,Female,18,1,,11:56:00,14:22:00,81
+2483,Agatha,Female,30,1,chest,18:41:00,20:01:00,64
+2484,Shurlock,Male,43,3,,14:12:00,15:08:00,162
+2487,Mariam,Female,15,3,"chest, Leg",15:44:00,16:57:00,96
+2490,Sheilakathryn,Female,35,2,,9:55:00,11:52:00,68
+2495,Efren,Male,49,4,,8:41:00,9:25:00,51
+2496,Butch,Male,42,3,,15:34:00,16:49:00,35
+2498,Dall,Male,24,4,"chest, Leg, back",10:38:00,12:41:00,41
+2500,Esdras,Male,19,3,,14:34:00,15:55:00,83
+2506,Dasie,Female,26,3,,18:28:00,20:13:00,167
+2514,Darcee,Female,46,3,"Core, back, Cardio",12:43:00,15:19:00,163
+2518,Torey,Male,44,2,chest,8:24:00,10:32:00,128
+2520,Jo-anne,Female,30,1,,19:30:00,20:44:00,94
+2521,Mikaela,Female,32,5,,20:33:00,23:06:00,135
+2526,Tailor,Male,26,4,Core,13:43:00,14:38:00,147
+2527,Flora,Female,27,1,,11:15:00,13:25:00,106
+2528,Yetty,Female,42,3,"chest, Cardio",8:27:00,9:33:00,73
+2532,Skell,Male,44,4,"chest, back, Core",16:04:00,17:35:00,123
+2533,Cyndie,Female,28,2,,18:58:00,21:06:00,129
+2534,Rabbi,Male,25,2,,14:53:00,17:50:00,159
+2546,Agnesse,Female,15,3,,8:55:00,11:01:00,37
+2553,Consalve,Male,32,3,"back, Core",18:23:00,19:31:00,110
+2554,Kit,Female,36,2,"chest, Cardio",18:15:00,20:02:00,55
+2558,Theodoric,Male,40,5,,15:32:00,17:42:00,76
+2559,Bride,Female,39,1,,17:54:00,20:01:00,61
+2564,Helaina,Female,45,4,,16:59:00,18:16:00,115
+2568,Amye,Female,16,5,,10:41:00,11:48:00,114
+2570,Dewitt,Male,42,4,,18:30:00,20:14:00,103
+2572,Sheila,Female,39,5,"Leg, Arms",17:04:00,18:45:00,82
+2574,Stafani,Female,36,1,,19:30:00,21:50:00,36
+2578,Lester,Male,15,4,,20:35:00,21:30:00,164
+2581,Albert,Male,33,4,,15:25:00,18:06:00,56
+2584,Dallis,Male,17,4,,10:48:00,11:32:00,123
+2587,Cammy,Male,39,5,Leg,15:57:00,17:27:00,48
+2589,Adham,Male,31,3,,14:06:00,15:33:00,145
+2591,Waylen,Male,30,1,"Cardio, Cardio, back",12:50:00,13:26:00,62
+2592,Aurie,Female,24,2,"chest, Core, Leg",10:17:00,12:47:00,64
+2593,Honor,Female,21,3,,19:51:00,20:25:00,88
+2598,Ami,Female,44,5,chest,9:21:00,10:54:00,52
+2600,Meyer,Male,25,2,,19:40:00,20:39:00,116
+2601,Germaine,Female,33,3,,12:10:00,12:40:00,108
+2604,Mirella,Female,38,4,,18:42:00,21:12:00,158
+2605,Joey,Male,12,2,"Cardio, Leg",17:42:00,18:39:00,133
+2607,Maureene,Female,14,4,,16:20:00,17:41:00,106
+2609,Marrissa,Female,31,2,"chest, Leg, Core",17:33:00,20:22:00,127
+2613,Emlen,Male,17,5,"Core, Core, back",17:32:00,19:31:00,120
+2615,Norbie,Male,29,5,,18:07:00,19:13:00,97
+2619,Phillip,Male,25,4,,14:29:00,15:58:00,41
+2621,Haley,Male,12,4,,10:52:00,12:26:00,85
+2624,Willie,Male,32,3,,8:39:00,9:36:00,49
+2625,Olympie,Female,45,4,,19:28:00,20:35:00,169
+2627,Tiffani,Female,21,4,Leg,20:00:00,22:25:00,104
+2629,Jean,Male,40,1,,11:02:00,11:46:00,165
+2630,Pablo,Male,38,2,,14:29:00,16:53:00,170
+2638,Timothea,Female,24,5,,19:45:00,20:17:00,138
+2639,Shea,Female,28,3,back,9:25:00,10:32:00,144
+2640,Romola,Female,21,4,"chest, Cardio",10:00:00,11:01:00,78
+2644,Catlee,Female,32,1,"Leg, chest, chest",12:54:00,13:26:00,136
+2646,Toiboid,Male,25,2,,17:16:00,19:12:00,116
+2649,Noelani,Female,45,2,,13:50:00,14:35:00,149
+2652,Jermayne,Male,18,4,,11:06:00,13:25:00,75
+2653,Bradford,Male,38,3,,13:11:00,14:08:00,49
+2654,Fabian,Male,36,5,,14:38:00,15:27:00,59
+2656,Barbabas,Male,38,2,"back, Cardio, chest",17:13:00,19:26:00,58
+2660,Bronson,Male,28,4,,9:58:00,12:29:00,74
+2663,Elisa,Female,34,5,,14:01:00,16:03:00,112
+2668,Nessy,Female,31,4,"Arms, Core, Cardio",15:00:00,17:49:00,39
+2669,Ashia,Female,36,3,"Cardio, Leg",19:04:00,20:13:00,77
+2674,Yehudit,Male,49,2,"Cardio, back, Arms",20:16:00,21:57:00,82
+2677,Tonia,Female,24,2,chest,9:06:00,10:41:00,113
+2678,Jessie,Female,24,3,,13:57:00,16:22:00,141
+2686,Nessa,Female,46,5,,10:16:00,13:15:00,153
+2688,Lyn,Male,37,3,,20:25:00,22:44:00,79
+2689,Elke,Female,37,1,,9:47:00,12:08:00,108
+2691,Guss,Male,32,5,,10:17:00,12:44:00,61
+2692,Matelda,Female,16,2,"chest, Cardio, Cardio",16:21:00,17:05:00,128
+2693,Mignonne,Female,48,1,,17:34:00,19:15:00,34
+2696,Janean,Female,25,1,chest,11:43:00,12:51:00,143
+2701,Julia,Female,28,4,"back, chest, Leg",11:19:00,13:31:00,104
+2702,Rudiger,Male,28,2,,10:22:00,12:17:00,62
+2704,Hal,Male,34,4,"Core, Leg",20:14:00,22:35:00,180
+2705,Edvard,Male,37,4,"Cardio, Core",17:29:00,19:09:00,122
+2706,Hayley,Female,41,3,,11:05:00,13:40:00,132
+2707,Grove,Male,34,2,Core,13:31:00,14:16:00,120
+2708,Chic,Male,47,1,"Arms, Core, Leg",18:01:00,19:37:00,158
+2709,Rudolfo,Male,40,2,"Cardio, Leg, chest",17:58:00,20:00:00,154
+2710,Kayley,Female,39,3,"chest, Core, Cardio",10:54:00,12:00:00,75
+2716,Emiline,Female,30,2,Leg,18:15:00,18:56:00,44
+2717,Ive,Male,34,4,,11:10:00,12:53:00,55
+2719,Pren,Male,19,5,,8:33:00,10:02:00,106
+2720,Lloyd,Male,14,5,"back, Leg, back",19:42:00,21:46:00,69
+2722,Paten,Male,30,2,,11:29:00,12:30:00,68
+2723,Otho,Male,16,3,chest,18:22:00,19:37:00,152
+2724,Riccardo,Male,29,2,"Cardio, Arms",19:06:00,21:10:00,59
+2726,Sebastien,Male,32,2,,10:54:00,12:03:00,140
+2727,Zeb,Male,27,4,"Leg, Cardio, Core",11:51:00,13:01:00,36
+2728,Raina,Female,48,4,"Core, Leg, Arms",20:57:00,22:46:00,66
+2729,Sasha,Male,31,3,,19:38:00,20:20:00,46
+2730,Courtnay,Male,38,2,,15:28:00,18:18:00,60
+2732,Melva,Female,21,3,,13:30:00,15:53:00,164
+2734,Konrad,Male,25,2,,9:13:00,12:11:00,51
+2736,WCardioaker,Male,21,2,Core,20:54:00,21:45:00,163
+2738,Dorian,Female,16,3,back,11:21:00,13:01:00,156
+2740,Kellsie,Female,24,5,,11:16:00,13:42:00,60
+2744,Prince,Male,40,2,back,10:42:00,11:16:00,42
+2747,Loydie,Male,36,4,,13:10:00,14:50:00,121
+2750,Agnese,Female,13,2,"chest, back, chest",10:28:00,11:32:00,177
+2751,Nana,Female,27,1,"Leg, Core, chest",13:11:00,15:01:00,173
+2755,Mommy,Female,46,3,,18:39:00,19:37:00,38
+2757,Nikolaus,Male,17,5,,11:23:00,12:51:00,68
+2758,Gabbi,Female,16,1,,15:16:00,16:04:00,140
+2759,Ricki,Male,28,2,"back, Leg, chest",13:19:00,16:18:00,167
+2760,Simmonds,Male,15,1,"Core, Leg",9:29:00,11:20:00,62
+2764,Lars,Male,43,1,"Core, back",8:10:00,11:10:00,38
+2767,Lin,Male,21,2,,13:07:00,14:15:00,145
+2768,Benjy,Male,19,3,,14:16:00,15:07:00,92
+2769,Glynda,Female,19,3,"Cardio, Core",13:25:00,14:52:00,36
+2773,Willis,Male,17,5,"Leg, Arms, Cardio",18:25:00,21:08:00,99
+2778,Zacharias,Male,28,4,Arms,20:17:00,22:50:00,131
+2781,Martyn,Male,37,4,"Arms, chest, back",16:32:00,17:50:00,67
+2783,Dion,Male,47,3,"Core, chest, Core",12:16:00,14:43:00,90
+2786,Margareta,Female,47,3,,19:32:00,22:10:00,50
+2788,Kane,Male,13,2,,19:44:00,21:05:00,141
+2796,Marylinda,Female,30,1,"Cardio, Cardio",9:21:00,11:58:00,94
+2799,Helen-elizabeth,Female,48,2,"Leg, chest",9:11:00,9:43:00,85
+2803,Cecily,Female,45,5,,9:26:00,10:07:00,93
+2805,Salaidh,Female,14,1,"chest, Leg",8:15:00,9:55:00,75
+2806,Beatriz,Female,37,3,,16:13:00,18:08:00,80
+2808,Sosanna,Female,27,1,,16:32:00,18:06:00,136
+2813,Johnathan,Male,22,4,,14:07:00,14:43:00,138
+2816,Benoit,Male,40,5,,12:18:00,13:31:00,124
+2817,Ailee,Female,25,3,,17:06:00,19:24:00,140
+2821,Romona,Female,12,5,Core,13:20:00,14:57:00,51
+2822,Mischa,Male,31,5,,19:44:00,21:50:00,63
+2823,Viola,Female,24,2,,16:33:00,18:53:00,102
+2824,Junie,Female,25,4,,17:59:00,19:01:00,83
+2825,Baily,Male,45,3,Core,10:53:00,11:53:00,134
+2828,Margarita,Female,41,4,back,15:53:00,17:27:00,111
+2831,Wheeler,Male,33,4,,9:35:00,10:15:00,157
+2836,Marieann,Female,17,2,"Cardio, back, Leg",9:46:00,11:18:00,85
+2841,Marthena,Female,20,5,,11:00:00,12:53:00,65
+2842,Gale,Female,44,4,Arms,9:47:00,11:34:00,81
+2844,Ogdan,Male,27,3,"back, Cardio, Leg",13:40:00,14:30:00,31
+2846,Colby,Male,21,5,"Cardio, Leg, back",15:59:00,18:56:00,85
+2849,Carol,Female,35,4,"Arms, Core",16:37:00,17:58:00,136
+2851,Serene,Female,28,3,,8:06:00,9:17:00,125
+2852,Laraine,Female,31,2,,15:43:00,17:40:00,54
+2853,Westbrooke,Male,22,1,"Cardio, Core",12:16:00,14:58:00,120
+2857,Danyette,Female,15,5,,15:55:00,18:16:00,52
+2858,Florinda,Female,46,5,"Cardio, Cardio, chest",10:20:00,10:53:00,46
+2865,Erhard,Male,15,5,,11:19:00,12:13:00,139
+2866,Evangelia,Female,45,3,"Core, back",11:46:00,14:21:00,99
+2868,Merlina,Female,41,1,chest,18:26:00,20:00:00,57
+2876,Ramona,Female,45,3,Leg,18:32:00,19:44:00,111
+2878,Elisa,Female,49,2,,14:04:00,16:59:00,124
+2881,Alexei,Male,43,4,,10:46:00,11:40:00,69
+2885,Biddy,Female,24,4,,14:33:00,16:21:00,31
+2890,Gonzales,Male,34,3,,20:18:00,21:16:00,76
+2891,Hamilton,Male,44,3,,11:26:00,12:50:00,163
+2892,Renard,Male,15,2,,12:22:00,13:29:00,100
+2907,Stanislaus,Male,40,2,"Core, Arms",15:12:00,16:15:00,107
+2908,Grazia,Female,31,5,,10:25:00,12:51:00,30
+2909,Randy,Male,13,3,chest,13:35:00,16:32:00,43
+2911,Fifine,Female,36,4,"Core, chest",20:53:00,22:03:00,115
+2918,Fayth,Female,32,2,,11:23:00,14:09:00,107
+2928,Pamela,Female,29,5,,17:33:00,18:42:00,100
+2930,Vita,Female,36,5,,13:57:00,14:41:00,67
+2931,Dori,Female,37,2,,16:33:00,18:18:00,164
+2934,Dionis,Female,28,1,,13:53:00,15:44:00,101
+2935,Mariam,Female,15,4,,12:35:00,15:30:00,41
+2937,Parsifal,Male,21,2,"Core, chest, Leg",10:55:00,11:28:00,137
+2938,Merle,Male,37,3,"back, back, Leg",9:57:00,12:11:00,81
+2939,Carlen,Female,30,3,,12:50:00,13:21:00,48
+2944,Marty,Female,30,5,,9:41:00,12:34:00,42
+2947,Elladine,Female,36,1,,9:42:00,11:23:00,73
+2949,Nathanael,Male,40,1,,17:01:00,18:27:00,36
+2950,Karyn,Female,43,1,"Leg, Leg",15:44:00,18:43:00,89
+2951,Grayce,Female,33,4,"Cardio, Core",11:36:00,12:31:00,175
+2954,Ivor,Male,14,2,"Cardio, back, back",15:27:00,18:03:00,115
+2955,Menard,Male,38,2,chest,12:46:00,14:20:00,101
+2958,Doroteya,Female,28,4,back,13:59:00,15:31:00,144
+2959,Gunilla,Female,44,4,,9:22:00,9:52:00,116
+2971,Emma,Female,41,2,"Cardio, back",16:37:00,18:37:00,54
+2974,Samaria,Female,22,1,"Leg, Leg, chest",11:10:00,12:14:00,51
+2976,Veda,Female,23,4,,16:39:00,19:26:00,139
+2977,Zacherie,Male,34,5,chest,10:36:00,13:26:00,50
+2979,Adair,Male,34,4,"Cardio, Leg, chest",13:30:00,16:14:00,158
+2980,Quillan,Male,41,3,"back, Leg",17:47:00,19:20:00,91
+2983,Benyamin,Male,26,5,"Arms, Cardio, Leg",19:22:00,22:15:00,154
+2987,Hadria,Female,31,1,,19:04:00,20:26:00,130
+2988,Rad,Male,45,3,,10:48:00,12:45:00,72
+2990,Clywd,Male,31,2,,11:50:00,13:07:00,75
+2993,Melantha,Female,16,2,"Leg, Cardio, Leg",9:42:00,10:49:00,174
+2994,Averill,Male,20,1,"Cardio, Cardio",19:50:00,20:24:00,144
+2995,Cora,Female,45,2,,10:16:00,11:11:00,113
+2996,Karlen,Female,20,3,,20:56:00,22:59:00,40
+2999,Brigg,Male,12,2,"Cardio, Leg, Core",10:23:00,11:45:00,119
+3008,Uriah,Male,24,4,back,17:45:00,18:57:00,130
+3009,Borden,Male,27,3,"chest, Leg, chest",9:45:00,11:15:00,53
+3013,Celine,Female,43,1,"Core, back, chest",17:04:00,18:48:00,105
+3016,Katya,Female,38,5,"Leg, Core",17:28:00,19:02:00,153
+3018,Trixy,Female,45,2,,16:54:00,19:39:00,119
+3019,Janene,Female,22,3,Arms,10:01:00,11:05:00,76
+3021,Biddie,Female,36,3,,8:19:00,11:12:00,158
+3022,Jamey,Male,31,3,back,15:06:00,15:36:00,179
+3024,Mar,Male,41,3,,14:34:00,15:13:00,137
+3027,Kenon,Male,23,3,"Core, Leg, Core",15:01:00,16:51:00,39
+3028,Wat,Male,39,2,"chest, Leg, Leg",19:41:00,22:36:00,44
+3032,Nataniel,Male,47,3,,20:53:00,21:34:00,50
+3035,Alf,Male,26,4,,18:15:00,19:07:00,46
+3037,Shelby,Female,47,4,,9:02:00,11:39:00,117
+3039,Hercules,Male,16,3,,20:43:00,22:20:00,62
+3040,Kara,Female,13,5,"Cardio, back",10:26:00,12:49:00,112
+3046,Aridatha,Female,38,2,"Leg, Core, Leg",18:41:00,20:18:00,65
+3048,Dick,Male,48,4,"back, back, Leg",16:29:00,17:17:00,89
+3054,Maud,Female,32,5,"Arms, Leg, chest",20:36:00,23:18:00,66
+3056,Paten,Male,18,3,,17:13:00,18:53:00,119
+3059,Gus,Male,14,4,"back, Core, Leg",10:40:00,13:24:00,139
+3063,Chaddy,Male,35,1,,17:22:00,18:51:00,177
+3064,Bridget,Female,12,5,,10:41:00,12:56:00,78
+3066,Constancia,Female,21,4,,13:06:00,15:49:00,127
+3068,Shelden,Male,38,3,"Leg, Arms",13:04:00,15:03:00,60
+3071,Vincenz,Male,33,1,"chest, chest, Arms",13:04:00,14:35:00,151
+3075,Florry,Female,13,1,,9:57:00,12:07:00,134
+3081,Orv,Male,38,1,,12:35:00,14:44:00,82
+3083,Estevan,Male,19,5,,8:33:00,10:21:00,109
+3087,Thorsten,Male,33,4,back,12:51:00,14:27:00,57
+3089,Shirlee,Female,48,1,back,10:34:00,11:38:00,104
+3092,Elvis,Male,23,4,Leg,14:37:00,15:36:00,64
+3093,Nicolle,Female,34,4,"chest, back",9:55:00,12:27:00,39
+3099,Blondelle,Female,30,2,,9:35:00,10:30:00,133
+3101,Giselbert,Male,48,2,Cardio,10:11:00,12:14:00,177
+3102,Shayna,Female,28,4,"chest, Leg, Core",17:42:00,18:58:00,152
+3103,Falito,Male,36,4,"Arms, Leg, Leg",10:29:00,11:39:00,71
+3108,Vivia,Female,39,4,"Leg, Core, Cardio",19:52:00,20:53:00,152
+3110,Aile,Female,12,5,Arms,17:52:00,20:33:00,107
+3111,Irena,Female,19,4,"Cardio, Leg, chest",17:43:00,20:14:00,42
+3113,Yvonne,Female,13,5,,16:23:00,18:07:00,174
+3115,Mae,Female,30,5,,14:36:00,15:26:00,101
+3116,Esra,Male,37,5,,19:08:00,21:25:00,130
+3120,Selle,Female,16,5,,14:55:00,15:47:00,79
+3123,Carmencita,Female,29,2,,9:46:00,10:59:00,96
+3124,Fifi,Female,18,2,,14:40:00,15:28:00,128
+3126,Iago,Male,43,1,,8:40:00,9:44:00,62
+3127,Minnie,Female,42,4,,10:58:00,13:27:00,52
+3128,Lian,Female,42,3,,14:23:00,16:17:00,94
+3131,Garrott,Male,17,2,,15:41:00,17:17:00,161
+3133,Gearalt,Male,36,4,Core,11:35:00,14:04:00,35
+3134,Pooh,Female,14,5,"Leg, Leg, Core",9:31:00,10:47:00,155
+3138,Gunar,Male,24,3,,20:55:00,21:38:00,66
+3139,Nesta,Female,42,4,,19:28:00,22:07:00,99
+3140,Brittany,Female,21,3,"Leg, Core, chest",10:33:00,12:36:00,39
+3142,Rosalinde,Female,32,4,Leg,8:13:00,10:45:00,126
+3144,Rickard,Male,49,1,Core,20:30:00,22:23:00,58
+3145,Winne,Female,14,4,,10:11:00,12:23:00,39
+3146,Julina,Female,49,5,"Core, chest, back",20:23:00,23:12:00,101
+3147,Timothee,Male,28,3,"Leg, Core",18:19:00,20:47:00,69
+3149,Andrew,Male,19,3,,17:57:00,18:41:00,106
+3155,Moe,Male,49,5,,14:41:00,17:39:00,99
+3156,Jocelyne,Female,13,4,,18:54:00,20:00:00,60
+3159,Ruthann,Female,47,2,back,17:57:00,19:56:00,49
+3160,Millie,Female,26,4,"chest, Leg",15:17:00,16:01:00,160
+3161,Adriane,Female,24,1,Core,15:41:00,16:43:00,140
+3164,Quincy,Male,36,4,,17:41:00,19:32:00,64
+3166,Bordie,Male,17,5,,20:34:00,21:42:00,90
+3169,Odelinda,Female,39,1,"back, Leg",13:32:00,14:12:00,141
+3172,Joni,Female,46,3,"Arms, Leg",8:15:00,9:27:00,93
+3177,Nadean,Female,28,2,,9:56:00,12:45:00,87
+3178,Chick,Male,30,5,,11:02:00,12:47:00,61
+3181,Jeremiah,Male,27,5,"back, Core",10:50:00,13:48:00,164
+3182,Martguerita,Female,12,2,"Core, chest",9:01:00,11:21:00,82
+3186,Chloe,Female,35,3,,17:42:00,19:32:00,164
+3187,Salvidor,Male,35,5,Arms,19:49:00,22:43:00,48
+3192,Kaye,Female,47,3,,17:07:00,19:15:00,38
+3196,Kendrick,Male,38,2,,20:01:00,21:55:00,167
+3205,Trey,Male,48,3,,9:57:00,12:28:00,61
+3207,Heall,Male,12,3,"Leg, back, Leg",11:47:00,13:43:00,124
+3212,Giffer,Male,28,5,,17:21:00,18:33:00,42
+3218,Rubina,Female,45,4,"chest, back",18:01:00,18:31:00,34
+3219,Harland,Male,39,3,"Leg, back",14:59:00,16:48:00,179
+3224,Oriana,Female,23,1,,20:41:00,22:43:00,58
+3225,Cletis,Male,18,5,,20:08:00,21:33:00,60
+3231,Onofredo,Male,12,5,,17:53:00,18:59:00,88
+3233,Jennilee,Female,20,3,,8:34:00,11:04:00,142
+3234,Talia,Female,12,5,,20:26:00,22:06:00,44
+3235,Teirtza,Female,24,4,,11:49:00,12:36:00,137
+3236,Idell,Female,23,1,chest,15:45:00,17:41:00,60
+3238,Irene,Female,46,4,"Arms, Cardio",20:15:00,22:22:00,145
+3239,Claudius,Male,17,3,"Core, chest",17:30:00,18:31:00,134
+3240,Stanton,Male,43,5,back,15:49:00,17:30:00,167
+3244,Sella,Female,44,3,back,13:50:00,16:37:00,126
+3249,Deloris,Female,39,3,Core,18:00:00,19:58:00,93
+3252,Margarita,Female,33,3,"chest, Cardio, Leg",10:17:00,11:19:00,74
+3255,Michale,Male,44,3,"back, back, Arms",14:34:00,15:19:00,34
+3259,Muire,Female,23,5,,10:02:00,11:33:00,171
+3260,Jaquelyn,Female,21,3,,8:20:00,11:05:00,164
+3264,Padraig,Male,28,3,,15:42:00,16:34:00,144
+3265,Reina,Female,34,5,,19:52:00,20:36:00,123
+3267,Bertie,Female,16,1,,11:33:00,12:31:00,52
+3268,Chadwick,Male,20,1,,18:08:00,20:23:00,55
+3270,Abby,Male,18,5,"chest, chest",15:19:00,16:24:00,153
+3279,Mathilda,Female,36,3,,10:43:00,13:06:00,91
+3281,Dorey,Male,25,4,"Arms, chest, back",15:40:00,17:36:00,31
+3282,Daniel,Male,40,1,Core,12:25:00,14:41:00,148
+3285,Earl,Male,15,5,,13:33:00,14:55:00,149
+3286,Dimitry,Male,21,5,,20:16:00,22:00:00,141
+3291,Barbi,Female,39,5,,9:49:00,11:52:00,135
+3296,Evie,Female,30,4,,10:17:00,12:08:00,74
+3297,Georas,Male,25,1,,17:29:00,18:11:00,82
+3299,Avis,Female,19,4,,12:31:00,13:28:00,164
+3303,Therese,Female,22,4,,13:32:00,16:17:00,52
+3307,Elora,Female,30,3,,17:30:00,19:56:00,169
+3308,Jodee,Female,48,3,,11:54:00,13:31:00,168
+3309,Virge,Male,46,4,,15:05:00,17:09:00,177
+3312,Taite,Male,36,1,"Cardio, Leg",17:41:00,19:28:00,55
+3313,Freemon,Male,13,4,chest,19:29:00,21:19:00,35
+3319,Dexter,Male,44,3,,10:38:00,13:32:00,41
+3321,Ernesto,Male,16,2,,14:11:00,16:31:00,156
+3322,Marcus,Male,37,5,,20:18:00,21:34:00,81
+3323,Benjamin,Male,36,4,Leg,17:11:00,18:30:00,66
+3324,Belicia,Female,49,4,"Arms, Cardio, Leg",19:16:00,19:48:00,101
+3325,Quinton,Male,18,4,,10:34:00,11:40:00,95
+3326,Corette,Female,19,3,,18:24:00,20:33:00,89
+3329,Davy,Male,25,3,Leg,9:15:00,11:04:00,69
+3331,Jeannette,Female,16,2,"back, Leg",16:36:00,19:12:00,107
+3333,Derwin,Male,44,4,,11:18:00,12:56:00,159
+3334,Keelby,Male,48,1,,17:29:00,18:04:00,178
+3335,Ladonna,Female,39,3,,13:42:00,15:36:00,50
+3337,Norris,Male,26,5,,18:22:00,20:30:00,52
+3338,Jarib,Male,47,4,Core,10:06:00,13:03:00,42
+3339,Brenda,Female,39,1,"Core, chest, Arms",15:40:00,17:39:00,96
+3340,Sanderson,Male,46,5,"Cardio, Cardio, Core",18:51:00,21:27:00,79
+3343,Andreana,Female,45,3,Leg,9:53:00,11:35:00,72
+3344,Janela,Female,23,4,"Cardio, Cardio",12:50:00,13:59:00,90
+3346,Domeniga,Female,45,3,back,12:17:00,12:55:00,142
+3348,Karim,Male,14,3,,12:59:00,15:16:00,59
+3349,Sheryl,Female,21,4,,12:53:00,14:19:00,47
+3355,Reed,Male,49,2,"chest, back, Core",16:45:00,19:40:00,169
+3357,Dominga,Female,12,2,"Cardio, Arms",20:55:00,22:31:00,134
+3359,Alikee,Female,28,1,,15:21:00,18:12:00,74
+3360,Wini,Female,28,4,"Cardio, chest",17:04:00,20:00:00,167
+3364,Thea,Female,46,1,"Leg, back, Core",10:47:00,11:41:00,161
+3365,Shannon,Female,29,2,"back, Core",18:40:00,21:00:00,130
+3372,Ilyse,Female,35,2,"Leg, back, Leg",11:18:00,12:58:00,150
+3381,Ronald,Male,20,5,,18:01:00,20:07:00,92
+3385,Maiga,Female,45,2,Cardio,12:45:00,14:45:00,38
+3391,Cordelie,Female,14,2,,13:34:00,15:09:00,145
+3393,Lenna,Female,48,1,"Core, back, chest",10:09:00,11:45:00,98
+3394,Taffy,Female,21,1,,9:30:00,11:33:00,134
+3397,Hetti,Female,44,5,,8:47:00,11:05:00,146
+3400,Logan,Male,16,5,"back, chest",13:02:00,13:54:00,94
+3402,Ashly,Female,43,3,"Cardio, back",16:58:00,18:24:00,55
+3405,Eldredge,Male,15,4,Cardio,16:35:00,19:24:00,123
+3407,Oralie,Female,14,5,"Cardio, Leg",17:29:00,19:55:00,131
+3409,Cthrine,Female,39,4,,18:07:00,19:54:00,142
+3410,Zedekiah,Male,48,4,,11:20:00,14:17:00,146
+3411,Aeriell,Female,44,5,,11:53:00,14:08:00,48
+3415,Maiga,Female,31,1,,16:54:00,18:01:00,109
+3417,Mab,Female,16,1,back,14:53:00,15:29:00,72
+3418,Stafani,Female,32,5,,19:37:00,22:32:00,172
+3419,Janela,Female,20,2,"back, chest",10:33:00,12:11:00,30
+3421,Caitlin,Female,16,1,,14:54:00,16:01:00,157
+3422,Jessalin,Female,15,5,,12:46:00,14:42:00,79
+3425,Rockwell,Male,44,4,,16:21:00,17:41:00,45
+3426,Cal,Female,43,1,,20:04:00,21:59:00,92
+3427,Robers,Male,21,4,,16:05:00,17:48:00,79
+3434,Sabra,Female,44,2,,18:14:00,20:34:00,84
+3442,Joyce,Female,12,4,,14:08:00,15:50:00,38
+3444,Orville,Male,48,3,,18:40:00,20:17:00,136
+3445,Amabel,Female,40,2,,12:12:00,14:30:00,51
+3447,Wittie,Male,44,4,,9:14:00,10:45:00,165
+3450,Hunter,Male,43,4,"Leg, chest, Core",19:08:00,21:45:00,51
+3451,Cherish,Female,43,5,chest,14:27:00,15:02:00,90
+3452,Augusta,Female,15,5,Leg,16:21:00,19:15:00,55
+3453,Malynda,Female,22,4,"back, Core, Leg",18:36:00,21:04:00,103
+3454,Philippine,Female,30,5,Leg,18:14:00,18:57:00,90
+3457,Maggi,Female,20,4,,16:21:00,17:06:00,140
+3458,Edi,Female,25,1,Arms,11:37:00,14:27:00,60
+3461,Gianni,Male,41,4,"Core, Leg",19:07:00,21:51:00,98
+3462,Care,Male,34,3,,10:55:00,13:35:00,142
+3463,Sidoney,Female,44,1,,18:15:00,19:15:00,34
+3464,Arda,Female,28,3,"chest, Core",20:54:00,23:53:00,125
+3465,Abagael,Female,37,4,,14:33:00,16:30:00,160
+3466,Krystle,Female,25,4,,17:47:00,19:00:00,165
+3467,Gregorio,Male,12,1,chest,8:25:00,11:08:00,58
+3473,Boniface,Male,18,1,Leg,9:46:00,11:11:00,117
+3478,Claretta,Female,34,2,,11:56:00,14:22:00,104
+3483,Agatha,Female,22,3,chest,18:41:00,20:01:00,172
+3484,Shurlock,Male,35,4,,14:12:00,15:08:00,61
+3487,Mariam,Female,24,1,"chest, Leg",15:44:00,16:57:00,157
+3490,Sheilakathryn,Female,23,5,,9:55:00,11:52:00,173
+3495,Efren,Male,18,4,,8:41:00,9:25:00,120
+3496,Butch,Male,42,2,,15:34:00,16:49:00,111
+3498,Dall,Male,25,3,"chest, Leg, back",10:38:00,12:41:00,36
+3500,Esdras,Male,18,4,,14:34:00,15:55:00,136
+3506,Dasie,Female,23,4,,18:28:00,20:13:00,152
+3514,Darcee,Female,13,5,"Core, back, Cardio",12:43:00,15:19:00,74
+3518,Torey,Male,41,3,chest,8:24:00,10:32:00,87
+3520,Jo-anne,Female,37,5,,19:30:00,20:44:00,144
+3521,Mikaela,Female,27,2,,20:33:00,23:06:00,115
+3526,Tailor,Male,12,1,Core,13:43:00,14:38:00,96
+3527,Flora,Female,23,4,,11:15:00,13:25:00,92
+3528,Yetty,Female,23,3,"chest, Cardio",8:27:00,9:33:00,38
+3532,Skell,Male,31,4,"chest, back, Core",16:04:00,17:35:00,63
+3533,Cyndie,Female,38,4,,18:58:00,21:06:00,37
+3534,Rabbi,Male,17,4,,14:53:00,17:50:00,70
+3546,Agnesse,Female,29,4,,8:55:00,11:01:00,60
+3553,Consalve,Male,26,1,"back, Core",18:23:00,19:31:00,66
+3554,Kit,Female,35,3,"chest, Cardio",18:15:00,20:02:00,106
+3558,Theodoric,Male,44,1,,15:32:00,17:42:00,58
+3559,Bride,Female,43,4,,17:54:00,20:01:00,116
+3564,Helaina,Female,20,5,,16:59:00,18:16:00,171
+3568,Amye,Female,32,4,,10:41:00,11:48:00,109
+3570,Dewitt,Male,26,4,,18:30:00,20:14:00,84
+3572,Sheila,Female,17,5,"Leg, Arms",17:04:00,18:45:00,134
+3574,Stafani,Female,36,3,,19:30:00,21:50:00,72
+3578,Lester,Male,14,1,,20:35:00,21:30:00,154
+3581,Albert,Male,15,4,,15:25:00,18:06:00,170
+3584,Dallis,Male,15,4,,10:48:00,11:32:00,180
+3587,Cammy,Male,34,4,Leg,15:57:00,17:27:00,79
+3589,Adham,Male,47,2,,14:06:00,15:33:00,30
+3591,Waylen,Male,44,5,"Cardio, Cardio, back",12:50:00,13:26:00,79
+3592,Aurie,Female,17,5,"chest, Core, Leg",10:17:00,12:47:00,123
+3593,Honor,Female,13,3,,19:51:00,20:25:00,118
+3598,Ami,Female,38,3,chest,9:21:00,10:54:00,113
+3600,Meyer,Male,32,3,,19:40:00,20:39:00,32
+3601,Germaine,Female,48,4,,12:10:00,12:40:00,64
+3604,Mirella,Female,40,5,,18:42:00,21:12:00,39
+3605,Joey,Male,19,2,"Cardio, Leg",17:42:00,18:39:00,137
+3607,Maureene,Female,46,1,,16:20:00,17:41:00,77
+3609,Marrissa,Female,48,1,"chest, Leg, Core",17:33:00,20:22:00,151
+3613,Emlen,Male,30,2,"Core, Core, back",17:32:00,19:31:00,151
+3615,Norbie,Male,28,4,,18:07:00,19:13:00,101
+3619,Phillip,Male,21,5,,14:29:00,15:58:00,63
+3621,Haley,Male,37,2,,10:52:00,12:26:00,106
+3624,Willie,Male,35,3,,8:39:00,9:36:00,36
+3625,Olympie,Female,39,4,,19:28:00,20:35:00,171
+3627,Tiffani,Female,31,4,Leg,20:00:00,22:25:00,80
+3629,Jean,Male,47,1,,11:02:00,11:46:00,58
+3630,Pablo,Male,40,3,,14:29:00,16:53:00,68
+3638,Timothea,Female,21,4,,19:45:00,20:17:00,35
+3639,Shea,Female,29,5,back,9:25:00,10:32:00,69
+3640,Romola,Female,21,3,"chest, Cardio",10:00:00,11:01:00,41
+3644,Catlee,Female,47,5,"Leg, chest, chest",12:54:00,13:26:00,49
+3646,Toiboid,Male,39,3,,17:16:00,19:12:00,37
+3649,Noelani,Female,30,5,,13:50:00,14:35:00,32
+3652,Jermayne,Male,35,2,,11:06:00,13:25:00,180
+3653,Bradford,Male,24,1,,13:11:00,14:08:00,42
+3654,Fabian,Male,17,4,,14:38:00,15:27:00,123
+3656,Barbabas,Male,30,5,"back, Cardio, chest",17:13:00,19:26:00,72
+3660,Bronson,Male,44,2,,9:58:00,12:29:00,167
+3663,Elisa,Female,16,2,,14:01:00,16:03:00,139
+3668,Nessy,Female,42,5,"Arms, Core, Cardio",15:00:00,17:49:00,146
+3669,Ashia,Female,34,1,"Cardio, Leg",19:04:00,20:13:00,173
+3674,Yehudit,Male,28,2,"Cardio, back, Arms",20:16:00,21:57:00,176
+3677,Tonia,Female,20,5,chest,9:06:00,10:41:00,102
+3678,Jessie,Female,24,1,,13:57:00,16:22:00,153
+3686,Nessa,Female,23,3,,10:16:00,13:15:00,124
+3688,Lyn,Male,25,2,,20:25:00,22:44:00,137
+3689,Elke,Female,14,3,,9:47:00,12:08:00,164
+3691,Guss,Male,29,2,,10:17:00,12:44:00,154
+3692,Matelda,Female,31,3,"chest, Cardio, Cardio",16:21:00,17:05:00,47
+3693,Mignonne,Female,42,5,,17:34:00,19:15:00,147
+3696,Janean,Female,33,2,chest,11:43:00,12:51:00,99
+3701,Julia,Female,16,2,"back, chest, Leg",11:19:00,13:31:00,69
+3702,Rudiger,Male,32,3,,10:22:00,12:17:00,38
+3704,Hal,Male,14,1,"Core, Leg",20:14:00,22:35:00,163
+3705,Edvard,Male,21,3,"Cardio, Core",17:29:00,19:09:00,67
+3706,Hayley,Female,43,4,,11:05:00,13:40:00,144
+3707,Grove,Male,23,4,Core,13:31:00,14:16:00,179
+3708,Chic,Male,17,4,"Arms, Core, Leg",18:01:00,19:37:00,76
+3709,Rudolfo,Male,15,3,"Cardio, Leg, chest",17:58:00,20:00:00,31
+3710,Kayley,Female,39,1,"chest, Core, Cardio",10:54:00,12:00:00,111
+3716,Emiline,Female,19,1,Leg,18:15:00,18:56:00,37
+3717,Ive,Male,45,2,,11:10:00,12:53:00,180
+3719,Pren,Male,19,5,,8:33:00,10:02:00,33
+3720,Lloyd,Male,25,1,"back, Leg, back",19:42:00,21:46:00,72
+3722,Paten,Male,12,1,,11:29:00,12:30:00,64
+3723,Otho,Male,13,3,chest,18:22:00,19:37:00,50
+3724,Riccardo,Male,41,3,"Cardio, Arms",19:06:00,21:10:00,174
+3726,Sebastien,Male,25,4,,10:54:00,12:03:00,93
+3727,Zeb,Male,27,1,"Leg, Cardio, Core",11:51:00,13:01:00,142
+3728,Raina,Female,29,5,"Core, Leg, Arms",20:57:00,22:46:00,75
+3729,Sasha,Male,46,1,,19:38:00,20:20:00,97
+3730,Courtnay,Male,14,2,,15:28:00,18:18:00,38
+3732,Melva,Female,30,3,,13:30:00,15:53:00,160
+3734,Konrad,Male,28,5,,9:13:00,12:11:00,113
+3736,WCardioaker,Male,49,2,Core,20:54:00,21:45:00,93
+3738,Dorian,Female,19,1,back,11:21:00,13:01:00,38
+3740,Kellsie,Female,47,4,,11:16:00,13:42:00,159
+3744,Prince,Male,33,4,back,10:42:00,11:16:00,70
+3747,Loydie,Male,39,2,,13:10:00,14:50:00,151
+3750,Agnese,Female,13,2,"chest, back, chest",10:28:00,11:32:00,97
+3751,Nana,Female,44,5,"Leg, Core, chest",13:11:00,15:01:00,168
+3755,Mommy,Female,44,4,,18:39:00,19:37:00,172
+3757,Nikolaus,Male,33,1,,11:23:00,12:51:00,115
+3758,Gabbi,Female,27,4,,15:16:00,16:04:00,180
+3759,Ricki,Male,41,5,"back, Leg, chest",13:19:00,16:18:00,91
+3760,Simmonds,Male,38,2,"Core, Leg",9:29:00,11:20:00,30
+3764,Lars,Male,25,2,"Core, back",8:10:00,11:10:00,93
+3767,Lin,Male,15,1,,13:07:00,14:15:00,64
+3768,Benjy,Male,35,3,,14:16:00,15:07:00,94
+3769,Glynda,Female,28,4,"Cardio, Core",13:25:00,14:52:00,74
+3773,Willis,Male,21,1,"Leg, Arms, Cardio",18:25:00,21:08:00,123
+3778,Zacharias,Male,27,2,Arms,20:17:00,22:50:00,126
+3781,Martyn,Male,29,4,"Arms, chest, back",16:32:00,17:50:00,167
+3783,Dion,Male,18,3,"Core, chest, Core",12:16:00,14:43:00,36
+3786,Margareta,Female,18,1,,19:32:00,22:10:00,179
+3788,Kane,Male,23,2,,19:44:00,21:05:00,133
+3796,Marylinda,Female,31,5,"Cardio, Cardio",9:21:00,11:58:00,85
+3799,Helen-elizabeth,Female,43,3,"Leg, chest",9:11:00,9:43:00,166
+3803,Cecily,Female,26,3,,9:26:00,10:07:00,125
+3805,Salaidh,Female,45,3,"chest, Leg",8:15:00,9:55:00,94
+3806,Beatriz,Female,34,3,,16:13:00,18:08:00,83
+3808,Sosanna,Female,48,3,,16:32:00,18:06:00,139
+3813,Johnathan,Male,43,4,,14:07:00,14:43:00,81
+3816,Benoit,Male,47,4,,12:18:00,13:31:00,135
+3817,Ailee,Female,49,3,,17:06:00,19:24:00,118
+3821,Romona,Female,34,4,Core,13:20:00,14:57:00,134
+3822,Mischa,Male,17,5,,19:44:00,21:50:00,135
+3823,Viola,Female,45,4,,16:33:00,18:53:00,178
+3824,Junie,Female,14,4,,17:59:00,19:01:00,147
+3825,Baily,Male,23,4,Core,10:53:00,11:53:00,110
+3828,Margarita,Female,12,2,back,15:53:00,17:27:00,33
+3831,Wheeler,Male,28,4,,9:35:00,10:15:00,77
+3836,Marieann,Female,28,1,"Cardio, back, Leg",9:46:00,11:18:00,30
+3841,Marthena,Female,17,5,,11:00:00,12:53:00,98
+3842,Gale,Female,32,3,Arms,9:47:00,11:34:00,48
+3844,Ogdan,Male,35,4,"back, Cardio, Leg",13:40:00,14:30:00,108
+3846,Colby,Male,48,2,"Cardio, Leg, back",15:59:00,18:56:00,76
+3849,Carol,Female,27,4,"Arms, Core",16:37:00,17:58:00,175
+3851,Serene,Female,48,2,,8:06:00,9:17:00,152
+3852,Laraine,Female,13,2,,15:43:00,17:40:00,121
+3853,Westbrooke,Male,48,2,"Cardio, Core",12:16:00,14:58:00,57
+3857,Danyette,Female,20,4,,15:55:00,18:16:00,140
+3858,Florinda,Female,13,3,"Cardio, Cardio, chest",10:20:00,10:53:00,167
+3865,Erhard,Male,18,1,,11:19:00,12:13:00,104
+3866,Evangelia,Female,41,2,"Core, back",11:46:00,14:21:00,82
+3868,Merlina,Female,48,3,chest,18:26:00,20:00:00,176
+3876,Ramona,Female,48,1,Leg,18:32:00,19:44:00,67
+3878,Elisa,Female,26,3,,14:04:00,16:59:00,131
+3881,Alexei,Male,48,1,,10:46:00,11:40:00,166
+3885,Biddy,Female,33,5,,14:33:00,16:21:00,70
+3890,Gonzales,Male,47,3,,20:18:00,21:16:00,133
+3891,Hamilton,Male,23,2,,11:26:00,12:50:00,77
+3892,Renard,Male,46,1,,12:22:00,13:29:00,43
+3907,Stanislaus,Male,32,5,"Core, Arms",15:12:00,16:15:00,55
+3908,Grazia,Female,41,4,,10:25:00,12:51:00,83
+3909,Randy,Male,38,1,chest,13:35:00,16:32:00,41
+3911,Fifine,Female,36,5,"Core, chest",20:53:00,22:03:00,31
+3918,Fayth,Female,28,5,,11:23:00,14:09:00,171
+3928,Pamela,Female,14,4,,17:33:00,18:42:00,106
+3930,Vita,Female,49,5,,13:57:00,14:41:00,165
+3931,Dori,Female,32,4,,16:33:00,18:18:00,143
+3934,Dionis,Female,28,5,,13:53:00,15:44:00,74
+3935,Mariam,Female,24,1,,12:35:00,15:30:00,119
+3937,Parsifal,Male,30,3,"Core, chest, Leg",10:55:00,11:28:00,179
+3938,Merle,Male,48,2,"back, back, Leg",9:57:00,12:11:00,89
+3939,Carlen,Female,14,1,,12:50:00,13:21:00,86
+3944,Marty,Female,42,1,,9:41:00,12:34:00,136
+3947,Elladine,Female,49,1,,9:42:00,11:23:00,56
+3949,Nathanael,Male,37,1,,17:01:00,18:27:00,84
+3950,Karyn,Female,13,5,"Leg, Leg",15:44:00,18:43:00,58
+3951,Grayce,Female,36,3,"Cardio, Core",11:36:00,12:31:00,75
+3954,Ivor,Male,47,3,"Cardio, back, back",15:27:00,18:03:00,107
+3955,Menard,Male,45,3,chest,12:46:00,14:20:00,136
+3958,Doroteya,Female,35,1,back,13:59:00,15:31:00,83
+3959,Gunilla,Female,36,4,,9:22:00,9:52:00,112
+3971,Emma,Female,41,3,"Cardio, back",16:37:00,18:37:00,80
+3974,Samaria,Female,45,5,"Leg, Leg, chest",11:10:00,12:14:00,162
+3976,Veda,Female,45,2,,16:39:00,19:26:00,52
+3977,Zacherie,Male,23,1,chest,10:36:00,13:26:00,164
+3979,Adair,Male,42,1,"Cardio, Leg, chest",13:30:00,16:14:00,165
+3980,Quillan,Male,13,3,"back, Leg",17:47:00,19:20:00,37
+3983,Benyamin,Male,20,3,"Arms, Cardio, Leg",19:22:00,22:15:00,96
+3987,Hadria,Female,33,4,,19:04:00,20:26:00,170
+3988,Rad,Male,44,5,,10:48:00,12:45:00,175
+3990,Clywd,Male,43,5,,11:50:00,13:07:00,127
+3993,Melantha,Female,21,1,"Leg, Cardio, Leg",9:42:00,10:49:00,46
+3994,Averill,Male,49,2,"Cardio, Cardio",19:50:00,20:24:00,94
+3995,Cora,Female,21,1,,10:16:00,11:11:00,168
+3996,Karlen,Female,37,5,,20:56:00,22:59:00,83
+3999,Brigg,Male,46,3,"Cardio, Leg, Core",10:23:00,11:45:00,104
+4008,Uriah,Male,15,2,back,17:45:00,18:57:00,63
+4009,Borden,Male,30,4,"chest, Leg, chest",9:45:00,11:15:00,69
+4013,Celine,Female,13,3,"Core, back, chest",17:04:00,18:48:00,99
+4016,Katya,Female,47,1,"Leg, Core",17:28:00,19:02:00,66
+4018,Trixy,Female,36,3,,16:54:00,19:39:00,49
+4019,Janene,Female,17,1,Arms,10:01:00,11:05:00,142
+4021,Biddie,Female,29,4,,8:19:00,11:12:00,124
+4022,Jamey,Male,21,1,back,15:06:00,15:36:00,178
+4024,Mar,Male,22,5,,14:34:00,15:13:00,104
+4027,Kenon,Male,35,4,"Core, Leg, Core",15:01:00,16:51:00,148
+4028,Wat,Male,41,4,"chest, Leg, Leg",19:41:00,22:36:00,177
+4032,Nataniel,Male,33,3,,20:53:00,21:34:00,100
+4035,Alf,Male,31,4,,18:15:00,19:07:00,146
+4037,Shelby,Female,42,1,,9:02:00,11:39:00,97
+4039,Hercules,Male,45,1,,20:43:00,22:20:00,109
+4040,Kara,Female,31,5,"Cardio, back",10:26:00,12:49:00,40
+4046,Aridatha,Female,23,5,"Leg, Core, Leg",18:41:00,20:18:00,32
+4048,Dick,Male,23,4,"back, back, Leg",16:29:00,17:17:00,34
+4054,Maud,Female,42,2,"Arms, Leg, chest",20:36:00,23:18:00,147
+4056,Paten,Male,32,4,,17:13:00,18:53:00,165
+4059,Gus,Male,48,1,"back, Core, Leg",10:40:00,13:24:00,83
+4063,Chaddy,Male,18,1,,17:22:00,18:51:00,177
+4064,Bridget,Female,21,2,,10:41:00,12:56:00,123
+4066,Constancia,Female,43,5,,13:06:00,15:49:00,96
+4068,Shelden,Male,36,2,"Leg, Arms",13:04:00,15:03:00,36
+4071,Vincenz,Male,15,4,"chest, chest, Arms",13:04:00,14:35:00,95
+4075,Florry,Female,44,4,,9:57:00,12:07:00,154
+4081,Orv,Male,23,5,,12:35:00,14:44:00,141
+4083,Estevan,Male,19,1,,8:33:00,10:21:00,154
+4087,Thorsten,Male,36,4,back,12:51:00,14:27:00,33
+4089,Shirlee,Female,15,1,back,10:34:00,11:38:00,158
+4092,Elvis,Male,35,4,Leg,14:37:00,15:36:00,86
+4093,Nicolle,Female,34,3,"chest, back",9:55:00,12:27:00,31
+4099,Blondelle,Female,33,5,,9:35:00,10:30:00,74
+4101,Giselbert,Male,34,2,Cardio,10:11:00,12:14:00,84
+4102,Shayna,Female,34,3,"chest, Leg, Core",17:42:00,18:58:00,85
+4103,Falito,Male,14,5,"Arms, Leg, Leg",10:29:00,11:39:00,162
+4108,Vivia,Female,33,5,"Leg, Core, Cardio",19:52:00,20:53:00,109
+4110,Aile,Female,21,2,Arms,17:52:00,20:33:00,44
+4111,Irena,Female,45,3,"Cardio, Leg, chest",17:43:00,20:14:00,36
+4113,Yvonne,Female,41,4,,16:23:00,18:07:00,105
+4115,Mae,Female,16,5,,14:36:00,15:26:00,153
+4116,Esra,Male,45,3,,19:08:00,21:25:00,95
+4120,Selle,Female,49,2,,14:55:00,15:47:00,167
+4123,Carmencita,Female,12,4,,9:46:00,10:59:00,164
+4124,Fifi,Female,16,2,,14:40:00,15:28:00,80
+4126,Iago,Male,46,5,,8:40:00,9:44:00,171
+4127,Minnie,Female,34,3,,10:58:00,13:27:00,99
+4128,Lian,Female,21,3,,14:23:00,16:17:00,160
+4131,Garrott,Male,16,2,,15:41:00,17:17:00,114
+4133,Gearalt,Male,14,3,Core,11:35:00,14:04:00,162
+4134,Pooh,Female,21,4,"Leg, Leg, Core",9:31:00,10:47:00,112
+4138,Gunar,Male,29,3,,20:55:00,21:38:00,89
+4139,Nesta,Female,43,4,,19:28:00,22:07:00,58
+4140,Brittany,Female,40,3,"Leg, Core, chest",10:33:00,12:36:00,133
+4142,Rosalinde,Female,31,3,Leg,8:13:00,10:45:00,118
+4144,Rickard,Male,49,1,Core,20:30:00,22:23:00,40
+4145,Winne,Female,14,3,,10:11:00,12:23:00,156
+4146,Julina,Female,22,4,"Core, chest, back",20:23:00,23:12:00,140
+4147,Timothee,Male,46,3,"Leg, Core",18:19:00,20:47:00,62
+4149,Andrew,Male,22,5,,17:57:00,18:41:00,43
+4155,Moe,Male,48,4,,14:41:00,17:39:00,136
+4156,Jocelyne,Female,32,5,,18:54:00,20:00:00,158
+4159,Ruthann,Female,20,5,back,17:57:00,19:56:00,158
+4160,Millie,Female,39,4,"chest, Leg",15:17:00,16:01:00,69
+4161,Adriane,Female,21,4,Core,15:41:00,16:43:00,105
+4164,Quincy,Male,35,3,,17:41:00,19:32:00,64
+4166,Bordie,Male,33,2,,20:34:00,21:42:00,56
+4169,Odelinda,Female,41,3,"back, Leg",13:32:00,14:12:00,69
+4172,Joni,Female,43,2,"Arms, Leg",8:15:00,9:27:00,52
+4177,Nadean,Female,35,1,,9:56:00,12:45:00,149
+4178,Chick,Male,28,3,,11:02:00,12:47:00,139
+4181,Jeremiah,Male,23,4,"back, Core",10:50:00,13:48:00,44
+4182,Martguerita,Female,12,5,"Core, chest",9:01:00,11:21:00,33
+4186,Chloe,Female,44,1,,17:42:00,19:32:00,103
+4187,Salvidor,Male,22,5,Arms,19:49:00,22:43:00,179
+4192,Kaye,Female,34,4,,17:07:00,19:15:00,70
+4196,Kendrick,Male,28,4,,20:01:00,21:55:00,116
+4205,Trey,Male,27,1,,9:57:00,12:28:00,161
+4207,Heall,Male,22,5,"Leg, back, Leg",11:47:00,13:43:00,30
+4212,Giffer,Male,18,1,,17:21:00,18:33:00,104
+4218,Rubina,Female,33,4,"chest, back",18:01:00,18:31:00,55
+4219,Harland,Male,13,2,"Leg, back",14:59:00,16:48:00,83
+4224,Oriana,Female,16,1,,20:41:00,22:43:00,51
+4225,Cletis,Male,29,4,,20:08:00,21:33:00,118
+4231,Onofredo,Male,37,3,,17:53:00,18:59:00,53
+4233,Jennilee,Female,32,3,,8:34:00,11:04:00,170
+4234,Talia,Female,20,4,,20:26:00,22:06:00,162
+4235,Teirtza,Female,31,1,,11:49:00,12:36:00,31
+4236,Idell,Female,19,5,chest,15:45:00,17:41:00,179
+4238,Irene,Female,44,3,"Arms, Cardio",20:15:00,22:22:00,61
+4239,Claudius,Male,18,4,"Core, chest",17:30:00,18:31:00,75
+4240,Stanton,Male,23,3,back,15:49:00,17:30:00,163
+4244,Sella,Female,30,3,back,13:50:00,16:37:00,69
+4249,Deloris,Female,22,4,Core,18:00:00,19:58:00,59
+4252,Margarita,Female,18,5,"chest, Cardio, Leg",10:17:00,11:19:00,78
+4255,Michale,Male,25,2,"back, back, Arms",14:34:00,15:19:00,156
+4259,Muire,Female,41,5,,10:02:00,11:33:00,160
+4260,Jaquelyn,Female,28,1,,8:20:00,11:05:00,177
+4264,Padraig,Male,34,2,,15:42:00,16:34:00,86
+4265,Reina,Female,23,4,,19:52:00,20:36:00,79
+4267,Bertie,Female,46,1,,11:33:00,12:31:00,99
+4268,Chadwick,Male,46,4,,18:08:00,20:23:00,170
+4270,Abby,Male,38,3,"chest, chest",15:19:00,16:24:00,130
+4279,Mathilda,Female,18,5,,10:43:00,13:06:00,107
+4281,Dorey,Male,42,3,"Arms, chest, back",15:40:00,17:36:00,170
+4282,Daniel,Male,21,1,Core,12:25:00,14:41:00,152
+4285,Earl,Male,13,3,,13:33:00,14:55:00,111
+4286,Dimitry,Male,21,5,,20:16:00,22:00:00,40
+4291,Barbi,Female,27,5,,9:49:00,11:52:00,139
+4296,Evie,Female,46,4,,10:17:00,12:08:00,84
+4297,Georas,Male,29,2,,17:29:00,18:11:00,78
+4299,Avis,Female,46,4,,12:31:00,13:28:00,148
+4303,Therese,Female,49,5,,13:32:00,16:17:00,60
+4307,Elora,Female,47,1,,17:30:00,19:56:00,96
+4308,Jodee,Female,19,4,,11:54:00,13:31:00,95
+4309,Virge,Male,14,4,,15:05:00,17:09:00,110
+4312,Taite,Male,23,5,"Cardio, Leg",17:41:00,19:28:00,129
+4313,Freemon,Male,48,5,chest,19:29:00,21:19:00,111
+4319,Dexter,Male,42,4,,10:38:00,13:32:00,33
+4321,Ernesto,Male,32,4,,14:11:00,16:31:00,173
+4322,Marcus,Male,33,1,,20:18:00,21:34:00,100
+4323,Benjamin,Male,24,5,Leg,17:11:00,18:30:00,115
+4324,Belicia,Female,35,3,"Arms, Cardio, Leg",19:16:00,19:48:00,81
+4325,Quinton,Male,22,3,,10:34:00,11:40:00,124
+4326,Corette,Female,43,5,,18:24:00,20:33:00,123
+4329,Davy,Male,24,5,Leg,9:15:00,11:04:00,75
+4331,Jeannette,Female,31,3,"back, Leg",16:36:00,19:12:00,122
+4333,Derwin,Male,39,3,,11:18:00,12:56:00,73
+4334,Keelby,Male,26,3,,17:29:00,18:04:00,67
+4335,Ladonna,Female,24,4,,13:42:00,15:36:00,125
+4337,Norris,Male,33,5,,18:22:00,20:30:00,103
+4338,Jarib,Male,37,5,Core,10:06:00,13:03:00,72
+4339,Brenda,Female,17,4,"Core, chest, Arms",15:40:00,17:39:00,44
+4340,Sanderson,Male,38,1,"Cardio, Cardio, Core",18:51:00,21:27:00,78
+4343,Andreana,Female,29,1,Leg,9:53:00,11:35:00,167
+4344,Janela,Female,37,1,"Cardio, Cardio",12:50:00,13:59:00,150
+4346,Domeniga,Female,36,3,back,12:17:00,12:55:00,50
+4348,Karim,Male,14,1,,12:59:00,15:16:00,165
+4349,Sheryl,Female,17,4,,12:53:00,14:19:00,57
+4355,Reed,Male,30,4,"chest, back, Core",16:45:00,19:40:00,116
+4357,Dominga,Female,25,1,"Cardio, Arms",20:55:00,22:31:00,31
+4359,Alikee,Female,46,1,,15:21:00,18:12:00,101
+4360,Wini,Female,31,4,"Cardio, chest",17:04:00,20:00:00,137
+4364,Thea,Female,47,5,"Leg, back, Core",10:47:00,11:41:00,96
+4365,Shannon,Female,32,3,"back, Core",18:40:00,21:00:00,130
+4372,Ilyse,Female,47,5,"Leg, back, Leg",11:18:00,12:58:00,31
+4381,Ronald,Male,14,5,,18:01:00,20:07:00,115
+4385,Maiga,Female,28,1,Cardio,12:45:00,14:45:00,68
+4391,Cordelie,Female,40,1,,13:34:00,15:09:00,160
+4393,Lenna,Female,44,2,"Core, back, chest",10:09:00,11:45:00,156
+4394,Taffy,Female,25,1,,9:30:00,11:33:00,126
+4397,Hetti,Female,26,3,,8:47:00,11:05:00,90
+4400,Logan,Male,40,1,"back, chest",13:02:00,13:54:00,179
+4402,Ashly,Female,18,2,"Cardio, back",16:58:00,18:24:00,174
+4405,Eldredge,Male,40,4,Cardio,16:35:00,19:24:00,88
+4407,Oralie,Female,16,3,"Cardio, Leg",17:29:00,19:55:00,69
+4409,Cthrine,Female,35,5,,18:07:00,19:54:00,49
+4410,Zedekiah,Male,32,3,,11:20:00,14:17:00,103
+4411,Aeriell,Female,41,1,,11:53:00,14:08:00,133
+4415,Maiga,Female,29,5,,16:54:00,18:01:00,175
+4417,Mab,Female,33,1,back,14:53:00,15:29:00,173
+4418,Stafani,Female,31,3,,19:37:00,22:32:00,84
+4419,Janela,Female,37,4,"back, chest",10:33:00,12:11:00,146
+4421,Caitlin,Female,39,4,,14:54:00,16:01:00,60
+4422,Jessalin,Female,43,2,,12:46:00,14:42:00,56
+4425,Rockwell,Male,37,3,,16:21:00,17:41:00,125
+4426,Cal,Female,43,3,,20:04:00,21:59:00,49
+4427,Robers,Male,44,4,,16:05:00,17:48:00,74
+4434,Sabra,Female,42,2,,18:14:00,20:34:00,53
+4442,Joyce,Female,33,2,,14:08:00,15:50:00,103
+4444,Orville,Male,42,1,,18:40:00,20:17:00,76
+4445,Amabel,Female,40,2,,12:12:00,14:30:00,180
+4447,Wittie,Male,30,4,,9:14:00,10:45:00,30
+4450,Hunter,Male,29,1,"Leg, chest, Core",19:08:00,21:45:00,173
+4451,Cherish,Female,19,4,chest,14:27:00,15:02:00,45
+4452,Augusta,Female,42,5,Leg,16:21:00,19:15:00,116
+4453,Malynda,Female,28,5,"back, Core, Leg",18:36:00,21:04:00,42
+4454,Philippine,Female,31,4,Leg,18:14:00,18:57:00,111
+4457,Maggi,Female,41,3,,16:21:00,17:06:00,77
+4458,Edi,Female,35,1,Arms,11:37:00,14:27:00,102
+4461,Gianni,Male,36,5,"Core, Leg",19:07:00,21:51:00,31
+4462,Care,Male,15,1,,10:55:00,13:35:00,113
+4463,Sidoney,Female,49,5,,18:15:00,19:15:00,84
+4464,Arda,Female,25,5,"chest, Core",20:54:00,23:53:00,45
+4465,Abagael,Female,48,3,,14:33:00,16:30:00,89
+4466,Krystle,Female,15,3,,17:47:00,19:00:00,87
+4467,Gregorio,Male,24,2,chest,8:25:00,11:08:00,105
+4473,Boniface,Male,37,5,Leg,9:46:00,11:11:00,148
+4478,Claretta,Female,45,5,,11:56:00,14:22:00,108
+4483,Agatha,Female,22,1,chest,18:41:00,20:01:00,52
+4484,Shurlock,Male,18,1,,14:12:00,15:08:00,129
+4487,Mariam,Female,34,1,"chest, Leg",15:44:00,16:57:00,33
+4490,Sheilakathryn,Female,27,2,,9:55:00,11:52:00,88
+4495,Efren,Male,25,5,,8:41:00,9:25:00,37
+4496,Butch,Male,31,2,,15:34:00,16:49:00,38
+4498,Dall,Male,46,5,"chest, Leg, back",10:38:00,12:41:00,178
+4500,Esdras,Male,14,2,,14:34:00,15:55:00,179
+4506,Dasie,Female,38,4,,18:28:00,20:13:00,149
+4514,Darcee,Female,22,1,"Core, back, Cardio",12:43:00,15:19:00,140
+4518,Torey,Male,34,5,chest,8:24:00,10:32:00,155
+4520,Jo-anne,Female,18,1,,19:30:00,20:44:00,165
+4521,Mikaela,Female,39,3,,20:33:00,23:06:00,173
+4526,Tailor,Male,30,1,Core,13:43:00,14:38:00,107
+4527,Flora,Female,30,2,,11:15:00,13:25:00,123
+4528,Yetty,Female,19,1,"chest, Cardio",8:27:00,9:33:00,81
+4532,Skell,Male,38,4,"chest, back, Core",16:04:00,17:35:00,160
+4533,Cyndie,Female,13,2,,18:58:00,21:06:00,115
+4534,Rabbi,Male,20,4,,14:53:00,17:50:00,150
+4546,Agnesse,Female,14,5,,8:55:00,11:01:00,69
+4553,Consalve,Male,30,5,"back, Core",18:23:00,19:31:00,137
+4554,Kit,Female,38,2,"chest, Cardio",18:15:00,20:02:00,64
+4558,Theodoric,Male,26,2,,15:32:00,17:42:00,141
+4559,Bride,Female,28,1,,17:54:00,20:01:00,140
+4564,Helaina,Female,23,5,,16:59:00,18:16:00,153
+4568,Amye,Female,46,3,,10:41:00,11:48:00,132
+4570,Dewitt,Male,33,5,,18:30:00,20:14:00,161
+4572,Sheila,Female,24,4,"Leg, Arms",17:04:00,18:45:00,66
+4574,Stafani,Female,46,2,,19:30:00,21:50:00,70
+4578,Lester,Male,45,2,,20:35:00,21:30:00,66
+4581,Albert,Male,19,1,,15:25:00,18:06:00,156
+4584,Dallis,Male,39,4,,10:48:00,11:32:00,99
+4587,Cammy,Male,45,3,Leg,15:57:00,17:27:00,50
+4589,Adham,Male,44,2,,14:06:00,15:33:00,161
+4591,Waylen,Male,43,2,"Cardio, Cardio, back",12:50:00,13:26:00,86
+4592,Aurie,Female,30,3,"chest, Core, Leg",10:17:00,12:47:00,125
+4593,Honor,Female,23,1,,19:51:00,20:25:00,63
+4598,Ami,Female,49,5,chest,9:21:00,10:54:00,127
+4600,Meyer,Male,21,1,,19:40:00,20:39:00,47
+4601,Germaine,Female,30,3,,12:10:00,12:40:00,58
+4604,Mirella,Female,14,4,,18:42:00,21:12:00,94
+4605,Joey,Male,23,1,"Cardio, Leg",17:42:00,18:39:00,140
+4607,Maureene,Female,44,2,,16:20:00,17:41:00,98
+4609,Marrissa,Female,32,1,"chest, Leg, Core",17:33:00,20:22:00,137
+4613,Emlen,Male,30,2,"Core, Core, back",17:32:00,19:31:00,47
+4615,Norbie,Male,34,2,,18:07:00,19:13:00,92
+4619,Phillip,Male,36,1,,14:29:00,15:58:00,130
+4621,Haley,Male,41,5,,10:52:00,12:26:00,152
+4624,Willie,Male,43,1,,8:39:00,9:36:00,98
+4625,Olympie,Female,38,5,,19:28:00,20:35:00,151
+4627,Tiffani,Female,19,2,Leg,20:00:00,22:25:00,45
+4629,Jean,Male,43,1,,11:02:00,11:46:00,144
+4630,Pablo,Male,35,1,,14:29:00,16:53:00,169
+4638,Timothea,Female,18,1,,19:45:00,20:17:00,58
+4639,Shea,Female,35,5,back,9:25:00,10:32:00,176
+4640,Romola,Female,38,2,"chest, Cardio",10:00:00,11:01:00,97
+4644,Catlee,Female,31,1,"Leg, chest, chest",12:54:00,13:26:00,155
+4646,Toiboid,Male,35,2,,17:16:00,19:12:00,143
+4649,Noelani,Female,36,3,,13:50:00,14:35:00,30
+4652,Jermayne,Male,34,4,,11:06:00,13:25:00,34
+4653,Bradford,Male,20,2,,13:11:00,14:08:00,180
+4654,Fabian,Male,14,2,,14:38:00,15:27:00,58
+4656,Barbabas,Male,37,5,"back, Cardio, chest",17:13:00,19:26:00,143
+4660,Bronson,Male,19,5,,9:58:00,12:29:00,177
+4663,Elisa,Female,26,3,,14:01:00,16:03:00,111
+4668,Nessy,Female,47,4,"Arms, Core, Cardio",15:00:00,17:49:00,162
+4669,Ashia,Female,16,2,"Cardio, Leg",19:04:00,20:13:00,44
+4674,Yehudit,Male,20,5,"Cardio, back, Arms",20:16:00,21:57:00,125
+4677,Tonia,Female,14,1,chest,9:06:00,10:41:00,74
+4678,Jessie,Female,14,3,,13:57:00,16:22:00,104
+4686,Nessa,Female,28,2,,10:16:00,13:15:00,51
+4688,Lyn,Male,37,5,,20:25:00,22:44:00,81
+4689,Elke,Female,49,2,,9:47:00,12:08:00,108
+4691,Guss,Male,43,5,,10:17:00,12:44:00,129
+4692,Matelda,Female,26,5,"chest, Cardio, Cardio",16:21:00,17:05:00,72
+4693,Mignonne,Female,38,3,,17:34:00,19:15:00,95
+4696,Janean,Female,49,5,chest,11:43:00,12:51:00,130
+4701,Julia,Female,32,1,"back, chest, Leg",11:19:00,13:31:00,69
+4702,Rudiger,Male,13,3,,10:22:00,12:17:00,35
+4704,Hal,Male,49,5,"Core, Leg",20:14:00,22:35:00,86
+4705,Edvard,Male,29,4,"Cardio, Core",17:29:00,19:09:00,138
+4706,Hayley,Female,48,4,,11:05:00,13:40:00,137
+4707,Grove,Male,21,4,Core,13:31:00,14:16:00,124
+4708,Chic,Male,18,5,"Arms, Core, Leg",18:01:00,19:37:00,49
+4709,Rudolfo,Male,30,4,"Cardio, Leg, chest",17:58:00,20:00:00,49
+4710,Kayley,Female,12,3,"chest, Core, Cardio",10:54:00,12:00:00,133
+4716,Emiline,Female,15,1,Leg,18:15:00,18:56:00,152
+4717,Ive,Male,12,2,,11:10:00,12:53:00,96
+4719,Pren,Male,32,5,,8:33:00,10:02:00,136
+4720,Lloyd,Male,43,5,"back, Leg, back",19:42:00,21:46:00,98
+4722,Paten,Male,13,5,,11:29:00,12:30:00,36
+4723,Otho,Male,48,5,chest,18:22:00,19:37:00,132
+4724,Riccardo,Male,12,4,"Cardio, Arms",19:06:00,21:10:00,72
+4726,Sebastien,Male,12,2,,10:54:00,12:03:00,100
+4727,Zeb,Male,24,1,"Leg, Cardio, Core",11:51:00,13:01:00,154
+4728,Raina,Female,32,3,"Core, Leg, Arms",20:57:00,22:46:00,171
+4729,Sasha,Male,25,3,,19:38:00,20:20:00,153
+4730,Courtnay,Male,30,4,,15:28:00,18:18:00,157
+4732,Melva,Female,21,3,,13:30:00,15:53:00,133
+4734,Konrad,Male,23,1,,9:13:00,12:11:00,125
+4736,WCardioaker,Male,19,4,Core,20:54:00,21:45:00,173
+4738,Dorian,Female,21,2,back,11:21:00,13:01:00,35
+4740,Kellsie,Female,36,3,,11:16:00,13:42:00,85
+4744,Prince,Male,48,4,back,10:42:00,11:16:00,120
+4747,Loydie,Male,24,2,,13:10:00,14:50:00,91
+4750,Agnese,Female,44,3,"chest, back, chest",10:28:00,11:32:00,63
+4751,Nana,Female,32,1,"Leg, Core, chest",13:11:00,15:01:00,63
+4755,Mommy,Female,42,4,,18:39:00,19:37:00,179
+4757,Nikolaus,Male,32,2,,11:23:00,12:51:00,47
+4758,Gabbi,Female,22,1,,15:16:00,16:04:00,124
+4759,Ricki,Male,23,2,"back, Leg, chest",13:19:00,16:18:00,166
+4760,Simmonds,Male,47,3,"Core, Leg",9:29:00,11:20:00,37
+4764,Lars,Male,40,3,"Core, back",8:10:00,11:10:00,80
+4767,Lin,Male,26,2,,13:07:00,14:15:00,176
+4768,Benjy,Male,26,3,,14:16:00,15:07:00,92
+4769,Glynda,Female,22,5,"Cardio, Core",13:25:00,14:52:00,35
+4773,Willis,Male,42,3,"Leg, Arms, Cardio",18:25:00,21:08:00,55
+4778,Zacharias,Male,22,1,Arms,20:17:00,22:50:00,180
+4781,Martyn,Male,36,1,"Arms, chest, back",16:32:00,17:50:00,93
+4783,Dion,Male,23,4,"Core, chest, Core",12:16:00,14:43:00,33
+4786,Margareta,Female,20,5,,19:32:00,22:10:00,131
+4788,Kane,Male,40,3,,19:44:00,21:05:00,83
+4796,Marylinda,Female,41,3,"Cardio, Cardio",9:21:00,11:58:00,171
+4799,Helen-elizabeth,Female,26,4,"Leg, chest",9:11:00,9:43:00,101
+4803,Cecily,Female,25,2,,9:26:00,10:07:00,43
+4805,Salaidh,Female,18,4,"chest, Leg",8:15:00,9:55:00,161
+4806,Beatriz,Female,23,1,,16:13:00,18:08:00,151
+4808,Sosanna,Female,17,4,,16:32:00,18:06:00,116
+4813,Johnathan,Male,21,1,,14:07:00,14:43:00,48
+4816,Benoit,Male,39,4,,12:18:00,13:31:00,111
+4817,Ailee,Female,23,2,,17:06:00,19:24:00,99
+4821,Romona,Female,37,1,Core,13:20:00,14:57:00,114
+4822,Mischa,Male,24,5,,19:44:00,21:50:00,108
+4823,Viola,Female,37,5,,16:33:00,18:53:00,76
+4824,Junie,Female,16,4,,17:59:00,19:01:00,125
+4825,Baily,Male,24,3,Core,10:53:00,11:53:00,85
+4828,Margarita,Female,39,4,back,15:53:00,17:27:00,143
+4831,Wheeler,Male,27,3,,9:35:00,10:15:00,64
+4836,Marieann,Female,22,3,"Cardio, back, Leg",9:46:00,11:18:00,126
+4841,Marthena,Female,37,2,,11:00:00,12:53:00,168
+4842,Gale,Female,49,3,Arms,9:47:00,11:34:00,47
+4844,Ogdan,Male,21,5,"back, Cardio, Leg",13:40:00,14:30:00,67
+4846,Colby,Male,42,1,"Cardio, Leg, back",15:59:00,18:56:00,105
+4849,Carol,Female,49,4,"Arms, Core",16:37:00,17:58:00,81
+4851,Serene,Female,40,2,,8:06:00,9:17:00,126
+4852,Laraine,Female,38,4,,15:43:00,17:40:00,138
+4853,Westbrooke,Male,39,2,"Cardio, Core",12:16:00,14:58:00,44
+4857,Danyette,Female,12,2,,15:55:00,18:16:00,67
+4858,Florinda,Female,12,5,"Cardio, Cardio, chest",10:20:00,10:53:00,171
+4865,Erhard,Male,17,2,,11:19:00,12:13:00,127
+4866,Evangelia,Female,12,3,"Core, back",11:46:00,14:21:00,69
+4868,Merlina,Female,19,2,chest,18:26:00,20:00:00,178
+4876,Ramona,Female,42,1,Leg,18:32:00,19:44:00,58
+4878,Elisa,Female,22,2,,14:04:00,16:59:00,160
+4881,Alexei,Male,37,4,,10:46:00,11:40:00,126
+4885,Biddy,Female,38,3,,14:33:00,16:21:00,101
+4890,Gonzales,Male,39,3,,20:18:00,21:16:00,165
+4891,Hamilton,Male,15,4,,11:26:00,12:50:00,151
+4892,Renard,Male,29,2,,12:22:00,13:29:00,30
+4907,Stanislaus,Male,15,1,"Core, Arms",15:12:00,16:15:00,79
+4908,Grazia,Female,24,3,,10:25:00,12:51:00,135
+4909,Randy,Male,48,4,chest,13:35:00,16:32:00,101
+4911,Fifine,Female,18,2,"Core, chest",20:53:00,22:03:00,81
+4918,Fayth,Female,46,5,,11:23:00,14:09:00,68
+4928,Pamela,Female,26,3,,17:33:00,18:42:00,158
+4930,Vita,Female,21,3,,13:57:00,14:41:00,49
+4931,Dori,Female,41,5,,16:33:00,18:18:00,144
+4934,Dionis,Female,14,4,,13:53:00,15:44:00,33
+4935,Mariam,Female,47,5,,12:35:00,15:30:00,59
+4937,Parsifal,Male,21,1,"Core, chest, Leg",10:55:00,11:28:00,107
+4938,Merle,Male,30,1,"back, back, Leg",9:57:00,12:11:00,122
+4939,Carlen,Female,46,4,,12:50:00,13:21:00,60
+4944,Marty,Female,15,2,,9:41:00,12:34:00,172
+4947,Elladine,Female,21,2,,9:42:00,11:23:00,172
+4949,Nathanael,Male,24,3,,17:01:00,18:27:00,47
+4950,Karyn,Female,44,3,"Leg, Leg",15:44:00,18:43:00,169
+4951,Grayce,Female,32,2,"Cardio, Core",11:36:00,12:31:00,118
+4954,Ivor,Male,13,5,"Cardio, back, back",15:27:00,18:03:00,52
+4955,Menard,Male,13,1,chest,12:46:00,14:20:00,55
+4958,Doroteya,Female,34,4,back,13:59:00,15:31:00,42
+4959,Gunilla,Female,32,4,,9:22:00,9:52:00,91
+4971,Emma,Female,33,2,"Cardio, back",16:37:00,18:37:00,144
+4974,Samaria,Female,36,4,"Leg, Leg, chest",11:10:00,12:14:00,142
+4976,Veda,Female,29,1,,16:39:00,19:26:00,74
+4977,Zacherie,Male,36,5,chest,10:36:00,13:26:00,142
+4979,Adair,Male,39,4,"Cardio, Leg, chest",13:30:00,16:14:00,87
+4980,Quillan,Male,32,1,"back, Leg",17:47:00,19:20:00,32
+4983,Benyamin,Male,28,5,"Arms, Cardio, Leg",19:22:00,22:15:00,172
+4987,Hadria,Female,20,4,,19:04:00,20:26:00,79
+4988,Rad,Male,36,5,,10:48:00,12:45:00,84
+4990,Clywd,Male,18,3,,11:50:00,13:07:00,38
+4993,Melantha,Female,25,2,"Leg, Cardio, Leg",9:42:00,10:49:00,172
+4994,Averill,Male,37,4,"Cardio, Cardio",19:50:00,20:24:00,136
+4995,Cora,Female,49,3,,10:16:00,11:11:00,61
+4996,Karlen,Female,40,5,,20:56:00,22:59:00,146
+4999,Brigg,Male,18,4,"Cardio, Leg, Core",10:23:00,11:45:00,160

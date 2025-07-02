@@ -48,7 +48,10 @@ class FitForecasterTrainer:
             'monday': os.path.join(self.data_dir, 'mongym.csv'),
             'tuesday': os.path.join(self.data_dir, 'tuegym.csv'),
             'wednesday': os.path.join(self.data_dir, 'wedgym.csv'),
-            'friday': os.path.join(self.data_dir, 'frigym.csv')
+            'thugym': os.path.join(self.data_dir, 'thugym.csv'),
+            'friday': os.path.join(self.data_dir, 'frigym.csv'),
+            'saturday': os.path.join(self.data_dir, 'satgym.csv'),
+            'sunday': os.path.join(self.data_dir, 'sungym.csv'),
         }
         
         # Process historical data
