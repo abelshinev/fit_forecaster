@@ -252,7 +252,7 @@ class SmartRecommendationEngine:
         
         logger.info("Reset all recommendation quotas")
     
-    def get_recommendation_analytics(self) -> Dict[str, any]:
+    def get_recommendation_analytics(self):
         """Get analytics about recent recommendations"""
         if not self.recent_recommendations:
             return {}
@@ -265,7 +265,7 @@ class SmartRecommendationEngine:
             'split_distribution': df['split_id'].value_counts().to_dict(),
             'time_slot_distribution': df['time_slot'].value_counts().to_dict(),
             'avg_predicted_traffic': df['predicted_traffic'].mean(),
-            'quota_utilization': df['quota_used'].mean() / (self.max_capacity * 0.3)
+            'quota_utilization': df['quota_used'].mean() / (self.max_capacity * 0.3) 
         }
         
         return analytics

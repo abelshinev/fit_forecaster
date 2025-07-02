@@ -17,9 +17,9 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # Add src to path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
-from data_processor import DataProcessor
-from models import SplitSpecificModels, XGBoostModel, EnsembleModel
-from recommendation_engine import SmartRecommendationEngine, Recommendation
+from src.data_processor import DataProcessor
+from src.models import SplitSpecificModels, XGBoostModel, EnsembleModel
+from src.recommendation_engine import SmartRecommendationEngine, Recommendation
 
 # Configure logging
 logging.basicConfig(

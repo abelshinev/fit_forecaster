@@ -10,13 +10,15 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import logging
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.linear_model import LinearRegression
 
 # Add src to path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
-from data_processor import DataProcessor
-from models import SplitSpecificModels, XGBoostModel, EnsembleModel
-from recommendation_engine import SmartRecommendationEngine, Recommendation
+from src.data_processor import DataProcessor
+from src.models import SplitSpecificModels, XGBoostModel, EnsembleModel
+from src.recommendation_engine import SmartRecommendationEngine, Recommendation
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -258,8 +260,11 @@ class TestFitForecaster(unittest.TestCase):
             split_dir = os.path.join(test_output_dir, split_id.lower())
             if os.path.exists(split_dir):
                 # Create ensemble and load
-                from models import EnsembleModel, XGBoostModel
-                models = [XGBoostModel()]
+                models = [
+                    XGBoostModel(),
+                    # You need to create custom wrapper classes for RandomForest and LinearRegression
+                    # or just use XGBoostModel and ProphetModel for now
+                ]
                 ensemble = EnsembleModel(models)
                 ensemble.load_ensemble(split_dir)
                 

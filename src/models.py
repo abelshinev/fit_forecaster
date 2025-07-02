@@ -18,10 +18,11 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense, Dropout, Input
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.callbacks import EarlyStopping
+import keras.optimizers
+from keras.models import Sequential
+from keras.layers import LSTM, Dense, Dropout, Input
+from keras.optimizers import Adam
+from keras.callbacks import EarlyStopping
 
 # Time Series
 try:
@@ -229,7 +230,7 @@ class LSTMModel(BaseModel):
         ])
         
         model.compile(
-            optimizer=Adam(learning_rate=0.001),
+            optimizer=Adam(learning_rate=0.001), #type: ignore
             loss='mse',
             metrics=['mae']
         )
@@ -265,7 +266,7 @@ class LSTMModel(BaseModel):
             batch_size=32,
             validation_split=0.2,
             callbacks=[early_stopping],
-            verbose=0
+            verbose=0 #type: ignore
         )
         
         self.is_trained = True
@@ -290,7 +291,7 @@ class LSTMModel(BaseModel):
 class EnsembleModel:
     """Ensemble model combining multiple base models"""
     
-    def __init__(self, models: List[BaseModel], weights: Optional[List[float]] = None):
+    def __init__(self, models, weights: Optional[List[float]] = None):
         self.models = models
         self.weights = weights if weights else [1.0 / len(models)] * len(models)
         self.is_trained = False
@@ -407,7 +408,7 @@ class SplitSpecificModels:
             
         return EnsembleModel(models)
         
-    def train_split_models(self, data: pd.DataFrame, target_col: str = 'visitor_count'):
+    def train_split_models(self, data, target_col: str = 'visitor_count'):
         """Train models for each split"""
         logger.info("Training split-specific models...")
         
