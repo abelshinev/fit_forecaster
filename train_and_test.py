@@ -102,6 +102,25 @@ class FitForecasterTrainer:
                 # Make predictions
                 y_pred = model_info['model'].predict(X_test)
                 
+                # Plot best fit line (actual vs predicted)
+                import matplotlib.pyplot as plt
+                import numpy as np
+                plt.figure(figsize=(7, 6))
+                plt.scatter(y_test, y_pred, alpha=0.5, label='Predicted vs Actual')
+                min_val = min(y_test.min(), y_pred.min())
+                max_val = max(y_test.max(), y_pred.max())
+                plt.plot([min_val, max_val], [min_val, max_val], 'r--', label='Perfect Fit (y=x)')
+                # Regression line
+                m, b = np.polyfit(y_test, y_pred, 1)
+                plt.plot(y_test, m*y_test + b, 'g-', label='Regression Line')
+                plt.xlabel('Actual Values')
+                plt.ylabel('Predicted Values')
+                plt.title(f'Actual vs Predicted for {split_id}')
+                plt.legend()
+                plt.tight_layout()
+                plt.savefig(f'outputs/best_fit_{split_id}.png', dpi=300)
+                plt.close()
+                
                 # Calculate metrics
                 metrics = {
                     'mae': mean_absolute_error(y_test, y_pred),
