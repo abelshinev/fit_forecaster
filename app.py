@@ -338,13 +338,14 @@ def show_recommendations(data, models):
     
     with col2:
         st.subheader("Recommendation Settings")
-        
+        # Day of week selector
+        day_names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+        selected_day_name = st.selectbox("Select Day of Week:", day_names)
+        selected_day_of_week = day_names.index(selected_day_name)
         # User ID
         user_id = st.number_input("User ID:", min_value=1, value=1)
-        
         # Confidence threshold
         confidence_threshold = st.slider("Minimum confidence:", 0.0, 1.0, 0.5)
-        
         # Get recommendation button
         if st.button("🎯 Get Recommendation", type="primary"):
             if models and selected_split in models.split_models:
@@ -353,21 +354,16 @@ def show_recommendations(data, models):
                 time_slots = list(range(48))
                 splits = list(models.split_models.keys())
                 recommendation_engine.initialize_quotas(time_slots, splits)
-                
                 # Get prediction model
                 prediction_model = models.split_models[selected_split]['model']
-                
                 # Get recommendation
                 recommendation = recommendation_engine.get_recommendation(
                     user_id, selected_split, preferred_times, prediction_model
                 )
-                
                 # Display recommendation
                 st.success("✅ Recommendation Generated!")
-                
                 # Recommendation card
                 time_str = f"{recommendation.recommended_time_slot // 2:02d}:{(recommendation.recommended_time_slot % 2) * 30:02d}"
-                
                 st.markdown(f"""
                 <div class="recommendation-card">
                     <h3>🏋️ {selected_split} Workout</h3>
@@ -377,7 +373,6 @@ def show_recommendations(data, models):
                     <p><strong>Reason:</strong> {recommendation.reason}</p>
                 </div>
                 """, unsafe_allow_html=True)
-                
                 # Alternative times
                 if recommendation.alternative_times:
                     st.subheader("Alternative Times:")
@@ -385,42 +380,37 @@ def show_recommendations(data, models):
                     for alt_time in recommendation.alternative_times:
                         alt_time_str = f"{alt_time // 2:02d}:{(alt_time % 2) * 30:02d}"
                         alt_times.append(alt_time_str)
-                    
                     st.write(", ".join(alt_times))
-                
                 # Traffic prediction chart
                 st.subheader("Traffic Prediction")
-                
                 # Generate predictions for all time slots
                 all_predictions = []
                 for time_slot in range(48):
                     features = pd.DataFrame({
                         'split_id': [selected_split],
                         'time_slot': [time_slot],
-                        'day_of_week': [datetime.now().weekday()],
+                        'day_of_week': [selected_day_of_week],
                         'month': [datetime.now().month],
-                        'is_weekend': [1 if datetime.now().weekday() >= 5 else 0],
+                        'is_weekend': [1 if selected_day_of_week >= 5 else 0],
                         'hour_sin': [np.sin(2 * np.pi * time_slot / 48)],
                         'hour_cos': [np.cos(2 * np.pi * time_slot / 48)],
-                        'day_sin': [np.sin(2 * np.pi * datetime.now().weekday() / 7)],
-                        'day_cos': [np.cos(2 * np.pi * datetime.now().weekday() / 7)],
+                        'day_sin': [np.sin(2 * np.pi * selected_day_of_week / 7)],
+                        'day_cos': [np.cos(2 * np.pi * selected_day_of_week / 7)],
                         'prev_day_attendance': [0],
                         'prev_week_attendance': [0],
                         'rolling_3day_avg': [0],
                         'rolling_7day_avg': [0]
                     })
-                    
                     try:
                         pred = prediction_model.predict(features)[0]
                         all_predictions.append(pred)
                     except:
                         all_predictions.append(0)
-                
                 # Create prediction chart
                 time_labels = [f"{i//2:02d}:{(i%2)*30:02d}" for i in range(48)]
                 fig = px.line(x=time_labels, y=all_predictions, 
                             title=f'Predicted {selected_split} Attendance by Time')
-                fig.add_vline(x=time_labels[recommendation.recommended_time_slot], 
+                fig.add_vline(x=recommendation.recommended_time_slot, 
                             line_dash="dash", line_color="red",
                             annotation_text="Recommended")
                 fig.update_xaxes(tickangle=45)
