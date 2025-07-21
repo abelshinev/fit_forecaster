@@ -189,7 +189,7 @@ def create_synthetic_data():
     
     return pd.DataFrame(data)
 
-def main():
+def main(): # Ref wh
     """Main application function"""
     
     # Header
