@@ -410,10 +410,21 @@ def show_recommendations(data, models):
                 time_labels = [f"{i//2:02d}:{(i%2)*30:02d}" for i in range(48)]
                 fig = px.line(x=time_labels, y=all_predictions, 
                             title=f'Predicted {selected_split} Attendance by Time')
+                # Mark preferred time slots
+                for slot in preferred_times:
+                    fig.add_scatter(x=[time_labels[slot]], y=[all_predictions[slot]],
+                                   mode='markers', marker=dict(color='blue', size=12, symbol='circle'),
+                                   name='Preferred Time')
+                # Mark recommended (minima) time slot
+                fig.add_scatter(x=[time_labels[recommendation.recommended_time_slot]],
+                               y=[all_predictions[recommendation.recommended_time_slot]],
+                               mode='markers', marker=dict(color='red', size=16, symbol='star'),
+                               name='Recommended (Min)')
                 fig.add_vline(x=recommendation.recommended_time_slot, 
                             line_dash="dash", line_color="red",
                             annotation_text="Recommended")
                 fig.update_xaxes(tickangle=45)
+                fig.update_layout(legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1))
                 st.plotly_chart(fig, use_container_width=True)
 
 def show_traffic_analysis(data):
