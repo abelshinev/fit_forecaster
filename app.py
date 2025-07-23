@@ -319,19 +319,18 @@ def show_recommendations(data, models):
         selected_split = st.selectbox("Choose your workout split:", available_splits)
         
         # Time preferences
-        st.write("Preferred workout times:")
-        morning = st.checkbox("Morning (6 AM - 10 AM)")
-        afternoon = st.checkbox("Afternoon (12 PM - 4 PM)")
-        evening = st.checkbox("Evening (6 PM - 10 PM)")
-        
-        # Convert preferences to time slots
-        preferred_times = []
-        if morning:
-            preferred_times.extend([12, 13, 14, 15, 16, 17, 18, 19])  # 6-10 AM
-        if afternoon:
-            preferred_times.extend([24, 25, 26, 27, 28, 29, 30, 31])  # 12-4 PM
-        if evening:
-            preferred_times.extend([36, 37, 38, 39, 40, 41, 42, 43])  # 6-10 PM
+        st.write("Preferred workout time:")
+        time_range = st.radio(
+            "Select a time range:",
+            ["Morning (6 AM - 10 AM)", "Afternoon (12 PM - 4 PM)", "Evening (6 PM - 10 PM)"],
+            index=2
+        )
+        if time_range == "Morning (6 AM - 10 AM)":
+            preferred_times = [12, 13, 14, 15, 16, 17, 18, 19]
+        elif time_range == "Afternoon (12 PM - 4 PM)":
+            preferred_times = [24, 25, 26, 27, 28, 29, 30, 31]
+        else:
+            preferred_times = [36, 37, 38, 39, 40, 41, 42, 43]
         
         if not preferred_times:
             preferred_times = [16, 17, 18, 19]  # Default to evening
@@ -358,7 +357,7 @@ def show_recommendations(data, models):
                 prediction_model = models.split_models[selected_split]['model']
                 # Get recommendation
                 recommendation = recommendation_engine.get_recommendation(
-                    user_id, selected_split, preferred_times, prediction_model
+                    user_id, selected_split, preferred_times, prediction_model, selected_day_of_week
                 )
                 # Display recommendation
                 st.success("✅ Recommendation Generated!")
@@ -386,6 +385,20 @@ def show_recommendations(data, models):
                 # Generate predictions for all time slots
                 all_predictions = []
                 for time_slot in range(48):
+                    # Look up historical feature values from data
+                    row = data[(data['split_id'] == selected_split) &
+                               (data['day_of_week'] == selected_day_of_week) &
+                               (data['time_slot'] == time_slot)]
+                    if not row.empty:
+                        prev_day_attendance = row.iloc[0].get('prev_day_attendance', 0)
+                        prev_week_attendance = row.iloc[0].get('prev_week_attendance', 0)
+                        rolling_3day_avg = row.iloc[0].get('rolling_3day_avg', 0)
+                        rolling_7day_avg = row.iloc[0].get('rolling_7day_avg', 0)
+                    else:
+                        prev_day_attendance = 0
+                        prev_week_attendance = 0
+                        rolling_3day_avg = 0
+                        rolling_7day_avg = 0
                     features = pd.DataFrame({
                         'split_id': [selected_split],
                         'time_slot': [time_slot],
@@ -396,10 +409,10 @@ def show_recommendations(data, models):
                         'hour_cos': [np.cos(2 * np.pi * time_slot / 48)],
                         'day_sin': [np.sin(2 * np.pi * selected_day_of_week / 7)],
                         'day_cos': [np.cos(2 * np.pi * selected_day_of_week / 7)],
-                        'prev_day_attendance': [0],
-                        'prev_week_attendance': [0],
-                        'rolling_3day_avg': [0],
-                        'rolling_7day_avg': [0]
+                        'prev_day_attendance': [prev_day_attendance],
+                        'prev_week_attendance': [prev_week_attendance],
+                        'rolling_3day_avg': [rolling_3day_avg],
+                        'rolling_7day_avg': [rolling_7day_avg]
                     })
                     try:
                         pred = prediction_model.predict(features)[0]

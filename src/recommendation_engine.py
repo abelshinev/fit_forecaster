@@ -44,30 +44,30 @@ class SmartRecommendationEngine:
                 }
     
     def get_traffic_prediction(self, split_id: str, time_slot: int, 
-                             prediction_model) -> float:
-        """Get traffic prediction for a specific split and time slot"""
+                             prediction_model, day_of_week: int = None) -> float:
+        """Get traffic prediction for a specific split and time slot and day"""
         try:
             # Create feature vector for prediction
             current_date = datetime.now()
+            if day_of_week is None:
+                day_of_week = current_date.weekday()
             features = pd.DataFrame({
                 'split_id': [split_id],
                 'time_slot': [time_slot],
-                'day_of_week': [current_date.weekday()],
+                'day_of_week': [day_of_week],
                 'month': [current_date.month],
-                'is_weekend': [1 if current_date.weekday() >= 5 else 0],
+                'is_weekend': [1 if day_of_week >= 5 else 0],
                 'hour_sin': [np.sin(2 * np.pi * time_slot / 48)],
                 'hour_cos': [np.cos(2 * np.pi * time_slot / 48)],
-                'day_sin': [np.sin(2 * np.pi * current_date.weekday() / 7)],
-                'day_cos': [np.cos(2 * np.pi * current_date.weekday() / 7)],
+                'day_sin': [np.sin(2 * np.pi * day_of_week / 7)],
+                'day_cos': [np.cos(2 * np.pi * day_of_week / 7)],
                 'prev_day_attendance': [0],  # Would need historical data
                 'prev_week_attendance': [0],  # Would need historical data
                 'rolling_3day_avg': [0],  # Would need historical data
                 'rolling_7day_avg': [0]   # Would need historical data
             })
-            
             prediction = prediction_model.predict(features)[0]
             return max(0, prediction)  # Ensure non-negative
-            
         except Exception as e:
             logger.error(f"Error getting traffic prediction: {e}")
             return 0.0
@@ -88,70 +88,48 @@ class SmartRecommendationEngine:
         return min(1.0, congestion_score)
     
     def find_optimal_times(self, split_id: str, preferred_times: List[int], 
-                          prediction_model, max_alternatives: int = 3) -> List[Tuple[int, float]]:
-        """Find optimal workout times with congestion consideration"""
+                          prediction_model, day_of_week: int = None, max_alternatives: int = 3) -> List[Tuple[int, float]]:
+        """Find optimal workout times with congestion consideration for a specific day"""
         all_time_slots = list(range(48))  # 30-minute slots for 24 hours
-        
         time_scores = []
-        
         for time_slot in all_time_slots:
             # Get base traffic prediction
-            base_traffic = self.get_traffic_prediction(split_id, time_slot, prediction_model)
-            
-            # Calculate congestion score
-            congestion_score = self.calculate_congestion_score(split_id, time_slot, base_traffic)
-            
-            # Calculate preference bonus
-            preference_bonus = 0.0
-            if time_slot in preferred_times:
-                preference_bonus = 0.3  # 30% bonus for preferred times
-            
-            # Calculate final score (lower is better for congestion)
-            final_score = congestion_score - preference_bonus
-            
-            # Only consider times with acceptable congestion
-            if congestion_score < self.congestion_threshold:
-                time_scores.append((time_slot, final_score))
-        
-        # Sort by score (best first) and return top alternatives
+            base_traffic = self.get_traffic_prediction(split_id, time_slot, prediction_model, day_of_week)
+            time_scores.append((time_slot, base_traffic))
+        # Sort by predicted attendance (ascending)
         time_scores.sort(key=lambda x: x[1])
-        return time_scores[:max_alternatives]
+        # Filter to preferred times if any
+        if preferred_times:
+            preferred_scores = [t for t in time_scores if t[0] in preferred_times]
+            if preferred_scores:
+                time_scores = preferred_scores + [t for t in time_scores if t[0] not in preferred_times]
+        return time_scores[:max_alternatives+1]
     
     def get_recommendation(self, user_id: int, split_id: str, 
-                          preferred_times: List[int], prediction_model) -> Recommendation:
-        """Get smart recommendation for a user"""
-        logger.info(f"Getting recommendation for user {user_id}, split {split_id}")
-        
+                          preferred_times: List[int], prediction_model, day_of_week: int = None) -> Recommendation:
+        """Get smart recommendation for a user for a specific day"""
+        logger.info(f"Getting recommendation for user {user_id}, split {split_id}, day {day_of_week}")
         # Find optimal times
-        optimal_times = self.find_optimal_times(split_id, preferred_times, prediction_model)
-        
+        optimal_times = self.find_optimal_times(split_id, preferred_times, prediction_model, day_of_week)
         if not optimal_times:
             # Fallback: recommend any available time
             logger.warning(f"No optimal times found for {split_id}, using fallback")
             optimal_times = [(12, 0.5)]  # Default to noon
-        
         # Select best time
         best_time_slot, best_score = optimal_times[0]
-        
         # Get prediction for best time
-        base_traffic = self.get_traffic_prediction(split_id, best_time_slot, prediction_model)
+        base_traffic = self.get_traffic_prediction(split_id, best_time_slot, prediction_model, day_of_week)
         congestion_score = self.calculate_congestion_score(split_id, best_time_slot, base_traffic)
-        
         # Calculate confidence score
         confidence_score = max(0.1, 1.0 - congestion_score)
-        
         # Get alternative times
         alternative_times = [time_slot for time_slot, _ in optimal_times[1:]]
-        
         # Update quota
         self.update_quota(split_id, best_time_slot)
-        
         # Log recommendation
         self.log_recommendation(user_id, split_id, best_time_slot, base_traffic)
-        
         # Determine reason for recommendation
         reason = self.get_recommendation_reason(best_time_slot, preferred_times, congestion_score)
-        
         return Recommendation(
             split_id=split_id,
             recommended_time_slot=best_time_slot,
@@ -232,7 +210,7 @@ class SmartRecommendationEngine:
             
             # Get recommendation for this day
             recommendation = self.get_recommendation(
-                user_id, split_id, preferred_times, prediction_model
+                user_id, split_id, preferred_times, prediction_model, day_of_week
             )
             
             weekly_recommendations[day_of_week] = recommendation
