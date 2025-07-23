@@ -386,60 +386,85 @@ def show_recommendations(data, models):
                 all_predictions = []
                 for time_slot in range(48):
                     # Look up historical feature values from data
-                    row = data[(data['split_id'] == selected_split) &
-                               (data['day_of_week'] == selected_day_of_week) &
-                               (data['time_slot'] == time_slot)]
-                    if not row.empty:
-                        prev_day_attendance = row.iloc[0].get('prev_day_attendance', 0)
-                        prev_week_attendance = row.iloc[0].get('prev_week_attendance', 0)
-                        rolling_3day_avg = row.iloc[0].get('rolling_3day_avg', 0)
-                        rolling_7day_avg = row.iloc[0].get('rolling_7day_avg', 0)
-                    else:
-                        prev_day_attendance = 0
-                        prev_week_attendance = 0
-                        rolling_3day_avg = 0
-                        rolling_7day_avg = 0
-                    features = pd.DataFrame({
-                        'split_id': [selected_split],
-                        'time_slot': [time_slot],
-                        'day_of_week': [selected_day_of_week],
-                        'month': [datetime.now().month],
-                        'is_weekend': [1 if selected_day_of_week >= 5 else 0],
-                        'hour_sin': [np.sin(2 * np.pi * time_slot / 48)],
-                        'hour_cos': [np.cos(2 * np.pi * time_slot / 48)],
-                        'day_sin': [np.sin(2 * np.pi * selected_day_of_week / 7)],
-                        'day_cos': [np.cos(2 * np.pi * selected_day_of_week / 7)],
-                        'prev_day_attendance': [prev_day_attendance],
-                        'prev_week_attendance': [prev_week_attendance],
-                        'rolling_3day_avg': [rolling_3day_avg],
-                        'rolling_7day_avg': [rolling_7day_avg]
-                    })
-                    try:
-                        pred = prediction_model.predict(features)[0]
-                        all_predictions.append(pred)
-                    except:
-                        all_predictions.append(0)
-                # Create prediction chart
-                time_labels = [f"{i//2:02d}:{(i%2)*30:02d}" for i in range(48)]
-                fig = px.line(x=time_labels, y=all_predictions, 
-                            title=f'Predicted {selected_split} Attendance by Time')
-                # Mark preferred time slots
-                for slot in preferred_times:
-                    fig.add_scatter(x=[time_labels[slot]], y=[all_predictions[slot]],
-                                   mode='markers', marker=dict(color='blue', size=12, symbol='circle'),
-                                   name='Preferred Time')
-                # Mark recommended (minima) time slot
-                fig.add_scatter(x=[time_labels[recommendation.recommended_time_slot]],
-                               y=[all_predictions[recommendation.recommended_time_slot]],
-                               mode='markers', marker=dict(color='red', size=16, symbol='star'),
-                               name='Recommended (Min)')
-                fig.add_vline(x=recommendation.recommended_time_slot, 
-                            line_dash="dash", line_color="red",
-                            annotation_text="Recommended")
-                fig.update_xaxes(tickangle=45)
-                fig.update_layout(legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1))
-                st.plotly_chart(fig, use_container_width=True)
+                    # Traffic prediction chart
+st.subheader("Traffic Prediction")
 
+# Get recent data for the selected split to calculate historical features
+split_data = data[data['split_id'] == selected_split].copy()
+split_data = split_data.sort_values('date')
+
+# Calculate proper historical features from actual data
+recent_data = split_data.tail(14)  # Last 2 weeks
+if len(recent_data) > 0:
+    # Calculate averages from recent data
+    avg_prev_day = recent_data.groupby('time_slot')['visitor_count'].mean()
+    avg_prev_week = recent_data.groupby('time_slot')['visitor_count'].mean()
+    avg_3day = recent_data.groupby('time_slot')['visitor_count'].mean()
+    avg_7day = recent_data.groupby('time_slot')['visitor_count'].mean()
+else:
+    # Use overall averages if no recent data
+    avg_prev_day = data[data['split_id'] == selected_split].groupby('time_slot')['visitor_count'].mean()
+    avg_prev_week = avg_prev_day.copy()
+    avg_3day = avg_prev_day.copy()
+    avg_7day = avg_prev_day.copy()
+
+# Generate predictions for all time slots
+all_predictions = []
+for time_slot in range(48):
+    # Use calculated averages for historical features
+    prev_day_attendance = avg_prev_day.get(time_slot, 5.0)
+    prev_week_attendance = avg_prev_week.get(time_slot, 5.0)
+    rolling_3day_avg = avg_3day.get(time_slot, 5.0)
+    rolling_7day_avg = avg_7day.get(time_slot, 5.0)
+    
+    # Create feature DataFrame with proper column order
+    feature_cols = models.split_models[selected_split]['feature_cols']
+    features = pd.DataFrame({
+        'time_slot': [time_slot],
+        'day_of_week': [selected_day_of_week],
+        'month': [datetime.now().month],
+        'is_weekend': [1 if selected_day_of_week >= 5 else 0],
+        'hour_sin': [np.sin(2 * np.pi * time_slot / 48)],
+        'hour_cos': [np.cos(2 * np.pi * time_slot / 48)],
+        'day_sin': [np.sin(2 * np.pi * selected_day_of_week / 7)],
+        'day_cos': [np.cos(2 * np.pi * selected_day_of_week / 7)],
+        'prev_day_attendance': [prev_day_attendance],
+        'prev_week_attendance': [prev_week_attendance],
+        'rolling_3day_avg': [rolling_3day_avg],
+        'rolling_7day_avg': [rolling_7day_avg]
+    })
+    
+    # Ensure features are in the correct order and contain all required columns
+    features = features[feature_cols]
+    
+    try:
+        pred = prediction_model.predict(features)[0]
+        all_predictions.append(max(0, pred))  # Ensure non-negative predictions
+    except Exception as e:
+        st.error(f"Prediction error for time slot {time_slot}: {e}")
+        all_predictions.append(5.0)  # Default fallback
+
+# Create prediction chart
+time_labels = [f"{i//2:02d}:{(i%2)*30:02d}" for i in range(48)]
+fig = px.line(x=time_labels, y=all_predictions,
+             title=f'Predicted {selected_split} Attendance by Time')
+
+# Mark preferred time slots
+for slot in preferred_times:
+    if slot < len(all_predictions):
+        fig.add_scatter(x=[time_labels[slot]], y=[all_predictions[slot]],
+                       mode='markers', marker=dict(color='blue', size=12, symbol='circle'),
+                       name='Preferred Time')
+
+# Mark recommended (minima) time slot  
+fig.add_scatter(x=[time_labels[recommendation.recommended_time_slot]],
+               y=[all_predictions[recommendation.recommended_time_slot]],
+               mode='markers', marker=dict(color='red', size=16, symbol='star'),
+               name='Recommended (Min)')
+
+fig.update_xaxes(tickangle=45)
+fig.update_layout(legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1))
+st.plotly_chart(fig, use_container_width=True)
 def show_traffic_analysis(data):
     """Show detailed traffic analysis"""
     st.header("📈 Traffic Analysis")
