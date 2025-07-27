@@ -16,7 +16,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 from data_processor import DataProcessor
 from models import SplitSpecificModels, EnsembleModel
 
-st.set_page_config(page_title="Fit Forecaster", page_icon="🏋️", layout="wide")
+st.set_page_config(page_title="Fit Forecaster", page_icon="↗️", layout="wide")
 st.title("🏋️ Fit Forecaster - Gym Attendance Prediction")
 
 # --- Load Data and Models ---
