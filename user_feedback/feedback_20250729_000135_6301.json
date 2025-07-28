@@ -1,0 +1,13 @@
+{
+  "feedback_id": "feedback_20250729_000135_6301",
+  "timestamp": "2025-07-29T00:01:35.565170",
+  "user_selection": {
+    "date": "2025-08-01 00:01:35.565170",
+    "split_id": "Chest",
+    "time_slot": 19,
+    "predicted_attendance": 13,
+    "user_id": 103
+  },
+  "actual_attendance": null,
+  "feedback_type": "user_selection"
+}
