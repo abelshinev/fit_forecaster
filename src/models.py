@@ -173,27 +173,37 @@ class ProphetModel(BaseModel):
         """Train Prophet models for each split"""
         logger.info("Training Prophet models...")
         
+        # Check if we have the required columns for Prophet
+        if 'date' not in X.columns or 'split_id' not in X.columns:
+            logger.warning("Prophet requires 'date' and 'split_id' columns. Skipping Prophet training.")
+            return {'mae': float('inf'), 'rmse': float('inf'), 'r2': 0.0}
+        
         # Prepare data for Prophet
-        X['ds'] = pd.to_datetime(X['date']) + pd.to_timedelta(X['time_slot'] * 30, unit='minutes')
-        X['y'] = y
+        prophet_data = X.copy()
+        prophet_data['ds'] = pd.to_datetime(prophet_data['date']) + pd.to_timedelta(prophet_data['time_slot'] * 30, unit='minutes')
+        prophet_data['y'] = y
         
         # Train separate model for each split
         split_metrics = {}
-        for split_id in X['split_id'].unique():
-            split_data = pd.DataFrame(X[X['split_id'] == split_id]).sort_values(['date', 'time_slot'])
+        for split_id in prophet_data['split_id'].unique():
+            split_data = prophet_data[prophet_data['split_id'] == split_id].sort_values(['date', 'time_slot'])
             
             if len(split_data) > 10:  # Need minimum data for Prophet
-                model = Prophet(**self.params)
-                model.fit(split_data)
-                self.models[split_id] = model
-                
-                # Calculate metrics for this split
-                forecast = model.predict(split_data[['ds']])
-                split_metrics[split_id] = {
-                    'mae': float(mean_absolute_error(split_data['y'], forecast['yhat'])),
-                    'rmse': float(np.sqrt(mean_squared_error(split_data['y'], forecast['yhat']))),
-                    'r2': float(r2_score(split_data['y'], forecast['yhat']))
-                }
+                try:
+                    model = Prophet(**self.params)
+                    model.fit(split_data[['ds', 'y']])
+                    self.models[split_id] = model
+                    
+                    # Calculate metrics for this split
+                    forecast = model.predict(split_data[['ds']])
+                    split_metrics[split_id] = {
+                        'mae': float(mean_absolute_error(split_data['y'], forecast['yhat'])),
+                        'rmse': float(np.sqrt(mean_squared_error(split_data['y'], forecast['yhat']))),
+                        'r2': float(r2_score(split_data['y'], forecast['yhat']))
+                    }
+                except Exception as e:
+                    logger.error(f"Error training Prophet for split {split_id}: {e}")
+                    continue
         
         self.is_trained = len(self.models) > 0
         
@@ -225,6 +235,21 @@ class ProphetModel(BaseModel):
                 predictions.append(0.0)  # Default for unknown splits
                 
         return np.array(predictions)
+        
+    def save(self, filepath: str):
+        """Save Prophet models"""
+        if self.models and self.is_trained:
+            joblib.dump(self.models, filepath)
+            logger.info(f"Saved {self.model_name} to {filepath}")
+            
+    def load(self, filepath: str):
+        """Load Prophet models"""
+        if os.path.exists(filepath):
+            self.models = joblib.load(filepath)
+            self.is_trained = True
+            logger.info(f"Loaded {self.model_name} from {filepath}")
+        else:
+            logger.warning(f"Model file {filepath} not found")
 
 class LSTMModel(BaseModel):
     """LSTM model for sequence prediction"""
@@ -346,7 +371,15 @@ class EnsembleModel:
         model_metrics = {}
         for model in self.models:
             try:
-                metrics = model.train(X, y)
+                # All models now use standard feature columns (Prophet removed)
+                feature_cols = [
+                    'time_slot', 'day_of_week', 'month', 'is_weekend',
+                    'hour_sin', 'hour_cos', 'day_sin', 'day_cos',
+                    'prev_day_attendance', 'prev_week_attendance',
+                    'rolling_3day_avg', 'rolling_7day_avg'
+                ]
+                X_features = X[feature_cols].copy()
+                metrics = model.train(X_features, y)
                 model_metrics[model.model_name] = metrics
             except Exception as e:
                 logger.error(f"Error training {getattr(model, 'model_name', str(model))}: {e}")
@@ -380,7 +413,15 @@ class EnsembleModel:
         used_weights = []
         for model, weight in zip(self.models, self.weights):
             if getattr(model, 'is_trained', False):
-                pred = model.predict(X)
+                # All models use standard feature columns (Prophet removed)
+                feature_cols = [
+                    'time_slot', 'day_of_week', 'month', 'is_weekend',
+                    'hour_sin', 'hour_cos', 'day_sin', 'day_cos',
+                    'prev_day_attendance', 'prev_week_attendance',
+                    'rolling_3day_avg', 'rolling_7day_avg'
+                ]
+                X_features = X[feature_cols].copy()
+                pred = model.predict(X_features)
                 predictions.append(pred)
                 used_weights.append(weight)
             else:
@@ -447,8 +488,7 @@ class SplitSpecificModels:
             RandomForestModel(),
             LinearRegressionModel()
         ]
-        if PROPHET_AVAILABLE:
-            models.append(ProphetModel())
+        # Prophet removed - degraded performance compared to 3-model ensemble
         return EnsembleModel(models)
         
     def train_split_models(self, data, target_col: str = 'visitor_count'):
@@ -469,6 +509,7 @@ class SplitSpecificModels:
                 ]
                 X = pd.DataFrame(split_data[feature_cols]).fillna(0)
                 y = split_data[target_col]
+                
                 model = self.create_split_model(split_id)
                 metrics = model.train(X, y)
                 self.split_models[split_id] = {

@@ -60,13 +60,9 @@ def load_models():
                     'rolling_3day_avg', 'rolling_7day_avg'
                 ]
             }
-            # Load ensemble
-            from models import XGBoostModel, RandomForestModel, LinearRegressionModel, ProphetModel, EnsembleModel
+            # Load ensemble (Prophet removed for optimal performance)
+            from models import XGBoostModel, RandomForestModel, LinearRegressionModel, EnsembleModel
             models = [XGBoostModel(), RandomForestModel(), LinearRegressionModel()]
-            try:
-                models.append(ProphetModel())
-            except:
-                pass
             ensemble = EnsembleModel(models)
             ensemble.load_ensemble(split_path)
             split_models.split_models[split_dir.title()]['model'] = ensemble
