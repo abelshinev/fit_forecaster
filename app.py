@@ -223,25 +223,95 @@ fig.update_yaxes(range=[0, None])
 st.plotly_chart(fig, use_container_width=True)
 
 # --- Recommendation Output ---
-st.success(f"Best time to visit the gym for {selected_split} on {selected_date.strftime('%A')} in your selected range is: {best_time_str} (Predicted attendance: {min_pred:.1f})")
+st.success(f"**Recommended time:** {best_time_str} (Predicted attendance: {min_pred:.1f})")
+
+# Create list of all times in the preferred range with their predictions
+preferred_time_options = []
+for slot in sorted(preferred_times):
+    time_str = time_labels[slot]
+    pred_value = all_predictions[slot]
+    preferred_time_options.append({
+        'slot': slot,
+        'time': time_str,
+        'prediction': pred_value,
+        'display': f"{time_str} (Predicted: {pred_value:.1f})"
+    })
+
+# --- Time Selection Interface ---
+st.subheader("🕐 Select Your Preferred Time")
+st.info(f"Choose any time from your selected {range_label.lower()} range:")
+
+# Create selectbox with all available times in range
+selected_time_option = st.selectbox(
+    "Choose your workout time:",
+    options=preferred_time_options,
+    format_func=lambda x: x['display'],
+    index=next((i for i, opt in enumerate(preferred_time_options) if opt['slot'] == best_slot), 0),
+    key="time_selector"
+)
+
+selected_user_slot = selected_time_option['slot']
+selected_user_time = selected_time_option['time']
+selected_user_prediction = selected_time_option['prediction']
+
+# Show selected time info
+if selected_user_slot == best_slot:
+    st.success(f"✨ Great choice! You've selected our recommended time: **{selected_user_time}**")
+else:
+    st.info(f"📝 You've selected: **{selected_user_time}** (Predicted attendance: {selected_user_prediction:.1f})")
 
 # --- Quick Feedback Collection ---
-st.subheader("💡 Quick Feedback")
+st.subheader("💡 Confirm Your Visit")
 col3, col4 = st.columns(2)
 
 with col3:
-    if st.button("✅ I'll visit at this time"):
+    if st.button(f"✅ I'll visit at {selected_user_time}"):
+        # Use the user-selected time instead of recommended time
         feedback_id = feedback_collector.collect_prediction_feedback(
-            selected_date, selected_split, best_slot, min_pred, user_id
+            selected_date, selected_split, selected_user_slot, selected_user_prediction, user_id
         )
-        st.success(f"✅ Feedback recorded! ID: {feedback_id}")
+        st.success(f"✅ Visit confirmed for {selected_user_time}! Feedback ID: {feedback_id}")
 
 with col4:
-    if st.button("❌ I'll choose a different time"):
-        feedback_id = feedback_collector.collect_prediction_feedback(
-            selected_date, selected_split, best_slot, min_pred, user_id
-        )
-        st.info(f"📝 Feedback recorded! ID: {feedback_id}")
+    if st.button("🔄 I will select a different time"):
+        st.session_state.show_alternative_time_selector = True
+
+# --- Alternative Time Selection (if user wants different time) ---
+if st.session_state.get('show_alternative_time_selector', False):
+    st.subheader("🎯 Select Alternative Time")
+    st.info(f"Choose any time from your original {range_label.lower()} range:")
+    
+    # Create selectbox with all times in the ORIGINAL preferred range
+    alternative_time_option = st.selectbox(
+        "Choose your alternative workout time:",
+        options=preferred_time_options,
+        format_func=lambda x: x['display'],
+        index=0,  # Start with first option
+        key="alternative_time_selector"
+    )
+    
+    alternative_slot = alternative_time_option['slot']
+    alternative_time = alternative_time_option['time']
+    alternative_prediction = alternative_time_option['prediction']
+    
+    st.info(f"📝 Alternative time selected: **{alternative_time}** (Predicted attendance: {alternative_prediction:.1f})")
+    
+    col5, col6 = st.columns(2)
+    
+    with col5:
+        if st.button(f"✅ Confirm visit at {alternative_time}", key="confirm_alternative"):
+            # Record the alternative time selection
+            feedback_id = feedback_collector.collect_prediction_feedback(
+                selected_date, selected_split, alternative_slot, alternative_prediction, user_id
+            )
+            st.success(f"✅ Alternative visit confirmed for {alternative_time}! Feedback ID: {feedback_id}")
+            st.session_state.show_alternative_time_selector = False
+            st.rerun()
+    
+    with col6:
+        if st.button("❌ Cancel", key="cancel_alternative"):
+            st.session_state.show_alternative_time_selector = False
+            st.rerun()
 
 # --- Model Performance Info ---
 st.sidebar.subheader("📈 Model Performance")
